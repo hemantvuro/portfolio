@@ -11,5 +11,5 @@
   <rect x="120" y="312" width="360" height="16" rx="6" fill="#e6eae9"/>
   <rect x="120" y="380" width="400" height="140" rx="10" fill="#f0f3f2"/>
   <rect x="120" y="540" width="400" height="140" rx="10" fill="#f0f3f2"/>
-  <text x="600" y="860" font-family="Georgia, serif" font-size="26" fill="#8a948f" text-anchor="middle">Customer360 � redacted preview</text>
+  <text x="600" y="860" font-family="Georgia, serif" font-size="26" fill="#8a948f" text-anchor="middle">Customer360 · redacted preview</text>
 </svg>

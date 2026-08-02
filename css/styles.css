@@ -184,7 +184,7 @@ hr.rule { border: 0; border-top: 1px solid var(--line); margin: 0; }
 .badge-conf { font-size: .68rem; letter-spacing: .08em; text-transform: uppercase; color: var(--accent-ink); background: color-mix(in srgb, var(--accent) 12%, #fff); border: 1px solid color-mix(in srgb, var(--accent) 30%, var(--line)); border-radius: 999px; padding: .25em .6em; align-self: flex-start; }
 
 /* ---------- footer ---------- */
-.site-footer { background: var(--ink); color: #e9e5df; padding-block: clamp(3rem, 7vw, 5rem); }
+.site-footer { background: var(--ink); color: #e9e5df; padding-block: clamp(1.25rem, 2.5vw, 1.75rem); }
 .site-footer a { color: #e9e5df; }
 .site-footer .foot-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 2rem; }
 .site-footer h4 { font-size: var(--step-1); color: #fff; margin-bottom: .8rem; }
@@ -192,6 +192,9 @@ hr.rule { border: 0; border-top: 1px solid var(--line); margin: 0; }
 .site-footer .foot-links a { color: #b8b2a8; }
 .site-footer .foot-links a:hover { color: #fff; }
 .site-footer .foot-bottom { margin-top: 2.5rem; padding-top: 1.4rem; border-top: 1px solid rgba(255,255,255,.12); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; color: #8f897f; font-size: var(--step--1); }
+.site-footer .foot-mini { display: flex; gap: 1.4rem; }
+.site-footer .foot-mini a { color: #b8b2a8; }
+.site-footer .foot-mini a:hover { color: #fff; }
 
 /* =========================================================
    Case-study detail page
