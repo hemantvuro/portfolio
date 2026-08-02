@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-label="Consultation journey swimlane: a nurse lane and a doctor lane across pre-consultation, during consultation, and post-consultation phases">
+  <rect width="1200" height="500" fill="#f2eee7"/>
+  <text x="48" y="40" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="2" fill="#6f6b63">THE CONSULTATION JOURNEY</text>
+
+  <!-- phase headers -->
+  <text x="300" y="86" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#141414">Pre-consultation</text>
+  <text x="620" y="86" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#141414">During consultation</text>
+  <text x="1000" y="86" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#141414">Post-consultation</text>
+  <line x1="440" y1="100" x2="440" y2="440" stroke="#e0dbd1" stroke-width="1.5" stroke-dasharray="4 5"/>
+  <line x1="800" y1="100" x2="800" y2="440" stroke="#e0dbd1" stroke-width="1.5" stroke-dasharray="4 5"/>
+
+  <!-- lane labels -->
+  <rect x="24" y="120" width="34" height="150" rx="8" fill="#c8452f"/>
+  <text x="41" y="195" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="2" fill="#ffffff" transform="rotate(-90 41 195)">NURSE</text>
+  <rect x="24" y="290" width="34" height="150" rx="8" fill="#141414"/>
+  <text x="41" y="365" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="2" fill="#f2eee7" transform="rotate(-90 41 365)">DOCTOR</text>
+
+  <!-- NURSE lane steps -->
+  <g font-family="Helvetica, Arial, sans-serif">
+    <rect x="76" y="120" width="160" height="66" rx="10" fill="#ffffff" stroke="#e7b9ac"/>
+    <text x="90" y="146" font-family="Georgia, serif" font-size="13" fill="#141414">Check-in</text>
+    <text x="90" y="166" font-size="11" fill="#6f6b63">verify patient,</text>
+    <text x="90" y="180" font-size="11" fill="#6f6b63">reason for visit</text>
+
+    <rect x="252" y="120" width="168" height="66" rx="10" fill="#ffffff" stroke="#e7b9ac"/>
+    <text x="266" y="146" font-family="Georgia, serif" font-size="13" fill="#141414">Assess</text>
+    <text x="266" y="166" font-size="11" fill="#6f6b63">capture vitals,</text>
+    <text x="266" y="180" font-size="11" fill="#6f6b63">add to queue</text>
+
+    <rect x="540" y="120" width="168" height="66" rx="10" fill="#ffffff" stroke="#e7b9ac"/>
+    <text x="554" y="146" font-family="Georgia, serif" font-size="13" fill="#141414">Coordinate</text>
+    <text x="554" y="166" font-size="11" fill="#6f6b63">administer an</text>
+    <text x="554" y="180" font-size="11" fill="#6f6b63">in-office treatment</text>
+
+    <rect x="828" y="120" width="180" height="66" rx="10" fill="#ffffff" stroke="#e7b9ac"/>
+    <text x="842" y="146" font-family="Georgia, serif" font-size="13" fill="#141414">Facilitate</text>
+    <text x="842" y="166" font-size="11" fill="#6f6b63">review plan, guide</text>
+    <text x="842" y="180" font-size="11" fill="#6f6b63">on next steps</text>
+
+    <rect x="1024" y="120" width="152" height="66" rx="10" fill="#faf8f4" stroke="#e6e2da"/>
+    <text x="1038" y="146" font-family="Georgia, serif" font-size="13" fill="#141414">Check-out</text>
+    <text x="1038" y="166" font-size="11" fill="#6f6b63">record updated,</text>
+    <text x="1038" y="180" font-size="11" fill="#6f6b63">next steps clear</text>
+  </g>
+
+  <!-- DOCTOR lane steps -->
+  <g font-family="Helvetica, Arial, sans-serif">
+    <rect x="452" y="290" width="164" height="66" rx="10" fill="#faf8f4" stroke="#c9c3b8"/>
+    <text x="466" y="316" font-family="Georgia, serif" font-size="13" fill="#141414">Understand</text>
+    <text x="466" y="336" font-size="11" fill="#6f6b63">history, records,</text>
+    <text x="466" y="350" font-size="11" fill="#6f6b63">diagnostic reports</text>
+
+    <rect x="632" y="290" width="156" height="66" rx="10" fill="#141414"/>
+    <text x="646" y="316" font-family="Georgia, serif" font-size="13" fill="#f2eee7">Diagnose</text>
+    <text x="646" y="336" font-size="11" fill="#c9c3b8">examine, take</text>
+    <text x="646" y="350" font-size="11" fill="#c9c3b8">notes, decide</text>
+
+    <rect x="804" y="290" width="196" height="66" rx="10" fill="#faf8f4" stroke="#c9c3b8"/>
+    <text x="818" y="316" font-family="Georgia, serif" font-size="13" fill="#141414">Treat &amp; prescribe</text>
+    <text x="818" y="336" font-size="11" fill="#6f6b63">explain, order treatment,</text>
+    <text x="818" y="350" font-size="11" fill="#6f6b63">prescribe meds</text>
+  </g>
+
+  <!-- flow arrows -->
+  <g stroke="#c8452f" stroke-width="2" fill="none">
+    <path d="M236 153 L252 153"/>
+    <path d="M420 153 L452 153"/>
+    <path d="M708 153 L828 153"/>
+    <path d="M1008 153 L1024 153"/>
+  </g>
+  <g stroke="#141414" stroke-width="2" fill="none">
+    <path d="M616 323 L632 323"/>
+    <path d="M788 323 L804 323"/>
+  </g>
+  <!-- handoff nurse->doctor and doctor->nurse -->
+  <path d="M336 186 C336 240, 534 240, 534 290" stroke="#c8452f" stroke-width="2" fill="none" stroke-dasharray="5 5"/>
+  <path d="M902 356 C902 392, 912 392, 912 120" stroke="#141414" stroke-width="0" fill="none"/>
+  <path d="M902 356 C902 400, 916 300, 916 186" stroke="#6f6b63" stroke-width="2" fill="none" stroke-dasharray="5 5"/>
+  <text x="360" y="236" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#9a3320">hand-off</text>
+  <text x="922" y="250" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6f6b63">back to nurse</text>
+</svg>

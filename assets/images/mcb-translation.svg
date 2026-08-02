@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-label="AI translates between the user's channel-specific mental model and the channel-agnostic backend.">
+  <rect width="1200" height="430" fill="#faf8f4"/>
+
+  <rect x="48" y="70" width="330" height="290" rx="14" fill="#ffffff" stroke="#e6e2da" stroke-width="1.5"/>
+  <text x="72" y="108" font-family="Helvetica, Arial, sans-serif" font-size="12.5" letter-spacing="1.5" fill="#6f6b63">HOW USERS THINK</text>
+  <text x="72" y="140" font-family="Georgia, serif" font-size="22" fill="#141414">Channel-specific</text>
+  <text x="72" y="167" font-family="Georgia, serif" font-size="22" fill="#141414">mental model</text>
+  <rect x="72" y="196" width="120" height="34" rx="17" fill="#f2eee7" stroke="#e6e2da"/>
+  <text x="132" y="218" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#3a3a38" text-anchor="middle">WhatsApp</text>
+  <rect x="204" y="196" width="90" height="34" rx="17" fill="#f2eee7" stroke="#e6e2da"/>
+  <text x="249" y="218" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#3a3a38" text-anchor="middle">Apple</text>
+  <rect x="72" y="242" width="70" height="34" rx="17" fill="#f2eee7" stroke="#e6e2da"/>
+  <text x="107" y="264" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#3a3a38" text-anchor="middle">SMS</text>
+  <rect x="154" y="242" width="120" height="34" rx="17" fill="#f2eee7" stroke="#e6e2da"/>
+  <text x="214" y="264" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#3a3a38" text-anchor="middle">Enhanced Chat</text>
+  <text x="72" y="316" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#6f6b63">"I am building for this channel,</text>
+  <text x="72" y="334" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#6f6b63">show me what it needs."</text>
+
+  <line x1="378" y1="215" x2="470" y2="215" stroke="#c8452f" stroke-width="2.5"/>
+  <path d="M470 215 l-12 -6 v12 z" fill="#c8452f"/>
+  <circle cx="600" cy="215" r="118" fill="#fbeee9" stroke="#c8452f" stroke-width="2"/>
+  <circle cx="600" cy="215" r="118" fill="none" stroke="#c8452f" stroke-width="1" stroke-dasharray="3 6" opacity="0.6"/>
+  <text x="600" y="196" font-family="Georgia, serif" font-size="24" fill="#9a3320" text-anchor="middle">AI</text>
+  <text x="600" y="228" font-family="Helvetica, Arial, sans-serif" font-size="13.5" fill="#9a3320" text-anchor="middle">translates</text>
+  <text x="600" y="248" font-family="Helvetica, Arial, sans-serif" font-size="13.5" fill="#9a3320" text-anchor="middle">intent &#8646; structure</text>
+
+  <line x1="730" y1="215" x2="822" y2="215" stroke="#141414" stroke-width="2.5"/>
+  <path d="M822 215 l-12 -6 v12 z" fill="#141414"/>
+  <path d="M822 250 q-111 40 -444 40" fill="none" stroke="#6f6b63" stroke-width="1.5" stroke-dasharray="5 5"/>
+  <path d="M378 290 l12 -5 v10 z" fill="#6f6b63"/>
+
+  <rect x="822" y="70" width="330" height="290" rx="14" fill="#141414"/>
+  <text x="846" y="108" font-family="Helvetica, Arial, sans-serif" font-size="12.5" letter-spacing="1.5" fill="#8f897f">HOW THE SYSTEM WORKS</text>
+  <text x="846" y="140" font-family="Georgia, serif" font-size="22" fill="#ffffff">Channel-agnostic</text>
+  <text x="846" y="167" font-family="Georgia, serif" font-size="22" fill="#ffffff">backend</text>
+  <rect x="846" y="196" width="282" height="26" rx="6" fill="#2b2b2b"/>
+  <rect x="858" y="204" width="120" height="10" rx="5" fill="#5f5b53"/>
+  <rect x="846" y="230" width="282" height="26" rx="6" fill="#2b2b2b"/>
+  <rect x="858" y="238" width="180" height="10" rx="5" fill="#5f5b53"/>
+  <rect x="846" y="264" width="282" height="26" rx="6" fill="#2b2b2b"/>
+  <rect x="858" y="272" width="90" height="10" rx="5" fill="#5f5b53"/>
+  <text x="846" y="316" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#8f897f">One abstract framework &#8212;</text>
+  <text x="846" y="334" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#8f897f">engineering would not change it.</text>
+</svg>

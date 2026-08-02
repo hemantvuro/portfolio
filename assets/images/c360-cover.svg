@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="515" viewBox="0 0 1200 515" role="img" aria-label="Customer 360 dashboard concept: an identity rail, KPI tiles, a life-events timeline, and a recommended-actions panel">
+  <rect width="1200" height="515" fill="#f2eee7"/>
+  <rect x="48" y="40" width="1104" height="435" rx="16" fill="#ffffff" stroke="#e6e2da" stroke-width="1.5"/>
+  <rect x="48" y="40" width="1104" height="52" rx="16" fill="#141414"/>
+  <rect x="48" y="76" width="1104" height="16" fill="#141414"/>
+  <circle cx="76" cy="66" r="5" fill="#c8452f"/>
+  <circle cx="94" cy="66" r="5" fill="#6f6b63"/>
+  <circle cx="112" cy="66" r="5" fill="#6f6b63"/>
+  <text x="150" y="71" font-family="Georgia, serif" font-size="15" fill="#e9e5df">Customer 360 &#183; Business Location: Solana San Diego</text>
+
+  <!-- IDENTITY RAIL -->
+  <rect x="72" y="116" width="264" height="335" rx="10" fill="#faf8f4" stroke="#e6e2da"/>
+  <circle cx="108" cy="156" r="20" fill="#eceae6"/>
+  <circle cx="108" cy="150" r="7" fill="#c9c3b8"/>
+  <path d="M96 170 a12 10 0 0 1 24 0 z" fill="#c9c3b8"/>
+  <text x="140" y="150" font-family="Georgia, serif" font-size="15" fill="#141414">Solana San Diego</text>
+  <text x="140" y="168" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6f6b63">Business Location</text>
+  <rect x="92" y="192" width="224" height="8" rx="4" fill="#e0dbd1"/>
+  <rect x="92" y="208" width="184" height="8" rx="4" fill="#e0dbd1"/>
+  <text x="92" y="248" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="1.5" fill="#9a3320">POINT OF CONTACT</text>
+  <circle cx="102" cy="272" r="10" fill="#eceae6"/><rect x="120" y="268" width="120" height="8" rx="4" fill="#c9c3b8"/>
+  <circle cx="102" cy="298" r="10" fill="#eceae6"/><rect x="120" y="294" width="150" height="8" rx="4" fill="#e0dbd1"/>
+  <circle cx="102" cy="324" r="10" fill="#eceae6"/><rect x="120" y="320" width="100" height="8" rx="4" fill="#e0dbd1"/>
+  <text x="92" y="366" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="1.5" fill="#6f6b63">PRODUCTS INSTALLED</text>
+  <rect x="92" y="380" width="224" height="26" rx="6" fill="#ffffff" stroke="#e6e2da"/>
+  <rect x="92" y="412" width="224" height="26" rx="6" fill="#ffffff" stroke="#e6e2da"/>
+
+  <!-- KPI TILES -->
+  <rect x="352" y="116" width="152" height="96" rx="10" fill="#faf8f4" stroke="#e6e2da"/>
+  <text x="368" y="140" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1" fill="#6f6b63">P1 CASES</text>
+  <text x="368" y="190" font-family="Georgia, serif" font-size="40" fill="#141414">6</text>
+  <rect x="516" y="116" width="180" height="96" rx="10" fill="#faf8f4" stroke="#e6e2da"/>
+  <text x="532" y="140" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1" fill="#6f6b63">CASES BY PRIORITY</text>
+  <circle cx="576" cy="176" r="24" fill="none" stroke="#e6e2da" stroke-width="8"/>
+  <path d="M576 152 a24 24 0 0 1 20 36" fill="none" stroke="#c8452f" stroke-width="8"/>
+  <text x="568" y="181" font-family="Georgia, serif" font-size="16" fill="#141414">93</text>
+  <rect x="620" y="150" width="60" height="8" rx="4" fill="#c8452f"/>
+  <rect x="620" y="166" width="44" height="8" rx="4" fill="#d8d2c8"/>
+  <rect x="620" y="182" width="52" height="8" rx="4" fill="#e0dbd1"/>
+  <rect x="708" y="116" width="130" height="96" rx="10" fill="#faf8f4" stroke="#e6e2da"/>
+  <text x="724" y="140" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1" fill="#6f6b63">SLAs BREACHED</text>
+  <text x="724" y="190" font-family="Georgia, serif" font-size="40" fill="#c8452f">2</text>
+
+  <!-- TIMELINE / LIFE EVENTS -->
+  <rect x="352" y="226" width="486" height="90" rx="10" fill="#faf8f4" stroke="#e6e2da"/>
+  <text x="368" y="250" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1" fill="#9a3320">ACCOUNT TIMELINE / LIFE EVENTS</text>
+  <line x1="372" y1="288" x2="818" y2="288" stroke="#e0dbd1" stroke-width="2"/>
+  <circle cx="404" cy="288" r="6" fill="#c8452f"/>
+  <circle cx="500" cy="288" r="6" fill="#141414"/>
+  <circle cx="596" cy="288" r="6" fill="#c8452f"/>
+  <circle cx="692" cy="288" r="6" fill="#141414"/>
+  <circle cx="788" cy="288" r="6" fill="#c8452f"/>
+
+  <!-- TRANSACTIONAL TABLE -->
+  <rect x="352" y="330" width="486" height="121" rx="10" fill="#faf8f4" stroke="#e6e2da"/>
+  <text x="368" y="354" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1" fill="#6f6b63">CASES &#183; ORDERS &#183; TASKS</text>
+  <line x1="368" y1="368" x2="822" y2="368" stroke="#e6e2da"/>
+  <rect x="368" y="380" width="150" height="8" rx="4" fill="#c9c3b8"/><rect x="700" y="380" width="60" height="8" rx="4" fill="#c8452f"/>
+  <rect x="368" y="402" width="190" height="8" rx="4" fill="#e0dbd1"/><rect x="700" y="402" width="60" height="8" rx="4" fill="#d8d2c8"/>
+  <rect x="368" y="424" width="120" height="8" rx="4" fill="#e0dbd1"/><rect x="700" y="424" width="60" height="8" rx="4" fill="#e0dbd1"/>
+
+  <!-- RECOMMENDED ACTIONS -->
+  <rect x="854" y="116" width="274" height="335" rx="10" fill="#faf8f4" stroke="#e6e2da"/>
+  <text x="874" y="140" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="1.5" fill="#9a3320">RECOMMENDED ACTIONS</text>
+  <rect x="874" y="156" width="234" height="80" rx="10" fill="#fbeee9" stroke="#e7b9ac"/>
+  <rect x="890" y="172" width="150" height="9" rx="4" fill="#9a3320"/>
+  <rect x="890" y="190" width="200" height="7" rx="3" fill="#c9a99f"/>
+  <rect x="890" y="206" width="90" height="20" rx="10" fill="#c8452f"/>
+  <rect x="874" y="248" width="234" height="70" rx="10" fill="#ffffff" stroke="#e6e2da"/>
+  <rect x="890" y="264" width="150" height="9" rx="4" fill="#141414"/>
+  <rect x="890" y="282" width="200" height="7" rx="3" fill="#c9c3b8"/>
+  <rect x="890" y="298" width="90" height="16" rx="8" fill="#eceae6"/>
+  <rect x="874" y="330" width="234" height="70" rx="10" fill="#ffffff" stroke="#e6e2da"/>
+  <rect x="890" y="346" width="150" height="9" rx="4" fill="#141414"/>
+  <rect x="890" y="364" width="200" height="7" rx="3" fill="#c9c3b8"/>
+  <rect x="890" y="380" width="90" height="16" rx="8" fill="#eceae6"/>
+</svg>

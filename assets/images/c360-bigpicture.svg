@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-label="Two sides of the experience: the BLSP customer portal where store staff raise cases, and the BL360 fulfiller view where the central support agent resolves them">
+  <rect width="1200" height="470" fill="#f2eee7"/>
+  <text x="48" y="44" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="2" fill="#6f6b63">ONE JOURNEY, TWO SIDES</text>
+
+  <!-- BLSP (customer side) -->
+  <rect x="48" y="72" width="470" height="330" rx="14" fill="#ffffff" stroke="#e6e2da" stroke-width="1.5"/>
+  <rect x="48" y="72" width="470" height="44" rx="14" fill="#141414"/>
+  <rect x="48" y="102" width="470" height="14" fill="#141414"/>
+  <text x="72" y="100" font-family="Georgia, serif" font-size="14" fill="#f2eee7">BLSP &#183; Solana Cafe Madison</text>
+  <text x="72" y="146" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#9a3320">Business Location Service Portal</text>
+  <rect x="392" y="132" width="102" height="30" rx="15" fill="#c8452f"/>
+  <text x="443" y="152" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#ffffff">Create case</text>
+  <line x1="72" y1="180" x2="494" y2="180" stroke="#e6e2da"/>
+  <g>
+    <rect x="72" y="196" width="422" height="30" rx="6" fill="#faf8f4" stroke="#e6e2da"/>
+    <rect x="88" y="207" width="150" height="8" rx="4" fill="#c9c3b8"/><rect x="420" y="207" width="58" height="8" rx="4" fill="#c8452f"/>
+    <rect x="72" y="234" width="422" height="30" rx="6" fill="#faf8f4" stroke="#e6e2da"/>
+    <rect x="88" y="245" width="180" height="8" rx="4" fill="#e0dbd1"/><rect x="420" y="245" width="58" height="8" rx="4" fill="#d8d2c8"/>
+    <rect x="72" y="272" width="422" height="30" rx="6" fill="#faf8f4" stroke="#e6e2da"/>
+    <rect x="88" y="283" width="120" height="8" rx="4" fill="#e0dbd1"/><rect x="420" y="283" width="58" height="8" rx="4" fill="#e0dbd1"/>
+    <rect x="72" y="310" width="422" height="30" rx="6" fill="#faf8f4" stroke="#e6e2da"/>
+    <rect x="88" y="321" width="160" height="8" rx="4" fill="#e0dbd1"/><rect x="420" y="321" width="58" height="8" rx="4" fill="#e0dbd1"/>
+  </g>
+  <text x="72" y="378" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6f6b63">Store staff &amp; managers raise cases and requests</text>
+
+  <!-- arrow -->
+  <line x1="536" y1="235" x2="646" y2="235" stroke="#c8452f" stroke-width="2.5"/>
+  <path d="M646 235 l-12 -7 l0 14 z" fill="#c8452f"/>
+  <text x="591" y="222" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#9a3320">a case</text>
+
+  <!-- BL360 (fulfiller side) -->
+  <rect x="682" y="72" width="470" height="330" rx="14" fill="#ffffff" stroke="#e6e2da" stroke-width="1.5"/>
+  <rect x="682" y="72" width="470" height="44" rx="14" fill="#141414"/>
+  <rect x="682" y="102" width="470" height="14" fill="#141414"/>
+  <text x="706" y="100" font-family="Georgia, serif" font-size="14" fill="#f2eee7">BL360 &#183; Solana San Diego</text>
+  <text x="706" y="146" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#9a3320">Business Location 360 &#8212; fulfiller view</text>
+  <!-- context rail -->
+  <rect x="706" y="164" width="140" height="216" rx="8" fill="#faf8f4" stroke="#e6e2da"/>
+  <circle cx="732" cy="192" r="12" fill="#eceae6"/><rect x="752" y="188" width="80" height="8" rx="4" fill="#c9c3b8"/>
+  <rect x="722" y="216" width="108" height="7" rx="3" fill="#e0dbd1"/>
+  <rect x="722" y="234" width="88" height="7" rx="3" fill="#e0dbd1"/>
+  <rect x="722" y="262" width="108" height="7" rx="3" fill="#e0dbd1"/>
+  <rect x="722" y="280" width="88" height="7" rx="3" fill="#e0dbd1"/>
+  <rect x="722" y="316" width="108" height="7" rx="3" fill="#e0dbd1"/>
+  <rect x="722" y="334" width="88" height="7" rx="3" fill="#e0dbd1"/>
+  <!-- KPIs -->
+  <rect x="860" y="164" width="86" height="60" rx="8" fill="#faf8f4" stroke="#e6e2da"/><text x="874" y="200" font-family="Georgia, serif" font-size="24" fill="#141414">6</text>
+  <rect x="960" y="164" width="86" height="60" rx="8" fill="#faf8f4" stroke="#e6e2da"/><circle cx="1003" cy="194" r="16" fill="none" stroke="#e6e2da" stroke-width="6"/><path d="M1003 178 a16 16 0 0 1 13 24" fill="none" stroke="#c8452f" stroke-width="6"/>
+  <rect x="1060" y="164" width="76" height="60" rx="8" fill="#faf8f4" stroke="#e6e2da"/><text x="1074" y="200" font-family="Georgia, serif" font-size="24" fill="#c8452f">2</text>
+  <!-- cases table -->
+  <rect x="860" y="234" width="276" height="146" rx="8" fill="#faf8f4" stroke="#e6e2da"/>
+  <line x1="876" y1="262" x2="1120" y2="262" stroke="#e6e2da"/>
+  <rect x="876" y="276" width="150" height="7" rx="3" fill="#c9c3b8"/><rect x="1060" y="276" width="60" height="7" rx="3" fill="#c8452f"/>
+  <rect x="876" y="298" width="180" height="7" rx="3" fill="#e0dbd1"/><rect x="1060" y="298" width="60" height="7" rx="3" fill="#d8d2c8"/>
+  <rect x="876" y="320" width="140" height="7" rx="3" fill="#e0dbd1"/><rect x="1060" y="320" width="60" height="7" rx="3" fill="#e0dbd1"/>
+  <rect x="876" y="342" width="170" height="7" rx="3" fill="#e0dbd1"/><rect x="1060" y="342" width="60" height="7" rx="3" fill="#e0dbd1"/>
+  <text x="706" y="396" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6f6b63">Central support agent inspects, and resolves faster</text>
+</svg>
