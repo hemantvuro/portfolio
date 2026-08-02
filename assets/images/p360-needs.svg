@@ -1,84 +1,84 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Needs matrix: each user need maps to a data need and then to a functional need that becomes a UI component">
-  <rect width="1200" height="560" fill="#f2eee7"/>
-  <text x="48" y="40" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="2" fill="#6f6b63">NEEDS MATRIX</text>
+  <rect width="1200" height="560" fill="#efe9f4"/>
+  <text x="48" y="40" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="2" fill="#635d6c">NEEDS MATRIX</text>
 
   <!-- column headers -->
-  <text x="200" y="86" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#141414">User need</text>
-  <text x="600" y="86" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#141414">Data need</text>
-  <text x="1000" y="86" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#c8452f">Functional need</text>
-  <text x="200" y="104" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1" fill="#6f6b63">what they want to do</text>
-  <text x="600" y="104" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1" fill="#6f6b63">what it needs to know</text>
-  <text x="1000" y="104" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1" fill="#6f6b63">the UI component</text>
+  <text x="200" y="86" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#191621">User need</text>
+  <text x="600" y="86" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#191621">Data need</text>
+  <text x="1000" y="86" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#7a3b8f">Functional need</text>
+  <text x="200" y="104" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1" fill="#635d6c">what they want to do</text>
+  <text x="600" y="104" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1" fill="#635d6c">what it needs to know</text>
+  <text x="1000" y="104" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1" fill="#635d6c">the UI component</text>
 
   <g font-family="Helvetica, Arial, sans-serif" font-size="12">
     <!-- rows -->
     <!-- row 1 -->
-    <rect x="60" y="126" width="280" height="52" rx="10" fill="#ffffff" stroke="#e6e2da"/>
-    <text x="80" y="150" fill="#141414">Nurse finds &amp; verifies patient</text>
-    <text x="80" y="168" fill="#6f6b63" font-size="11">across ~20 identifiers</text>
-    <rect x="460" y="126" width="280" height="52" rx="10" fill="#faf8f4" stroke="#e6e2da"/>
-    <text x="480" y="150" fill="#141414">Name, DOB, insurance no,</text>
-    <text x="480" y="168" fill="#6f6b63" font-size="11">contact, email &#8230;</text>
-    <rect x="860" y="126" width="280" height="52" rx="10" fill="#fbeee9" stroke="#e7b9ac"/>
-    <text x="880" y="156" fill="#9a3320">Search, filter &amp; sort</text>
+    <rect x="60" y="126" width="280" height="52" rx="10" fill="#ffffff" stroke="#e7e1ec"/>
+    <text x="80" y="150" fill="#191621">Nurse finds &amp; verifies patient</text>
+    <text x="80" y="168" fill="#635d6c" font-size="11">across ~20 identifiers</text>
+    <rect x="460" y="126" width="280" height="52" rx="10" fill="#f7f4fa" stroke="#e7e1ec"/>
+    <text x="480" y="150" fill="#191621">Name, DOB, insurance no,</text>
+    <text x="480" y="168" fill="#635d6c" font-size="11">contact, email &#8230;</text>
+    <rect x="860" y="126" width="280" height="52" rx="10" fill="#f4edf8" stroke="#d8b8e0"/>
+    <text x="880" y="156" fill="#5c2c6c">Search, filter &amp; sort</text>
 
     <!-- row 2 -->
-    <rect x="60" y="190" width="280" height="52" rx="10" fill="#ffffff" stroke="#e6e2da"/>
-    <text x="80" y="214" fill="#141414">Nurse documents vitals</text>
-    <text x="80" y="232" fill="#6f6b63" font-size="11">fast, error-proof</text>
-    <rect x="460" y="190" width="280" height="52" rx="10" fill="#faf8f4" stroke="#e6e2da"/>
-    <text x="480" y="214" fill="#141414">BP, temp, HR, SpO2,</text>
-    <text x="480" y="232" fill="#6f6b63" font-size="11">height, weight</text>
-    <rect x="860" y="190" width="280" height="52" rx="10" fill="#fbeee9" stroke="#e7b9ac"/>
-    <text x="880" y="220" fill="#9a3320">Checklist &amp; submit record</text>
+    <rect x="60" y="190" width="280" height="52" rx="10" fill="#ffffff" stroke="#e7e1ec"/>
+    <text x="80" y="214" fill="#191621">Nurse documents vitals</text>
+    <text x="80" y="232" fill="#635d6c" font-size="11">fast, error-proof</text>
+    <rect x="460" y="190" width="280" height="52" rx="10" fill="#f7f4fa" stroke="#e7e1ec"/>
+    <text x="480" y="214" fill="#191621">BP, temp, HR, SpO2,</text>
+    <text x="480" y="232" fill="#635d6c" font-size="11">height, weight</text>
+    <rect x="860" y="190" width="280" height="52" rx="10" fill="#f4edf8" stroke="#d8b8e0"/>
+    <text x="880" y="220" fill="#5c2c6c">Checklist &amp; submit record</text>
 
     <!-- row 3 -->
-    <rect x="60" y="254" width="280" height="52" rx="10" fill="#ffffff" stroke="#e6e2da"/>
-    <text x="80" y="278" fill="#141414">Doctor views history</text>
-    <text x="80" y="296" fill="#6f6b63" font-size="11">a scannable story</text>
-    <rect x="460" y="254" width="280" height="52" rx="10" fill="#faf8f4" stroke="#e6e2da"/>
-    <text x="480" y="278" fill="#141414">Allergies, reports, meds,</text>
-    <text x="480" y="296" fill="#6f6b63" font-size="11">past records, family</text>
-    <rect x="860" y="254" width="280" height="52" rx="10" fill="#fbeee9" stroke="#e7b9ac"/>
-    <text x="880" y="284" fill="#9a3320">Full-screen view &amp; search</text>
+    <rect x="60" y="254" width="280" height="52" rx="10" fill="#ffffff" stroke="#e7e1ec"/>
+    <text x="80" y="278" fill="#191621">Doctor views history</text>
+    <text x="80" y="296" fill="#635d6c" font-size="11">a scannable story</text>
+    <rect x="460" y="254" width="280" height="52" rx="10" fill="#f7f4fa" stroke="#e7e1ec"/>
+    <text x="480" y="278" fill="#191621">Allergies, reports, meds,</text>
+    <text x="480" y="296" fill="#635d6c" font-size="11">past records, family</text>
+    <rect x="860" y="254" width="280" height="52" rx="10" fill="#f4edf8" stroke="#d8b8e0"/>
+    <text x="880" y="284" fill="#5c2c6c">Full-screen view &amp; search</text>
 
     <!-- row 4 -->
-    <rect x="60" y="318" width="280" height="52" rx="10" fill="#ffffff" stroke="#e6e2da"/>
-    <text x="80" y="342" fill="#141414">Doctor documents visit</text>
-    <text x="80" y="360" fill="#6f6b63" font-size="11">as natural as talking</text>
-    <rect x="460" y="318" width="280" height="52" rx="10" fill="#faf8f4" stroke="#e6e2da"/>
-    <text x="480" y="342" fill="#141414">Chief complaint, advice,</text>
-    <text x="480" y="360" fill="#6f6b63" font-size="11">Rx, investigations</text>
-    <rect x="860" y="318" width="280" height="52" rx="10" fill="#fbeee9" stroke="#e7b9ac"/>
-    <text x="880" y="348" fill="#9a3320">Notes widget, smart Rx</text>
+    <rect x="60" y="318" width="280" height="52" rx="10" fill="#ffffff" stroke="#e7e1ec"/>
+    <text x="80" y="342" fill="#191621">Doctor documents visit</text>
+    <text x="80" y="360" fill="#635d6c" font-size="11">as natural as talking</text>
+    <rect x="460" y="318" width="280" height="52" rx="10" fill="#f7f4fa" stroke="#e7e1ec"/>
+    <text x="480" y="342" fill="#191621">Chief complaint, advice,</text>
+    <text x="480" y="360" fill="#635d6c" font-size="11">Rx, investigations</text>
+    <rect x="860" y="318" width="280" height="52" rx="10" fill="#f4edf8" stroke="#d8b8e0"/>
+    <text x="880" y="348" fill="#5c2c6c">Notes widget, smart Rx</text>
 
     <!-- row 5 -->
-    <rect x="60" y="382" width="280" height="52" rx="10" fill="#ffffff" stroke="#e6e2da"/>
-    <text x="80" y="406" fill="#141414">Refer to compliant literature</text>
-    <text x="80" y="424" fill="#6f6b63" font-size="11">right info, right time</text>
-    <rect x="460" y="382" width="280" height="52" rx="10" fill="#faf8f4" stroke="#e6e2da"/>
-    <text x="480" y="406" fill="#141414">Codes, policy, medical</text>
-    <text x="480" y="424" fill="#6f6b63" font-size="11">reference, regional rules</text>
-    <rect x="860" y="382" width="280" height="52" rx="10" fill="#fbeee9" stroke="#e7b9ac"/>
-    <text x="880" y="412" fill="#9a3320">Reference widget</text>
+    <rect x="60" y="382" width="280" height="52" rx="10" fill="#ffffff" stroke="#e7e1ec"/>
+    <text x="80" y="406" fill="#191621">Refer to compliant literature</text>
+    <text x="80" y="424" fill="#635d6c" font-size="11">right info, right time</text>
+    <rect x="460" y="382" width="280" height="52" rx="10" fill="#f7f4fa" stroke="#e7e1ec"/>
+    <text x="480" y="406" fill="#191621">Codes, policy, medical</text>
+    <text x="480" y="424" fill="#635d6c" font-size="11">reference, regional rules</text>
+    <rect x="860" y="382" width="280" height="52" rx="10" fill="#f4edf8" stroke="#d8b8e0"/>
+    <text x="880" y="412" fill="#5c2c6c">Reference widget</text>
 
     <!-- row 6 -->
-    <rect x="60" y="446" width="280" height="52" rx="10" fill="#ffffff" stroke="#e6e2da"/>
-    <text x="80" y="470" fill="#141414">Both need devices in sync</text>
-    <text x="80" y="488" fill="#6f6b63" font-size="11">and multilingual</text>
-    <rect x="460" y="446" width="280" height="52" rx="10" fill="#faf8f4" stroke="#e6e2da"/>
-    <text x="480" y="470" fill="#141414">Real-time entry, fallback,</text>
-    <text x="480" y="488" fill="#6f6b63" font-size="11">language preference</text>
-    <rect x="860" y="446" width="280" height="52" rx="10" fill="#fbeee9" stroke="#e7b9ac"/>
-    <text x="880" y="476" fill="#9a3320">Auto/manual sync, i18n</text>
+    <rect x="60" y="446" width="280" height="52" rx="10" fill="#ffffff" stroke="#e7e1ec"/>
+    <text x="80" y="470" fill="#191621">Both need devices in sync</text>
+    <text x="80" y="488" fill="#635d6c" font-size="11">and multilingual</text>
+    <rect x="460" y="446" width="280" height="52" rx="10" fill="#f7f4fa" stroke="#e7e1ec"/>
+    <text x="480" y="470" fill="#191621">Real-time entry, fallback,</text>
+    <text x="480" y="488" fill="#635d6c" font-size="11">language preference</text>
+    <rect x="860" y="446" width="280" height="52" rx="10" fill="#f4edf8" stroke="#d8b8e0"/>
+    <text x="880" y="476" fill="#5c2c6c">Auto/manual sync, i18n</text>
   </g>
 
   <!-- arrows between columns -->
-  <g stroke="#c9c3b8" stroke-width="2" fill="none">
+  <g stroke="#c7bdd3" stroke-width="2" fill="none">
     <path d="M340 152 L460 152"/><path d="M340 216 L460 216"/><path d="M340 280 L460 280"/>
     <path d="M340 344 L460 344"/><path d="M340 408 L460 408"/><path d="M340 472 L460 472"/>
   </g>
-  <g stroke="#c8452f" stroke-width="2" fill="none">
+  <g stroke="#7a3b8f" stroke-width="2" fill="none">
     <path d="M740 152 L860 152"/><path d="M740 216 L860 216"/><path d="M740 280 L860 280"/>
     <path d="M740 344 L860 344"/><path d="M740 408 L860 408"/><path d="M740 472 L860 472"/>
   </g>

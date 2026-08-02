@@ -1,49 +1,49 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-label="Task flow: Tell me plus Tweak it. Describe, AI drafts, human tweaks, guardrails, activate.">
-  <rect width="1200" height="470" fill="#faf8f4"/>
+  <rect width="1200" height="470" fill="#f7f4fa"/>
 
-  <text x="60" y="70" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="2" fill="#9a3320">AI-FIRST</text>
-  <text x="60" y="270" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="2" fill="#6f6b63">HUMAN CONTROL &amp; GUARDRAILS</text>
+  <text x="60" y="70" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="2" fill="#5c2c6c">AI-FIRST</text>
+  <text x="60" y="270" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="2" fill="#635d6c">HUMAN CONTROL &amp; GUARDRAILS</text>
 
-  <rect x="60" y="90" width="230" height="120" rx="12" fill="#141414"/>
+  <rect x="60" y="90" width="230" height="120" rx="12" fill="#191621"/>
   <text x="82" y="126" font-family="Georgia, serif" font-size="16" fill="#ffffff">1 &#183; Describe</text>
-  <text x="82" y="152" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#b8b2a8">User states channels +</text>
-  <text x="82" y="170" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#b8b2a8">intent in plain language.</text>
+  <text x="82" y="152" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#b3adbe">User states channels +</text>
+  <text x="82" y="170" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#b3adbe">intent in plain language.</text>
 
-  <line x1="290" y1="150" x2="345" y2="150" stroke="#c8452f" stroke-width="2"/>
-  <path d="M345 150 l-10 -5 v10 z" fill="#c8452f"/>
+  <line x1="290" y1="150" x2="345" y2="150" stroke="#7a3b8f" stroke-width="2"/>
+  <path d="M345 150 l-10 -5 v10 z" fill="#7a3b8f"/>
 
-  <rect x="350" y="90" width="250" height="120" rx="12" fill="#fbeee9" stroke="#c8452f" stroke-width="1.5" stroke-dasharray="6 5"/>
-  <text x="372" y="126" font-family="Georgia, serif" font-size="16" fill="#9a3320">2 &#183; AI drafts ~80%</text>
-  <text x="372" y="152" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#6f6b63">Understands intent, drafts a</text>
-  <text x="372" y="170" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#6f6b63">live preview, asks clarifying</text>
-  <text x="372" y="188" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#6f6b63">questions.</text>
+  <rect x="350" y="90" width="250" height="120" rx="12" fill="#f4edf8" stroke="#7a3b8f" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="372" y="126" font-family="Georgia, serif" font-size="16" fill="#5c2c6c">2 &#183; AI drafts ~80%</text>
+  <text x="372" y="152" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#635d6c">Understands intent, drafts a</text>
+  <text x="372" y="170" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#635d6c">live preview, asks clarifying</text>
+  <text x="372" y="188" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#635d6c">questions.</text>
 
-  <line x1="600" y1="150" x2="655" y2="150" stroke="#c8452f" stroke-width="2"/>
-  <path d="M655 150 l-10 -5 v10 z" fill="#c8452f"/>
+  <line x1="600" y1="150" x2="655" y2="150" stroke="#7a3b8f" stroke-width="2"/>
+  <path d="M655 150 l-10 -5 v10 z" fill="#7a3b8f"/>
 
-  <rect x="660" y="90" width="240" height="120" rx="12" fill="#ffffff" stroke="#e6e2da" stroke-width="1.5"/>
-  <text x="682" y="126" font-family="Georgia, serif" font-size="16" fill="#141414">3 &#183; Tweak</text>
-  <text x="682" y="152" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#6f6b63">User reviews the preview and</text>
-  <text x="682" y="170" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#6f6b63">adjusts any element with</text>
-  <text x="682" y="188" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#6f6b63">full granular control.</text>
+  <rect x="660" y="90" width="240" height="120" rx="12" fill="#ffffff" stroke="#e7e1ec" stroke-width="1.5"/>
+  <text x="682" y="126" font-family="Georgia, serif" font-size="16" fill="#191621">3 &#183; Tweak</text>
+  <text x="682" y="152" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#635d6c">User reviews the preview and</text>
+  <text x="682" y="170" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#635d6c">adjusts any element with</text>
+  <text x="682" y="188" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#635d6c">full granular control.</text>
 
-  <line x1="780" y1="210" x2="780" y2="258" stroke="#6f6b63" stroke-width="2"/>
-  <path d="M780 258 l-5 -10 h10 z" fill="#6f6b63"/>
+  <line x1="780" y1="210" x2="780" y2="258" stroke="#635d6c" stroke-width="2"/>
+  <path d="M780 258 l-5 -10 h10 z" fill="#635d6c"/>
 
-  <rect x="480" y="290" width="300" height="120" rx="12" fill="#f2eee7" stroke="#6f6b63" stroke-width="1.5" stroke-dasharray="6 5"/>
-  <text x="502" y="326" font-family="Georgia, serif" font-size="16" fill="#141414">4 &#183; Guardrails</text>
-  <text x="502" y="352" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#6f6b63">Proactive AI audit, fallback</text>
-  <text x="502" y="370" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#6f6b63">creation, approval &#8212; keeps the</text>
-  <text x="502" y="388" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#6f6b63">output valid and compliant.</text>
+  <rect x="480" y="290" width="300" height="120" rx="12" fill="#efe9f4" stroke="#635d6c" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="502" y="326" font-family="Georgia, serif" font-size="16" fill="#191621">4 &#183; Guardrails</text>
+  <text x="502" y="352" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#635d6c">Proactive AI audit, fallback</text>
+  <text x="502" y="370" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#635d6c">creation, approval &#8212; keeps the</text>
+  <text x="502" y="388" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#635d6c">output valid and compliant.</text>
 
-  <line x1="660" y1="290" x2="660" y2="258" stroke="#6f6b63" stroke-width="2"/>
-  <line x1="660" y1="258" x2="700" y2="258" stroke="#6f6b63" stroke-width="2" stroke-dasharray="4 4"/>
+  <line x1="660" y1="290" x2="660" y2="258" stroke="#635d6c" stroke-width="2"/>
+  <line x1="660" y1="258" x2="700" y2="258" stroke="#635d6c" stroke-width="2" stroke-dasharray="4 4"/>
 
-  <line x1="780" y1="350" x2="855" y2="350" stroke="#141414" stroke-width="2"/>
-  <path d="M855 350 l-10 -5 v10 z" fill="#141414"/>
+  <line x1="780" y1="350" x2="855" y2="350" stroke="#191621" stroke-width="2"/>
+  <path d="M855 350 l-10 -5 v10 z" fill="#191621"/>
 
-  <rect x="860" y="318" width="240" height="64" rx="32" fill="#141414"/>
+  <rect x="860" y="318" width="240" height="64" rx="32" fill="#191621"/>
   <text x="980" y="357" font-family="Georgia, serif" font-size="18" fill="#ffffff" text-anchor="middle">Activate &#10003;</text>
 
-  <text x="60" y="446" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#6f6b63">"Tell me + Tweak it" balances the speed of AI generation with the granular control enterprise users require.</text>
+  <text x="60" y="446" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#635d6c">"Tell me + Tweak it" balances the speed of AI generation with the granular control enterprise users require.</text>
 </svg>

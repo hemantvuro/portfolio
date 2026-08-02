@@ -5,15 +5,18 @@
    ========================================================= */
 
 :root {
-  --ink: #141414;
-  --ink-soft: #3a3a38;
-  --muted: #6f6b63;
-  --line: #e6e2da;
-  --paper: #faf8f4;
-  --paper-2: #f2eee7;
+  --ink: #191621;            /* cool near-black, faint plum undertone */
+  --ink-soft: #3d3747;
+  --muted: #635d6c;          /* cooler muted grey — AA on paper */
+  --line: #e7e1ec;
+  --paper: #f7f4fa;          /* cool off-white with a faint lilac cast */
+  --paper-2: #efe9f4;        /* plum-tinted surface for banded sections */
   --card: #ffffff;
-  --accent: #c8452f;         /* deep terracotta — placeholder accent */
-  --accent-ink: #9a3320;
+  --accent: #7a3b8f;         /* plum — primary accent */
+  --accent-ink: #5c2c6c;     /* deep plum — accent text on light */
+  --accent-soft: #f3ecf6;    /* very light plum tint */
+  --accent-2: #c68a2b;       /* warm gold — secondary accent, used sparingly */
+  --accent-2-ink: #8f5f18;   /* deep gold — secondary accent text */
   --max: 1120px;
   --gutter: clamp(20px, 5vw, 64px);
   --radius: 14px;
@@ -107,6 +110,15 @@ section { padding-block: clamp(3.5rem, 8vw, 7rem); }
 .section-head h2 { font-size: var(--step-3); }
 hr.rule { border: 0; border-top: 1px solid var(--line); margin: 0; }
 
+/* banded sections — alternating surface tone for vertical rhythm */
+.band { background: var(--paper-2); }
+.band + .band { border-top: 1px solid var(--line); }
+
+/* small accent pill (e.g. "Open to relocation") */
+.pill { display: inline-flex; align-items: center; gap: .45em; border-radius: 999px; padding: .38em .85em; font-size: var(--step--1); font-weight: 600; }
+.pill--accent { background: var(--accent-soft); color: var(--accent-ink); border: 1px solid color-mix(in srgb, var(--accent) 28%, var(--line)); }
+.pill--accent::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
+
 /* ---------- hero ---------- */
 .hero { padding-top: clamp(3rem, 8vw, 6rem); padding-bottom: clamp(2.5rem, 6vw, 4.5rem); }
 .hero h1 { font-size: var(--step-4); max-width: 16ch; }
@@ -140,15 +152,15 @@ hr.rule { border: 0; border-top: 1px solid var(--line); margin: 0; }
   padding: 1.6rem; box-shadow: var(--shadow);
   transition: transform .2s ease, border-color .2s ease;
 }
-.card:hover { transform: translateY(-4px); border-color: color-mix(in srgb, var(--accent) 40%, var(--line)); }
+.card:hover { transform: translateY(-4px); border-color: color-mix(in srgb, var(--accent) 45%, var(--line)); box-shadow: 0 1px 2px rgba(25,22,33,.05), 0 16px 36px rgba(92,44,108,.10); }
 .card h3 { font-size: var(--step-1); margin-bottom: .5rem; }
-.card .num { font-family: var(--serif); font-size: var(--step-2); color: var(--accent); display: block; margin-bottom: .4rem; }
+.card .num { font-family: var(--serif); font-size: var(--step-2); color: var(--accent-2-ink); display: block; margin-bottom: .4rem; }
 
 /* ---------- process ---------- */
 .process-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 0; }
 .process-list li { display: grid; grid-template-columns: 90px 1fr; gap: 1.5rem; padding: 1.6rem 0; border-top: 1px solid var(--line); align-items: baseline; }
 .process-list li:last-child { border-bottom: 1px solid var(--line); }
-.process-list .step-num { font-family: var(--serif); font-size: var(--step-2); color: var(--accent); }
+.process-list .step-num { font-family: var(--serif); font-size: var(--step-2); color: var(--accent-2-ink); }
 .process-list h3 { font-size: var(--step-1); }
 
 /* ---------- experience ---------- */
@@ -207,8 +219,30 @@ hr.rule { border: 0; border-top: 1px solid var(--line); margin: 0; }
 .cs-cover { aspect-ratio: 21 / 9; border-radius: var(--radius); overflow: hidden; background: var(--paper-2); box-shadow: var(--shadow); }
 .cs-cover img { width: 100%; height: 100%; object-fit: cover; }
 
+/* case-study headline outcomes strip (under the hero lede) */
+.cs-outcomes { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1.6rem; }
+.cs-outcomes .oc { display: inline-flex; align-items: center; gap: .55em; background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: .5em 1.05em; font-size: var(--step--1); color: var(--ink-soft); }
+.cs-outcomes .oc::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--accent-2); flex: none; }
+.cs-outcomes .oc b { color: var(--accent-ink); font-weight: 700; }
+
+/* prev / next project navigation */
+.morework { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; }
+.morework a { display: flex; flex-direction: column; gap: .35rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--card); padding: 1.4rem 1.6rem; transition: border-color .2s ease, transform .2s ease, box-shadow .2s ease; }
+.morework a:hover { border-color: color-mix(in srgb, var(--accent) 45%, var(--line)); transform: translateY(-3px); box-shadow: var(--shadow); }
+.morework .dir { font-size: var(--step--1); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.morework a:hover .dir { color: var(--accent-ink); }
+.morework .pj { font-size: var(--step-1); font-weight: 700; }
+.morework .nx { text-align: right; align-items: flex-end; }
+
+/* lightbox for enlarging case-study imagery */
+.zoomable { cursor: zoom-in; }
+.lightbox { position: fixed; inset: 0; z-index: 200; background: rgba(25,22,33,.88); display: flex; align-items: center; justify-content: center; padding: 4vw; opacity: 0; pointer-events: none; transition: opacity .25s ease; }
+.lightbox.open { opacity: 1; pointer-events: auto; }
+.lightbox img { max-width: 100%; max-height: 92vh; border-radius: 8px; box-shadow: 0 24px 70px rgba(0,0,0,.55); }
+.lightbox .lb-close { position: absolute; top: 16px; right: 22px; background: none; border: 0; color: #fff; font-size: 2.1rem; line-height: 1; cursor: pointer; padding: .2em; }
+
 .pillars { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.2rem; }
-.pillar .num { font-family: var(--serif); color: var(--accent); font-size: var(--step-2); }
+.pillar .num { font-family: var(--serif); color: var(--accent-2-ink); font-size: var(--step-2); }
 .pillar h3 { font-size: var(--step-1); margin: .3rem 0 .4rem; }
 
 .callouts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem; }
@@ -272,6 +306,8 @@ hr.rule { border: 0; border-top: 1px solid var(--line); margin: 0; }
   .tile, .tile:first-child { grid-column: 1 / -1; }
   .process-list li, .exp li { grid-template-columns: 60px 1fr; gap: 1rem; }
   .site-footer .foot-grid { grid-template-columns: 1fr; }
+  .morework { grid-template-columns: 1fr; }
+  .morework .nx { text-align: left; align-items: flex-start; }
 }
 
 @media (prefers-reduced-motion: reduce) {

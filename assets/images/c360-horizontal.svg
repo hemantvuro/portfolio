@@ -1,64 +1,64 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Horizontal platform diagram: a Core CSM Platform base, a Customer Ops module layer, and industry verticals built on top">
-  <rect width="1200" height="560" fill="#f2eee7"/>
+  <rect width="1200" height="560" fill="#efe9f4"/>
 
   <!-- Industry pillars -->
   <g font-family="Helvetica, Arial, sans-serif">
     <!-- pillar 1 -->
-    <rect x="80" y="70" width="180" height="360" rx="12" fill="#fbeee9" stroke="#e7b9ac"/>
-    <text x="170" y="112" text-anchor="middle" font-size="16" font-family="Georgia, serif" fill="#141414">HCLS</text>
-    <text x="170" y="136" text-anchor="middle" font-size="12" fill="#6f6b63">Healthcare &amp; Life Sci</text>
-    <rect x="112" y="156" width="116" height="26" rx="13" fill="#ffffff" stroke="#c8452f"/>
-    <text x="170" y="173" text-anchor="middle" font-size="11" fill="#9a3320">Patient 360</text>
+    <rect x="80" y="70" width="180" height="360" rx="12" fill="#f4edf8" stroke="#d8b8e0"/>
+    <text x="170" y="112" text-anchor="middle" font-size="16" font-family="Georgia, serif" fill="#191621">HCLS</text>
+    <text x="170" y="136" text-anchor="middle" font-size="12" fill="#635d6c">Healthcare &amp; Life Sci</text>
+    <rect x="112" y="156" width="116" height="26" rx="13" fill="#ffffff" stroke="#7a3b8f"/>
+    <text x="170" y="173" text-anchor="middle" font-size="11" fill="#5c2c6c">Patient 360</text>
     <!-- pillar 2 -->
-    <rect x="290" y="70" width="180" height="360" rx="12" fill="#fbeee9" stroke="#e7b9ac"/>
-    <text x="380" y="112" text-anchor="middle" font-size="16" font-family="Georgia, serif" fill="#141414">PSDS</text>
-    <text x="380" y="136" text-anchor="middle" font-size="12" fill="#6f6b63">Public Sector</text>
-    <rect x="308" y="156" width="144" height="26" rx="13" fill="#ffffff" stroke="#c8452f"/>
-    <text x="380" y="173" text-anchor="middle" font-size="11" fill="#9a3320">Constituent 360</text>
+    <rect x="290" y="70" width="180" height="360" rx="12" fill="#f4edf8" stroke="#d8b8e0"/>
+    <text x="380" y="112" text-anchor="middle" font-size="16" font-family="Georgia, serif" fill="#191621">PSDS</text>
+    <text x="380" y="136" text-anchor="middle" font-size="12" fill="#635d6c">Public Sector</text>
+    <rect x="308" y="156" width="144" height="26" rx="13" fill="#ffffff" stroke="#7a3b8f"/>
+    <text x="380" y="173" text-anchor="middle" font-size="11" fill="#5c2c6c">Constituent 360</text>
     <!-- pillar 3 -->
-    <rect x="500" y="70" width="180" height="360" rx="12" fill="#fbeee9" stroke="#e7b9ac"/>
-    <text x="590" y="112" text-anchor="middle" font-size="16" font-family="Georgia, serif" fill="#141414">FSO</text>
-    <text x="590" y="136" text-anchor="middle" font-size="12" fill="#6f6b63">Financial Services</text>
-    <rect x="522" y="156" width="136" height="26" rx="13" fill="#ffffff" stroke="#c8452f"/>
-    <text x="590" y="173" text-anchor="middle" font-size="11" fill="#9a3320">Customer 360</text>
+    <rect x="500" y="70" width="180" height="360" rx="12" fill="#f4edf8" stroke="#d8b8e0"/>
+    <text x="590" y="112" text-anchor="middle" font-size="16" font-family="Georgia, serif" fill="#191621">FSO</text>
+    <text x="590" y="136" text-anchor="middle" font-size="12" fill="#635d6c">Financial Services</text>
+    <rect x="522" y="156" width="136" height="26" rx="13" fill="#ffffff" stroke="#7a3b8f"/>
+    <text x="590" y="173" text-anchor="middle" font-size="11" fill="#5c2c6c">Customer 360</text>
     <!-- pillar 4 -->
-    <rect x="710" y="70" width="180" height="360" rx="12" fill="#fbeee9" stroke="#e7b9ac"/>
-    <text x="800" y="112" text-anchor="middle" font-size="16" font-family="Georgia, serif" fill="#141414">Telco</text>
-    <text x="800" y="136" text-anchor="middle" font-size="12" fill="#6f6b63">Telecommunications</text>
-    <rect x="732" y="156" width="136" height="26" rx="13" fill="#ffffff" stroke="#c8452f"/>
-    <text x="800" y="173" text-anchor="middle" font-size="11" fill="#9a3320">Customer 360</text>
+    <rect x="710" y="70" width="180" height="360" rx="12" fill="#f4edf8" stroke="#d8b8e0"/>
+    <text x="800" y="112" text-anchor="middle" font-size="16" font-family="Georgia, serif" fill="#191621">Telco</text>
+    <text x="800" y="136" text-anchor="middle" font-size="12" fill="#635d6c">Telecommunications</text>
+    <rect x="732" y="156" width="136" height="26" rx="13" fill="#ffffff" stroke="#7a3b8f"/>
+    <text x="800" y="173" text-anchor="middle" font-size="11" fill="#5c2c6c">Customer 360</text>
     <!-- pillar 5 -->
-    <rect x="920" y="70" width="180" height="360" rx="12" fill="#fbeee9" stroke="#e7b9ac"/>
-    <text x="1010" y="112" text-anchor="middle" font-size="16" font-family="Georgia, serif" fill="#141414">Retail</text>
-    <text x="1010" y="136" text-anchor="middle" font-size="12" fill="#6f6b63">Retail &amp; Hospitality</text>
-    <rect x="936" y="156" width="148" height="26" rx="13" fill="#ffffff" stroke="#c8452f"/>
-    <text x="1010" y="173" text-anchor="middle" font-size="11" fill="#9a3320">Service Org 360</text>
+    <rect x="920" y="70" width="180" height="360" rx="12" fill="#f4edf8" stroke="#d8b8e0"/>
+    <text x="1010" y="112" text-anchor="middle" font-size="16" font-family="Georgia, serif" fill="#191621">Retail</text>
+    <text x="1010" y="136" text-anchor="middle" font-size="12" fill="#635d6c">Retail &amp; Hospitality</text>
+    <rect x="936" y="156" width="148" height="26" rx="13" fill="#ffffff" stroke="#7a3b8f"/>
+    <text x="1010" y="173" text-anchor="middle" font-size="11" fill="#5c2c6c">Service Org 360</text>
   </g>
 
   <!-- Customer Ops module row -->
-  <rect x="60" y="360" width="1080" height="90" rx="14" fill="#ffffff" stroke="#e6e2da" stroke-width="1.5"/>
-  <text x="84" y="390" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="1.5" fill="#9a3320">CUSTOMER OPS</text>
-  <g font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#141414" text-anchor="middle">
-    <rect x="84" y="400" width="160" height="34" rx="8" fill="#141414"/>
-    <text x="164" y="422" fill="#f2eee7">Customer 360</text>
-    <rect x="254" y="400" width="160" height="34" rx="8" fill="#faf8f4" stroke="#e6e2da"/>
+  <rect x="60" y="360" width="1080" height="90" rx="14" fill="#ffffff" stroke="#e7e1ec" stroke-width="1.5"/>
+  <text x="84" y="390" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="1.5" fill="#5c2c6c">CUSTOMER OPS</text>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#191621" text-anchor="middle">
+    <rect x="84" y="400" width="160" height="34" rx="8" fill="#191621"/>
+    <text x="164" y="422" fill="#efe9f4">Customer 360</text>
+    <rect x="254" y="400" width="160" height="34" rx="8" fill="#f7f4fa" stroke="#e7e1ec"/>
     <text x="334" y="422">Service Org 360</text>
-    <rect x="424" y="400" width="160" height="34" rx="8" fill="#faf8f4" stroke="#e6e2da"/>
+    <rect x="424" y="400" width="160" height="34" rx="8" fill="#f7f4fa" stroke="#e7e1ec"/>
     <text x="504" y="422">Order Mgmt</text>
-    <rect x="594" y="400" width="150" height="34" rx="8" fill="#faf8f4" stroke="#e6e2da"/>
+    <rect x="594" y="400" width="150" height="34" rx="8" fill="#f7f4fa" stroke="#e7e1ec"/>
     <text x="669" y="422">Install Base</text>
-    <rect x="754" y="400" width="180" height="34" rx="8" fill="#faf8f4" stroke="#e6e2da"/>
+    <rect x="754" y="400" width="180" height="34" rx="8" fill="#f7f4fa" stroke="#e7e1ec"/>
     <text x="844" y="422">Post-Sales Support</text>
-    <rect x="944" y="400" width="180" height="34" rx="8" fill="#faf8f4" stroke="#e6e2da"/>
+    <rect x="944" y="400" width="180" height="34" rx="8" fill="#f7f4fa" stroke="#e7e1ec"/>
     <text x="1034" y="422">Process Layouts</text>
   </g>
 
   <!-- Core platform base -->
-  <rect x="60" y="474" width="1080" height="66" rx="14" fill="#141414"/>
-  <text x="84" y="504" font-family="Georgia, serif" font-size="16" fill="#f2eee7">Core CSM Platform</text>
-  <text x="1116" y="504" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#9a9488">Workspace &amp; Portal</text>
-  <text x="600" y="524" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="1.5" fill="#6f6b63">ONE HORIZONTAL FOUNDATION</text>
+  <rect x="60" y="474" width="1080" height="66" rx="14" fill="#191621"/>
+  <text x="84" y="504" font-family="Georgia, serif" font-size="16" fill="#efe9f4">Core CSM Platform</text>
+  <text x="1116" y="504" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#948ea0">Workspace &amp; Portal</text>
+  <text x="600" y="524" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="1.5" fill="#635d6c">ONE HORIZONTAL FOUNDATION</text>
 
   <!-- title -->
-  <text x="60" y="44" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="2" fill="#6f6b63">INDUSTRY VERTICALS BUILT ON A HORIZONTAL PRODUCT</text>
+  <text x="60" y="44" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="2" fill="#635d6c">INDUSTRY VERTICALS BUILT ON A HORIZONTAL PRODUCT</text>
 </svg>
