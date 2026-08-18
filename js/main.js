@@ -449,9 +449,9 @@
 
     function updateFold() {
       var y = lenis ? lenis.scroll : (window.scrollY || document.documentElement.scrollTop || 0);
-      var past = y > Math.max(120, window.innerHeight - 48);
+      var past = y > 80;
       var compact = window.matchMedia("(max-width: 860px)").matches;
-      var showMenu = past || compact;
+      var showMenu = compact;
       document.body.classList.toggle("is-past-fold", past);
       document.body.classList.toggle("is-compact-nav", compact);
       if (menuBtn) {
@@ -506,7 +506,7 @@
       var target = document.querySelector(id);
       if (!target) return;
       e.preventDefault();
-      if (lenis) lenis.scrollTo(target, { offset: -8 });
+      if (lenis) lenis.scrollTo(target, { offset: -72 });
       else target.scrollIntoView({ behavior: reduce ? "auto" : "smooth" });
     });
   });

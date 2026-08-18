@@ -223,6 +223,11 @@ html.skip-hello .preloader {
   display: flex;
   align-items: center;
   gap: 0.15rem;
+  padding: 0.28rem 0.32rem 0.28rem 0.45rem;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  box-shadow: 0 10px 28px rgba(20, 20, 20, 0.08);
   transition: opacity 0.4s var(--ease), visibility 0.4s var(--ease);
 }
 .fold-link {
@@ -244,12 +249,11 @@ html.skip-hello .preloader {
   margin-left: 0.25rem;
 }
 .fold-link--resume:hover { background: var(--blue-deep); color: #fff; }
-.page-home:not(.is-past-fold):not(.menu-open):not(.is-compact-nav) .menu-btn {
+.page-home:not(.menu-open):not(.is-compact-nav) .menu-btn {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
 }
-.page-home.is-past-fold .fold-nav,
 .page-home.menu-open .fold-nav,
 .page-home.is-compact-nav .fold-nav {
   opacity: 0;
@@ -273,6 +277,7 @@ html.skip-hello .preloader {
   -webkit-appearance: none;
   text-align: center;
   overflow: hidden;
+  box-shadow: 0 0 0 6px #fff, 0 10px 28px rgba(20, 20, 20, 0.12);
   transition: background 0.3s ease, opacity 0.4s var(--ease), visibility 0.4s var(--ease);
 }
 .menu-btn:hover, .menu-btn[aria-expanded="true"] { background: var(--blue-deep); }
@@ -439,6 +444,45 @@ body.menu-open { overflow: hidden; }
   line-height: 1.35;
   max-width: 28ch;
 }
+.scroll-hint {
+  position: absolute;
+  left: 50%;
+  bottom: clamp(1.2rem, 3.5vh, 2.4rem);
+  z-index: 6;
+  transform: translateX(-50%);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #fff;
+  color: var(--ink);
+  border: 1px solid var(--line);
+  box-shadow: 0 10px 28px rgba(20, 20, 20, 0.08);
+  display: grid;
+  place-items: center;
+  pointer-events: auto;
+  transition: opacity 0.35s var(--ease), visibility 0.35s var(--ease);
+}
+.scroll-hint:hover { color: var(--blue); }
+.scroll-hint-mark {
+  display: block;
+  width: 16px;
+  height: 16px;
+  animation: scroll-hint-bounce 1.35s ease-in-out infinite;
+}
+.scroll-hint-mark svg {
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+.page-home.is-past-fold .scroll-hint {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+@keyframes scroll-hint-bounce {
+  0%, 100% { transform: translateY(-3px); }
+  50% { transform: translateY(5px); }
+}
 
 /* ---------- manifesto ---------- */
 .manifesto {
@@ -446,7 +490,7 @@ body.menu-open { overflow: hidden; }
   grid-template-columns: 1.4fr 0.8fr;
   gap: clamp(2rem, 6vw, 7rem);
   align-items: start;
-  padding: clamp(5rem, 12vw, 10rem) var(--gutter);
+  padding: clamp(2.8rem, 6vw, 5.5rem) var(--gutter);
   max-width: var(--max);
   margin-inline: auto;
 }
@@ -471,11 +515,19 @@ body.menu-open { overflow: hidden; }
   max-width: 36ch;
 }
 .manifesto-side .manifesto-line { color: var(--ink); }
+.text-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2.5rem;
+  margin-top: 1.4rem;
+}
 .text-cta {
   display: inline-flex;
   align-items: center;
   gap: 0.4em;
-  margin-top: 1.4rem;
+  margin-top: 0;
   width: fit-content;
   font-weight: 500;
   color: var(--ink);
@@ -502,7 +554,7 @@ body.menu-open { overflow: hidden; }
 
 /* ---------- work (sentence + branded stage) ---------- */
 .work {
-  padding: clamp(4rem, 8vw, 7rem) 0 clamp(5rem, 10vw, 8rem);
+  padding: clamp(2.4rem, 5vw, 4.5rem) 0 clamp(2.8rem, 6vw, 5.5rem);
 }
 .work-inner {
   padding-inline: var(--gutter);
@@ -670,7 +722,7 @@ body.menu-open { overflow: hidden; }
 
 /* ---------- experience ---------- */
 .experience {
-  padding: clamp(4rem, 9vw, 7rem) var(--gutter);
+  padding: clamp(2.4rem, 5vw, 4.5rem) var(--gutter);
   max-width: var(--max);
   margin-inline: auto;
 }
@@ -764,7 +816,7 @@ body.menu-open { overflow: hidden; }
 
 /* ---------- about ---------- */
 .about {
-  padding: clamp(4rem, 9vw, 8rem) var(--gutter);
+  padding: clamp(2.4rem, 5vw, 5rem) var(--gutter);
   max-width: var(--max);
   margin-inline: auto;
   display: grid;
@@ -865,7 +917,7 @@ body.menu-open { overflow: hidden; }
 
 /* ---------- footer ---------- */
 .site-footer {
-  padding: clamp(4rem, 10vw, 8rem) var(--gutter) 1.6rem;
+  padding: clamp(2.8rem, 6vw, 5.5rem) var(--gutter) 1.6rem;
   background: var(--bg);
   position: relative;
 }
@@ -1273,6 +1325,13 @@ figure.shot figcaption {
   }
   .menu-btn { width: 72px; height: 72px; }
   .site-bar { --menu-size: 72px; }
+  .scroll-hint {
+    left: auto;
+    right: var(--gutter);
+    transform: none;
+    width: 44px;
+    height: 44px;
+  }
 }
 
 @media (max-width: 720px) {
@@ -1294,4 +1353,5 @@ figure.shot figcaption {
   .reveal { opacity: 1; transform: none; }
   .preloader { display: none; }
   .about-reel { overflow-x: auto; mask-image: none; }
+  .scroll-hint-mark { animation: none !important; }
 }
