@@ -625,7 +625,7 @@
           '<a class="resume-dl" href="' + pdf + '" download="HemantVResume.pdf">Download PDF</a>' +
           '<button class="resume-close" type="button" aria-label="Close resume">&times;</button>' +
         "</div>" +
-        '<div class="resume-preview">' +
+        '<div class="resume-preview" data-lenis-prevent>' +
           '<img src="' + preview + '" alt="Resume preview" />' +
         "</div>" +
       "</div>";
@@ -636,11 +636,13 @@
       modal.classList.add("open");
       document.body.style.overflow = "hidden";
       if (typeof setMenu === "function") setMenu(false);
+      if (lenis && typeof lenis.stop === "function") lenis.stop();
       closeBtn.focus();
     }
     function closeResume() {
       modal.classList.remove("open");
       document.body.style.overflow = "";
+      if (lenis && typeof lenis.start === "function") lenis.start();
     }
 
     document.addEventListener("click", function (e) {
