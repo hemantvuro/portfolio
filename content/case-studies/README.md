@@ -13,7 +13,7 @@ these files — edit content here first, then reflect it in the HTML.
 
 | Slug | Project | Company | Status | Page | Content file | Visuals folder |
 |------|---------|---------|--------|------|--------------|----------------|
-| `messaging-vision` | Messaging Component Builder 2.0 | Salesforce (Service Cloud) | 🔒 Confidential | `work/messaging-vision.html` | `messaging-vision.md` (full, 26 slides) | `assets/case-studies/messaging-vision/` ✅ 26 images |
+| `messaging-vision` | Messaging Component Builder 2.0 | Salesforce (Service Cloud) | 🔒 Confidential | `work/messaging-vision.html` | `messaging-vision.md` (26 slides + prototype walkthrough) | `assets/case-studies/messaging-vision/` ✅ 26 slides · `…/prototype/` ✅ 12 screens |
 | `customer360` | Customer360 | ServiceNow (CSM Customer Ops) | 🌐 Showable | `work/customer360.html` | `customer360.md` (full, 23 slides) | `assets/case-studies/customer360/` ✅ 23 images |
 | `patient360` | Patient360 | Self-initiated (reframed from a design challenge) | 🌐 Public | `work/patient360.html` | `patient360.md` (full, 13 discovery slides + 15 final screens + notes) | `assets/case-studies/patient360/` ✅ 13 slides · `…/final/` ✅ 15 screens |
 
