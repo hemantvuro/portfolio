@@ -3,183 +3,293 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hemant Vurakaranam — Senior Product Designer</title>
-  <meta name="description" content="Senior Product Designer with 10 years across enterprise B2B and B2C. A quick sampler of selected work spanning facilitation, product vision, and shipped releases." />
-
-  <!-- Open Graph / link preview -->
+  <title>Hemant Vurakaranam, senior product designer</title>
+  <meta name="description" content="Senior product designer · Enterprise · B2B · B2C" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Hemant Vurakaranam — Senior Product Designer" />
-  <meta property="og:description" content="Senior Product Designer · Enterprise. Facilitation · Vision · Release." />
+  <meta property="og:title" content="Hemant Vurakaranam, senior product designer" />
+  <meta property="og:description" content="Senior product designer · Enterprise · B2B · B2C" />
   <meta property="og:image" content="assets/images/og-image.png" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta property="og:image:type" content="image/png" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:image" content="assets/images/og-image.png" />
-
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+  <link rel="preconnect" href="https://api.fontshare.com" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.css" />
   <link rel="stylesheet" href="css/styles.css" />
+  <script>
+    (function () {
+      try {
+        var nav = performance.getEntriesByType && performance.getEntriesByType("navigation")[0];
+        var type = nav ? nav.type : "navigate";
+        var seen = sessionStorage.getItem("hv-hello") === "1";
+        if (type !== "reload" && (type === "back_forward" || seen)) {
+          document.documentElement.classList.add("skip-hello");
+        }
+      } catch (e) {}
+    })();
+  </script>
 </head>
-<body>
-  <!-- ============ NAV ============ -->
-  <header class="site-nav">
-    <div class="container">
-      <a class="brand" href="index.html">Hemant Vurakaranam<span>.</span></a>
-      <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
-      <nav class="nav-links">
-        <a href="#about">About</a>
-        <a href="#work">Work</a>
-        <a class="btn btn--ghost" href="assets/resume.pdf" download>Resume ↓</a>
+<body class="page-home" data-root="">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="preloader" role="dialog" aria-label="Loading. Click or tap to enter.">
+    <span class="preloader-dot"></span>
+    <span class="preloader-word">Hello</span>
+    <span class="preloader-skip">Click to enter</span>
+  </div>
+  <div class="transition-panel" aria-hidden="true"><div class="transit-blue"></div><div class="transit-bg"></div></div>
+
+  <header class="site-bar">
+    <div class="site-bar-end">
+      <nav class="fold-nav" aria-label="Primary">
+        <a class="fold-link" href="#work">Work</a>
+        <a class="fold-link" href="#experience">Experience</a>
+        <a class="fold-link" href="#about">About</a>
+        <a class="fold-link" href="#contact">Contact</a>
+        <a class="fold-link fold-link--resume" href="assets/resume.pdf" data-resume-modal>Resume</a>
       </nav>
+      <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-menu" aria-hidden="true" tabindex="-1">
+        <span class="menu-ic menu-ic--open" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true">
+            <path d="M5 8h14M5 12h14M5 16h14"/>
+          </svg>
+        </span>
+        <span class="menu-ic menu-ic--close" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true">
+            <path d="M7 7l10 10M17 7L7 17"/>
+          </svg>
+        </span>
+      </button>
     </div>
   </header>
 
-  <main>
-    <!-- ============ HERO ============ -->
-    <section class="hero">
-      <div class="container">
-        <p class="eyebrow reveal">Senior Product Designer · Enterprise</p>
-        <h1 class="reveal">I turn complex, high-stakes enterprise problems into products people trust.</h1>
-        <p class="lede reveal">Hi, I’m Hemant, an end-to-end product designer with 10 years across B2B and B2C. Today I lead messaging design at Salesforce; before that, enterprise workflows at ServiceNow.</p>
-        <div class="hero-actions reveal">
-          <a class="btn btn--primary" href="#work">See selected work <span class="arrow">→</span></a>
-          <a class="btn btn--ghost" href="assets/resume.pdf" download>View Resume <span class="arrow">↓</span></a>
-        </div>
-        <div class="hero-meta reveal">
-          <span class="pill pill--accent">Open to relocation</span>
-          <span>Enterprise · SaaS · Messaging · AI</span>
+  <div class="menu-overlay" id="site-menu">
+    <nav>
+      <a class="mlink" href="#work">Work</a>
+      <a class="mlink" href="#experience">Experience</a>
+      <a class="mlink" href="#about">About</a>
+      <a class="mlink" href="#contact">Contact</a>
+      <a class="mlink" href="assets/resume.pdf" data-resume-modal>Resume</a>
+      <div class="menu-socials">
+        <a href="https://www.linkedin.com/in/hemant-vurakaranam/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:hemant.vuro@gmail.com">Email</a>
+      </div>
+    </nav>
+  </div>
+
+  <main id="main">
+    <section class="hero" aria-label="Introduction">
+      <canvas class="hero-play" id="hero-play" aria-hidden="true"></canvas>
+      <p class="book-tag">
+        <span class="book-tag-orb" aria-hidden="true">
+          <svg class="globe-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="9"/>
+            <ellipse cx="12" cy="12" rx="9" ry="3.5"/>
+            <g class="globe-spin">
+              <ellipse cx="12" cy="12" rx="3.4" ry="9"/>
+              <ellipse cx="12" cy="12" rx="6.4" ry="9"/>
+              <path d="M12 3v18"/>
+            </g>
+          </svg>
+        </span>
+        <span class="book-tag-text">Open for<br />relocation</span>
+      </p>
+      <div class="hero-copy">
+        <div class="hero-copy-inner">
+          <h1 tabindex="0" role="button" aria-label="Align particles">Hemant Vurakaranam</h1>
+          <div class="hero-role">Senior product designer</div>
         </div>
       </div>
     </section>
 
-    <hr class="rule" />
-
-    <!-- ============ SOCIAL ============ -->
-    <section aria-label="Social links" style="padding-block: clamp(1.8rem,4vw,2.6rem);">
-      <div class="container socials reveal">
-        <a href="https://www.linkedin.com/in/hemant-vurakaranam/" target="_blank" rel="noopener">in — LinkedIn</a>
-        <a href="mailto:hemant.vuro@gmail.com">✉ hemant.vuro@gmail.com</a>
+    <section class="manifesto" aria-label="About, short">
+      <h2>I design for the whole system, not just screens.</h2>
+      <div class="manifesto-side">
+        <p class="manifesto-line">Balancing user, business, and stakeholder needs with AI, to make seamless experiences.</p>
+        <p>The hard part is rarely the interface, it’s the ambiguity, the stakeholders, and the constraints. I like getting in a room to agree on the problem before we talk about the solution, then translating that alignment into products that actually ship.</p>
+        <a class="text-cta" href="#about">About me <span aria-hidden="true">→</span></a>
       </div>
     </section>
 
-    <hr class="rule" />
+    <section class="work" id="work">
+      <div class="work-inner">
+        <p class="work-kicker">Selected work</p>
+      </div>
 
-    <!-- ============ ABOUT ============ -->
-    <section id="about">
-      <div class="container">
-        <div class="about-grid">
-          <div class="about-photo reveal">
-            <img src="assets/images/about-hemant.jpg" alt="Portrait of Hemant Vurakaranam" width="220" height="440" style="display:block;width:100%;height:100%;object-fit:cover" />
+      <div class="work-list">
+        <a class="work-row work-row--now" href="work/customer360.html">
+          <div class="work-row-copy">
+            <p class="work-pills">
+              <span>ServiceNow</span>
+              <span>Shipped</span>
+            </p>
+            <p class="work-name">Customer 360</p>
+            <h3>Replacing scattered tabs with one customer 360 that actually shipped</h3>
           </div>
-          <div class="reveal">
-            <p class="eyebrow">About</p>
-            <p class="lede">I’m a product designer who’s equally comfortable running a room full of stakeholders and pushing pixels the night before a release.</p>
-            <p>Over the last decade I’ve designed for leading B2B and B2C brands across consumer, healthcare, telecom, finance, banking, energy, and technology from IoT startups and design agencies to Deloitte Digital, ServiceNow, and now Salesforce. The hard part is rarely the interface, it’s the ambiguity, the stakeholders, and the constraints. I like getting a room to agree on the problem before we talk about the solution, then translating that alignment into scalable, user-focused products that actually ship.</p>
+          <div class="work-stage" aria-hidden="true">
+            <div class="work-stage-shots">
+              <img class="shot shot-l" src="assets/case-studies/customer360/slide-18-business-location-360.png" alt="" />
+              <img class="shot shot-c" src="assets/case-studies/customer360/slide-22-bl360-shipped.png" alt="" />
+              <img class="shot shot-r" src="assets/case-studies/customer360/slide-13-entity360-vision.png" alt="" />
+            </div>
           </div>
-        </div>
+        </a>
+
+        <a class="work-row work-row--sf" href="work/messaging-vision.html">
+          <div class="work-row-copy">
+            <p class="work-pills">
+              <span>Salesforce</span>
+              <span>Vision</span>
+              <span class="is-conf">Confidential</span>
+            </p>
+            <p class="work-name">Messaging Component Builder</p>
+            <h3>Redesigning a painful messaging builder into an AI workspace that actually helps</h3>
+          </div>
+          <div class="work-stage" aria-hidden="true">
+            <div class="work-stage-shots work-stage-shots--solo">
+              <img class="shot shot-c" src="assets/images/mcb-cover.svg" alt="" />
+            </div>
+          </div>
+        </a>
+
+        <a class="work-row work-row--p360" href="work/patient360.html">
+          <div class="work-row-copy">
+            <p class="work-pills">
+              <span>Self-initiated</span>
+              <span>Healthcare</span>
+            </p>
+            <p class="work-name">Patient 360</p>
+            <h3>One patient record that reshapes itself for the nurse and the doctor</h3>
+          </div>
+          <div class="work-stage" aria-hidden="true">
+            <div class="work-stage-shots">
+              <img class="shot shot-l" src="assets/case-studies/patient360/final/final-01-nurse-dashboard-empty.png" alt="" />
+              <img class="shot shot-c" src="assets/case-studies/patient360/final/final-05-doctor-view-aisummary.png" alt="" />
+              <img class="shot shot-r" src="assets/case-studies/patient360/final/final-03-nurse-vitals-notes-careplans.png" alt="" />
+            </div>
+          </div>
+        </a>
       </div>
     </section>
 
-    <!-- ============ STRENGTHS ============ -->
-    <section id="strengths" class="band">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">What I bring</p>
-          <h2>Four things I’m consistently trusted to do.</h2>
-        </div>
-        <div class="grid grid-4">
-          <article class="card reveal"><span class="num">01</span><h3>Facilitation</h3><p class="muted">Workshops, alignment sessions, and research readouts that turn a divided room into a shared direction.</p></article>
-          <article class="card reveal"><span class="num">02</span><h3>Vision</h3><p class="muted">North-star concepts that give teams something concrete to aim at — and a reason to fund the work.</p></article>
-          <article class="card reveal"><span class="num">03</span><h3>Release / Delivery</h3><p class="muted">Pragmatic, shippable design that survives contact with engineering, deadlines, and edge cases.</p></article>
-          <article class="card reveal"><span class="num">04</span><h3>Enterprise UX</h3><p class="muted">Comfort in dense, permissioned, data-heavy products where every screen carries real consequences.</p></article>
-        </div>
-      </div>
+    <section class="experience" id="experience">
+      <h2>Experience</h2>
+      <ul class="exp">
+        <li class="exp-row">
+          <p class="when"><span>Feb 2024 to Present</span><span>Hyderabad, India</span></p>
+          <div class="exp-top">
+            <span class="exp-logo-wrap"><img class="exp-logo" src="assets/images/logos/exp-salesforce.png" alt="" width="64" height="64" /></span>
+            <span class="company">Salesforce</span>
+          </div>
+          <p class="role">Senior product designer</p>
+          <p class="exp-blurb">Led UX design for Salesforce Service Cloud. I directed the UX vision for enterprise omnichannel messaging (Chat, WhatsApp, Facebook, SMS, and RCS), guiding the product from north-star concepts down to shipped features.</p>
+        </li>
+        <li class="exp-row">
+          <p class="when"><span>Jul 2020 to Feb 2024</span><span>Hyderabad, India</span></p>
+          <div class="exp-top">
+            <span class="exp-logo-wrap"><img class="exp-logo" src="assets/images/logos/exp-servicenow.png" alt="" width="64" height="64" /></span>
+            <span class="company">ServiceNow</span>
+          </div>
+          <p class="role">Product designer → Senior product designer</p>
+          <p class="exp-blurb">Owned UX design for ServiceNow's Customer Service Management suite. I designed the core experiences for Workforce Engagement Management and Customer Operations, transforming stakeholder alignment and usability testing into seamless, end-to-end workflows.</p>
+        </li>
+        <li class="exp-row">
+          <p class="when"><span>Feb 2019 to Feb 2020</span><span>Bangalore, India</span></p>
+          <div class="exp-top">
+            <span class="exp-logo-wrap"><img class="exp-logo" src="assets/images/logos/exp-moonraft.png" alt="" width="64" height="64" /></span>
+            <span class="company">Moonraft Innovation Labs</span>
+          </div>
+          <p class="role">UX designer</p>
+          <p class="exp-blurb">Led client-facing UX at Moonraft for Adobe, BDO Unibank, and Intuit. Adapting to different roles to fit business needs, I drove projects from initial stakeholder workshops down to fully realized product experiences.</p>
+        </li>
+        <li class="exp-row">
+          <p class="when"><span>Jan 2018 to Feb 2019</span><span>Bangalore, India</span></p>
+          <div class="exp-top">
+            <span class="exp-logo-wrap"><img class="exp-logo" src="assets/images/logos/exp-smartron.png" alt="" width="64" height="64" /></span>
+            <span class="company">Smartron India</span>
+          </div>
+          <p class="role">Product designer</p>
+          <p class="exp-blurb">Designed AI/NLP-powered interfaces for IoT products at Smartron. I worked across the entire UX lifecycle, taking the product from high-level service design down to intuitive visual experiences.</p>
+        </li>
+        <li class="exp-row">
+          <p class="when"><span>Apr 2016 to Jan 2018</span><span>Mumbai, India</span></p>
+          <div class="exp-top">
+            <span class="exp-logo-wrap"><img class="exp-logo" src="assets/images/logos/exp-deloitte.png" alt="" width="64" height="64" /></span>
+            <span class="company">Deloitte Digital</span>
+          </div>
+          <p class="role">UX designer</p>
+          <p class="exp-blurb">Designed digital experiences at Deloitte Digital for B2B and B2C clients, including ExxonMobil, Colgate, and Constellation Brands. Embedded within agile teams, I translated initial client requirements down to final, polished deliverables.</p>
+        </li>
+        <li class="exp-row">
+          <p class="when"><span>Jun 2015 to Jan 2016</span><span>Bangalore, India</span></p>
+          <div class="exp-top">
+            <span class="exp-logo-wrap"><img class="exp-logo" src="assets/images/logos/exp-papercats.png" alt="" width="64" height="64" /></span>
+            <span class="company">Papercats Studio</span>
+          </div>
+          <p class="role">Designer</p>
+          <p class="exp-blurb">Designed interaction, spatial, and packaging experiences at Papercats Studio for brands including ChaiPoint. Working across multiple mediums, I translated high-level concepts down to interactive environments, digital touchpoints and sustainable physical deliverables.</p>
+        </li>
+      </ul>
     </section>
 
-    <!-- ============ EXPERIENCE ============ -->
-    <section id="experience">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">Experience</p>
-          <h2>Where I’ve been.</h2>
-        </div>
-        <ul class="exp">
-          <li class="reveal"><div class="when">Feb 2024 — Present · Hyderabad, India</div><div><h3>Salesforce</h3><p class="role">Senior Product Designer</p><p class="muted">Lead designer for Salesforce Chat, WhatsApp & RCS messaging in Service Cloud — product vision, user flows, and north-star experiences for enterprise support.</p></div></li>
-          <li class="reveal"><div class="when">Jul 2020 — Feb 2024 · Hyderabad, India</div><div><h3>ServiceNow</h3><p class="role">Product Designer → Senior Product Designer</p><p class="muted">Designed Workforce Engagement Management and Customer Operations for the Customer Service Management suite — end-to-end workflows, prototyping, usability testing, and stakeholder workshops.</p></div></li>
-          <li class="reveal"><div class="when">Feb 2019 — Feb 2020 · Bangalore, India</div><div><h3>Moonraft Innovation Labs</h3><p class="role">UX Designer</p><p class="muted">Led client-facing design for Adobe, BDO Unibank, and Intuit — UX strategy, wireframes, and high-fidelity prototypes.</p></div></li>
-          <li class="reveal"><div class="when">Jan 2018 — Feb 2019 · Bangalore, India</div><div><h3>Smartron India</h3><p class="role">Product Designer</p><p class="muted">Designed AI/NLP-powered interfaces for IoT products, spanning service design and visual design across the full UX cycle.</p></div></li>
-          <li class="reveal"><div class="when">Apr 2016 — Jan 2018 · Mumbai, India</div><div><h3>Deloitte Digital</h3><p class="role">UX Designer</p><p class="muted">Delivered B2B/B2C digital solutions for clients like ExxonMobil, Colgate, and Constellation Brands within agile teams.</p></div></li>
-          <li class="reveal"><div class="when">Jun 2015 — Jan 2016 · Bangalore, India</div><div><h3>Papercats Studio</h3><p class="role">Designer</p><p class="muted">Interaction design, interactive spaces, and packaging — including sustainable packaging for ChaiPoint.</p></div></li>
-        </ul>
+    <section class="about" id="about">
+      <h2>About me</h2>
+      <div class="about-photo">
+        <img src="assets/images/about-hemant.jpg" alt="Portrait of Hemant Vurakaranam" width="320" height="427" />
       </div>
-    </section>
-
-    <!-- ============ SELECTED WORK ============ -->
-    <section id="work" class="band">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">Selected work</p>
-          <h2>Three projects, three different problems.</h2>
-        </div>
-        <div class="work-grid">
-          <!-- Featured -->
-          <article class="tile reveal">
-            <a href="work/customer360.html" style="display:flex;flex-direction:column;height:100%">
-              <div class="tile-media"><img src="assets/images/c360-cover.svg" alt="Customer 360 dashboard concept: identity rail, KPI tiles, a life-events timeline, and recommended actions" /></div>
-              <div class="tile-body">
-                <span class="tile-sub">ServiceNow · Customer Service Management</span>
-                <h3>Customer360</h3>
-                <p class="tile-info muted">Enterprise customer operations, told through three lenses: facilitation, vision, and release.</p>
-                <div class="tags"><span class="tag">Facilitation</span><span class="tag">Vision</span><span class="tag">Release</span><span class="tag">Enterprise</span></div>
-                <span class="tile-cta">View details <span class="arrow">→</span></span>
-              </div>
-            </a>
-          </article>
-
-          <article class="tile reveal">
-            <a href="work/messaging-vision.html" style="display:flex;flex-direction:column;height:100%">
-              <div class="tile-media"><img src="assets/images/mcb-cover.svg" alt="Messaging Component Builder concept: an AI chat panel, a live component preview, and a configuration rail" /></div>
-              <div class="tile-body">
-                <span class="badge-conf">Confidential · redacted</span>
-                <span class="tile-sub">Salesforce · Service Cloud</span>
-                <h3>Messaging Component Builder</h3>
-                <p class="tile-info muted">A north-star vision for Chat, WhatsApp & RCS: from usability issues and heuristics to an AI-led concept.</p>
-                <div class="tags"><span class="tag">Vision</span><span class="tag">Research</span><span class="tag">Messaging</span><span class="tag">AI</span></div>
-                <span class="tile-cta">View details <span class="arrow">→</span></span>
-              </div>
-            </a>
-          </article>
-
-          <article class="tile reveal">
-            <a href="work/patient360.html" style="display:flex;flex-direction:column;height:100%">
-              <div class="tile-media"><img src="assets/images/p360-cover.svg" alt="Patient 360 concept: one shared record reshaping into a nurse view and a doctor view" /></div>
-              <div class="tile-body">
-                <span class="tile-sub">Self-initiated · Public</span>
-                <h3>Patient360</h3>
-                <p class="tile-info muted">A complete, fictional take on the Customer360 pattern — the parts I can show in full.</p>
-                <div class="tags"><span class="tag">End-to-end</span><span class="tag">Healthcare</span></div>
-                <span class="tile-cta">View details <span class="arrow">→</span></span>
-              </div>
-            </a>
-          </article>
+      <div class="about-copy">
+        <p class="about-lead">Hi, I’m Hemant.<button class="say-name" type="button" aria-label="Hear how to say Hemant" title="HEY-munt">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+            <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+            <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+          </svg>
+        </button></p>
+        <p>I love learning about a new user, I naturally think in end-to-end systems, and I adapt fast. Right now, my biggest obsession is vibing with AI.<br />Over the last decade I’ve designed for B2B and B2C brands in consumer, healthcare, telecom, finance, energy, and tech. I’ve worked with startups, agencies, and multi-billion-dollar companies.</p>
+        <p class="about-life">When I’m not working, I’m usually planning my next trip or currently on it. I love diving into new cultures, cooking global cuisines, shooting photos, and constantly learning new skills.</p>
+        <p class="about-quote">“Curiosity killed the cat, but satisfaction brought it back.”</p>
+      </div>
+      <div class="about-reel" aria-label="Personal photos">
+        <div class="about-reel-track">
+          <img src="assets/images/about-gallery/01.jpg" alt="Hemant at a hot air balloon festival" width="768" height="1024" />
+          <img src="assets/images/about-gallery/02.jpg" alt="Hemant cooking at a cooking school" width="750" height="1000" />
+          <img src="assets/images/about-gallery/03.jpg" alt="Hemant sitting in front of a kitchen mural" width="768" height="1024" />
+          <img src="assets/images/about-gallery/04.jpg" alt="Hemant in a valley of rock formations" width="768" height="1024" />
+          <img src="assets/images/about-gallery/05.jpg" alt="Hemant on a motorcycle in Dalat" width="768" height="1024" />
+          <img src="assets/images/about-gallery/06.jpg" alt="Hemant petting a cat on a city street" width="768" height="1024" />
+          <img src="assets/images/about-gallery/07.jpg" alt="Hemant in front of a snow-capped mountain and lake" width="768" height="1024" />
+          <img src="assets/images/about-gallery/08.jpg" alt="Hemant hiking a stone path" width="768" height="1024" />
+          <img src="assets/images/about-gallery/09.jpg" alt="Hemant after a 5K race, holding a medal" width="768" height="1024" />
+          <img src="assets/images/about-gallery/10.jpg" alt="Hemant on a beach with a surfboard" width="592" height="1024" />
+          <img src="assets/images/about-gallery/01.jpg" alt="" width="768" height="1024" />
+          <img src="assets/images/about-gallery/02.jpg" alt="" width="750" height="1000" />
+          <img src="assets/images/about-gallery/03.jpg" alt="" width="768" height="1024" />
+          <img src="assets/images/about-gallery/04.jpg" alt="" width="768" height="1024" />
+          <img src="assets/images/about-gallery/05.jpg" alt="" width="768" height="1024" />
+          <img src="assets/images/about-gallery/06.jpg" alt="" width="768" height="1024" />
+          <img src="assets/images/about-gallery/07.jpg" alt="" width="768" height="1024" />
+          <img src="assets/images/about-gallery/08.jpg" alt="" width="768" height="1024" />
+          <img src="assets/images/about-gallery/09.jpg" alt="" width="768" height="1024" />
+          <img src="assets/images/about-gallery/10.jpg" alt="" width="592" height="1024" />
         </div>
       </div>
     </section>
   </main>
 
-  <!-- ============ FOOTER ============ -->
   <footer class="site-footer" id="contact">
-    <div class="container">
-      <div class="foot-bottom" style="margin-top:0;border-top:0">
-        <span>© 2026 Hemant Vurakaranam</span>
-        <span class="foot-mini">
-          <a href="mailto:hemant.vuro@gmail.com">Email</a>
-          <a href="https://www.linkedin.com/in/hemant-vurakaranam/" target="_blank" rel="noopener">LinkedIn</a>
-        </span>
-      </div>
+    <h2 class="foot-title">Let’s talk</h2>
+    <div class="foot-actions">
+      <a class="round-cta light" href="assets/resume.pdf" data-resume-modal>Resume</a>
+      <a class="round-cta ghost" href="https://www.linkedin.com/in/hemant-vurakaranam/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="round-cta ghost" href="mailto:hemant.vuro@gmail.com">Email</a>
+    </div>
+    <div class="foot-meta">
+      <div class="val">© Hemant Vurakaranam · 2026</div>
     </div>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

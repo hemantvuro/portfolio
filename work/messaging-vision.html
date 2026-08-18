@@ -3,69 +3,76 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Messaging Component Builder — a north-star vision · Hemant Vurakaranam</title>
-  <meta name="description" content="A north-star vision for Salesforce's Messaging Component Builder — turning a legacy, engineer-built tool into an AI-first, consumer-grade workspace. Grounded in a heuristic audit, user testing, and cross-functional workshops. Confidential; redacted." />
-  <meta property="og:title" content="Messaging Component Builder — a north-star vision" />
-  <meta property="og:description" content="Evidence → alignment → AI-first vision. Heuristic audit, user testing, workshops, and a 'Tell me + Tweak it' concept. Redacted." />
+  <title>Messaging Component Builder: a north star vision · Hemant Vurakaranam</title>
+  <meta name="description" content="A north star vision for Salesforce's Messaging Component Builder. A legacy, engineer-built tool, redesigned as an AI-first workspace. Heuristic audit, user testing, and cross-functional workshops. Confidential; redacted." />
+  <meta property="og:title" content="Messaging Component Builder: a north star vision" />
+  <meta property="og:description" content="Evidence, alignment, then an AI-first vision. Heuristic audit, user testing, workshops, and a Tell me + Tweak it concept. Redacted." />
   <meta property="og:image" content="../assets/images/og-image.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta name="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/svg+xml" href="../assets/images/favicon.svg" />
+  <link rel="preconnect" href="https://api.fontshare.com" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.css" />
   <link rel="stylesheet" href="../css/styles.css" />
 </head>
-<body>
-  <header class="site-nav">
-    <div class="container">
-      <a class="brand" href="../index.html">Hemant Vurakaranam<span>.</span></a>
-      <button class="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
-      <nav class="nav-links">
-        <a href="../index.html#about">About</a>
-        <a href="../index.html#work">Work</a>
-        <a class="btn btn--ghost" href="../assets/resume.pdf" download>Resume ↓</a>
-      </nav>
+<body class="page-cs" data-root="../">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="transition-panel" aria-hidden="true"><div class="transit-blue"></div><div class="transit-bg"></div></div>
+  <header class="site-bar">
+    <div class="site-bar-end">
+      <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-menu">
+        <span class="menu-ic menu-ic--open" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true">
+            <path d="M5 8h14M5 12h14M5 16h14"/>
+          </svg>
+        </span>
+        <span class="menu-ic menu-ic--close" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true">
+            <path d="M7 7l10 10M17 7L7 17"/>
+          </svg>
+        </span>
+      </button>
     </div>
   </header>
+  <div class="menu-overlay" id="site-menu">
+    <nav>
+      <a class="mlink" href="../index.html">Home</a>
+      <a class="mlink" href="../index.html#work">Work</a>
+      <a class="mlink" href="../index.html#experience">Experience</a>
+      <a class="mlink" href="../index.html#about">About</a>
+      <a class="mlink" href="../assets/resume.pdf" data-resume-modal>Resume</a>
+      <div class="menu-socials">
+        <a href="https://www.linkedin.com/in/hemant-vurakaranam/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:hemant.vuro@gmail.com">Email</a>
+      </div>
+    </nav>
+  </div>
 
-  <main>
+  <main id="main">
     <section class="cs-hero">
       <div class="container">
         <a class="back-link" href="../index.html#work">← Back to work</a>
-        <p class="eyebrow" style="margin-top:1rem">Salesforce · Service Cloud · Confidential</p>
-        <h1>Messaging Component Builder: a north-star vision.</h1>
-        <p class="lede">Turning a powerful but painful tool into an AI-first, consumer-grade workspace — grounded in a heuristic audit, user testing, and cross-functional workshops.</p>
-        <div class="cs-outcomes reveal">
-          <span class="oc"><b>7/10</b> heuristics rated critical</span>
-          <span class="oc"><b>0/8</b> baseline task success</span>
-          <span class="oc"><b>Cross-functional</b> buy-in secured</span>
-        </div>
+        <p class="eyebrow">Salesforce · Service Cloud · Confidential</p>
+        <h1>Messaging Component Builder: a confidential north star.</h1>
+        <p class="lede">A redesign of a painful, engineer-built legacy tool into an AI-first workspace. This page is the vision, not the live builder.</p>
         <div class="meta-row">
-          <div><div class="k">Role</div><div class="v">Lead Designer</div></div>
+          <div><div class="k">Role</div><div class="v">Lead designer</div></div>
           <div><div class="k">Company</div><div class="v">Salesforce · Service Cloud</div></div>
           <div><div class="k">Year</div><div class="v">2026</div></div>
-          <div><div class="k">Themes</div><div class="v">Product Vision · Enterprise UX · AI</div></div>
+          <div><div class="k">Themes</div><div class="v">Product vision · Enterprise UX · AI</div></div>
         </div>
       </div>
     </section>
 
     <section style="padding-top:0">
       <div class="container">
-        <div class="cs-cover reveal"><img src="../assets/images/mcb-cover.svg" alt="Generative AI Workspace concept: an AI chat panel, a live component preview, and a configuration rail" /></div>
-        <p class="muted reveal" style="margin-top:.9rem;font-size:var(--step--1)">Confidential work. Visuals on this page are clean re-creations of the concept; real product screens, customer names, and internal business metrics are redacted — full walkthrough available on request.</p>
-      </div>
-    </section>
-
-    <hr class="rule" />
-
-    <!-- PILLARS / THREE LENSES -->
-    <section>
-      <div class="container">
-        <div class="section-head reveal"><p class="eyebrow">The three lenses</p><h2>How this project is best understood.</h2></div>
-        <div class="pillars" style="grid-template-columns:repeat(3,1fr)">
-          <div class="pillar reveal"><span class="num">01</span><h3>Rigor</h3><p class="muted">A heuristic audit plus 8 moderated testing sessions to ground the vision in evidence, not opinion.</p></div>
-          <div class="pillar reveal"><span class="num">02</span><h3>Facilitation</h3><p class="muted">Cross-functional and AI-assisted workshops to align design, PM, and engineering.</p></div>
-          <div class="pillar reveal"><span class="num">03</span><h3>Vision</h3><p class="muted">An AI-first “Generative Workspace” north star that respects both the user and the system.</p></div>
-        </div>
+        <div class="cs-cover reveal"><img src="../assets/images/mcb-cover.svg" alt="Concept of an AI-first messaging workspace: a prompt on the left and a live preview on the canvas" /></div>
+        <p class="muted reveal" style="margin-top:.9rem;font-size:var(--step--1)">Confidential north star. Parts of this direction moved into the product. The walkthrough is for the interview.</p>
       </div>
     </section>
 
@@ -75,10 +82,10 @@
     <section>
       <div class="container">
         <div class="section-head reveal"><p class="eyebrow">The problem</p><h2>A tool that fought the people who relied on it.</h2></div>
-        <p class="lede reveal" style="margin-bottom:2.4rem">A heuristic evaluation and user testing revealed the builder was failing the people who relied on it most. The interface leaned on a legacy pattern that didn’t match how users actually think — they reason <strong>channel-first</strong>, the tool didn’t. And like many legacy tools, it had been <strong>built by engineers</strong>, so the UX was inconsistent and all over the place — optimized for the system’s structure, not the user’s.</p>
+        <p class="lede reveal" style="margin-bottom:2.4rem">A heuristic evaluation and user testing showed the builder was failing the people who used it most. Users think <strong>channel-first</strong>. The tool didn’t. Like a lot of legacy tools, it had been <strong>built by engineers</strong>, so the UX followed the system’s structure, not the person’s.</p>
         <div class="callouts">
-          <div class="callout reveal"><h3>Engineer-built legacy UI</h3><p class="muted">Outdated interactions, inconsistent patterns, and heavy reliance on external documentation.</p></div>
-          <div class="callout reveal"><h3>Mental-model mismatch</h3><p class="muted">Users think channel-first; the backend is channel-agnostic — a fundamental gap.</p></div>
+          <div class="callout reveal"><h3>Engineer-built legacy UI</h3><p class="muted">Outdated interactions, inconsistent patterns, and a lot of looking things up in docs.</p></div>
+          <div class="callout reveal"><h3>Mental-model mismatch</h3><p class="muted">Users think channel-first. The backend is channel-agnostic. That gap was the real problem.</p></div>
           <div class="callout reveal"><h3>Trial-and-error</h3><p class="muted">People weren’t sure how a component would behave, so they hesitated and clicked around.</p></div>
         </div>
       </div>
@@ -89,12 +96,12 @@
     <!-- EVIDENCE / RIGOR -->
     <section>
       <div class="container">
-        <div class="section-head reveal"><p class="eyebrow">Grounding it in evidence</p><h2>I made the pain undeniable first.</h2></div>
-        <p class="lede reveal" style="margin-bottom:2.2rem">In my moderated study of the <em>existing</em> tool, task success was near-zero without intervention — which is exactly what made the case for a redesign. A 10-point Nielsen heuristic audit turned scattered complaints into a prioritized, defensible list.</p>
+        <div class="section-head reveal"><p class="eyebrow">Grounding it in evidence</p><h2>I put the pain in numbers first.</h2></div>
+        <p class="lede reveal" style="margin-bottom:2.2rem">In my moderated study of the <em>existing</em> tool, task success was near-zero without help. That made the case for a redesign. A 10-point Nielsen heuristic audit turned scattered complaints into a ranked list we could argue from.</p>
         <div class="outcomes">
           <div class="metric reveal"><div class="big">7/10</div><div class="lbl">Nielsen heuristics rated critical</div></div>
           <div class="metric reveal"><div class="big">0/8</div><div class="lbl">Task success without intervention (my study)</div></div>
-          <div class="metric reveal"><div class="big">85%</div><div class="lbl">Hesitation index — users resorted to random clicking</div></div>
+          <div class="metric reveal"><div class="big">85%</div><div class="lbl">Hesitation index: users resorted to random clicking</div></div>
           <div class="metric reveal"><div class="big">8</div><div class="lbl">Moderated sessions · 4 personas · 6 countries</div></div>
         </div>
 
@@ -110,14 +117,14 @@
     <!-- PROCESS & SEQUENCE -->
     <section>
       <div class="container">
-        <div class="section-head reveal"><p class="eyebrow">Process</p><h2>Evidence → alignment → vision, in that order.</h2></div>
-        <p class="lede reveal" style="margin-bottom:2.4rem">The sequence is the point. The vision is credible <em>because</em> it came last — grounded in a diagnosis of the current product and shared alignment before a single concept was drawn.</p>
+        <div class="section-head reveal"><p class="eyebrow">Process</p><h2>Evidence, then alignment, then vision.</h2></div>
+        <p class="lede reveal" style="margin-bottom:2.4rem">I didn’t start with a vision. I started with what was broken, got the room aligned, and only then drew a concept.</p>
         <ol class="process-list">
           <li class="reveal"><span class="step-num">01</span><div><h3>Audit</h3><p class="muted">Ran a 10-point heuristic evaluation on the existing builder to prioritize the real problems.</p></div></li>
           <li class="reveal"><span class="step-num">02</span><div><h3>Test</h3><p class="muted">8 moderated sessions across 4 personas and 6 countries surfaced where and why builders stalled.</p></div></li>
           <li class="reveal"><span class="step-num">03</span><div><h3>Align</h3><p class="muted">Workshops with design, PM, and engineering turned evidence into How-Might-We statements and buy-in.</p></div></li>
-          <li class="reveal"><span class="step-num">04</span><div><h3>Envision</h3><p class="muted">Only then designed the north-star: a Generative AI Workspace with a human-in-the-loop.</p></div></li>
-          <li class="reveal"><span class="step-num">05</span><div><h3>Chart next</h3><p class="muted">Defined a path from today to the vision — including a shippable mid-solution (see below).</p></div></li>
+          <li class="reveal"><span class="step-num">04</span><div><h3>Envision</h3><p class="muted">Only then designed the north star: a Generative AI Workspace with a human in the loop.</p></div></li>
+          <li class="reveal"><span class="step-num">05</span><div><h3>Chart next</h3><p class="muted">Mapped a path from today to that vision, including a mid-solution the team could actually ship.</p></div></li>
         </ol>
       </div>
     </section>
@@ -127,13 +134,8 @@
     <!-- FACILITATION -->
     <section>
       <div class="container">
-        <div class="section-head reveal"><p class="eyebrow">Facilitation</p><h2>Alignment was a team sport.</h2></div>
-        <div class="grid grid-4">
-          <div class="card reveal"><h3>Collaboration</h3><p class="muted">Not an isolated UX effort — cross-functional participation and shared ownership across the org.</p></div>
-          <div class="card reveal"><h3>Go broad</h3><p class="muted">Peer workshops to remove barriers to creativity, where no idea was off-limits.</p></div>
-          <div class="card reveal"><h3>Go narrow</h3><p class="muted">Sessions with PM &amp; engineering to reconcile the vision with feasibility, scope, and real-world constraints.</p></div>
-          <div class="card reveal"><h3>Vibe with AI</h3><p class="muted">Leaned into design–dev collaboration, using AI tools to rapidly ideate and prototype concepts.</p></div>
-        </div>
+        <div class="section-head reveal"><p class="eyebrow">Facilitation</p><h2>This only worked as a group.</h2></div>
+        <p class="lede reveal" style="margin:0;max-width:52ch">Design, PM, and engineering sat in the same rooms. We went broad with peers, then narrow on feasibility. AI tools helped us ideate fast, not skip the argument.</p>
       </div>
     </section>
 
@@ -142,12 +144,12 @@
     <!-- DECISION / VISION -->
     <section>
       <div class="container">
-        <div class="section-head reveal"><p class="eyebrow">The vision</p><h2>A Generative AI Workspace.</h2></div>
+        <div class="section-head reveal"><p class="eyebrow">The vision</p><h2>A generative AI workspace.</h2></div>
         <p class="lede reveal" style="margin-bottom:2.4rem">Rather than patch the old UI, I made the case for a redesign built on a <strong>“Tell me + Tweak it”</strong> model: the AI gets you ~80% of the way from a plain-language prompt, then you refine with full control. Three principles anchored it.</p>
         <div class="grid grid-3">
-          <div class="card reveal"><span class="num">01</span><h3>Channel-specific</h3><p class="muted">The interface reflects the user’s channel-first mental model — you say where it’s going, and the UI adapts.</p></div>
+          <div class="card reveal"><span class="num">01</span><h3>Channel-specific</h3><p class="muted">You say where the message is going, and the UI adapts. That matches how people already think.</p></div>
           <div class="card reveal"><span class="num">02</span><h3>Simple system</h3><p class="muted">Let the system handle complexity. Keep navigation simple, flexible, and predictable.</p></div>
-          <div class="card reveal"><span class="num">03</span><h3>Consumer-grade</h3><p class="muted">Modern UX best practices — a clean UI, a live preview, and contextual guidance instead of a manual.</p></div>
+          <div class="card reveal"><span class="num">03</span><h3>Consumer-grade</h3><p class="muted">A clean UI, a live preview, and guidance in context instead of a manual.</p></div>
         </div>
       </div>
     </section>
@@ -158,7 +160,7 @@
     <section>
       <div class="container">
         <div class="section-head reveal"><p class="eyebrow">The key trade-off</p><h2>AI as the translator between user and system.</h2></div>
-        <p class="lede reveal" style="margin-bottom:2rem">The current system was built by engineers around a <strong>channel-agnostic backend</strong> — and engineering wasn’t open to changing that architecture. But users think <strong>channel-first</strong>. Instead of fighting either side, I designed a concept that respects both. That’s <em>why</em> AI became load-bearing: it does the translation between the user’s intent and the system’s structure — unlocking the vision without an architectural rewrite.</p>
+        <p class="lede reveal" style="margin-bottom:2rem">The current system was built around a <strong>channel-agnostic backend</strong>, and engineering was not going to change that architecture. Users still think <strong>channel-first</strong>. I didn’t pick a side. AI does the translation between what the person wants and how the system is structured, so we could move the experience without rewriting the backend.</p>
         <figure class="shot reveal" style="margin:0">
           <img src="../assets/images/mcb-translation.svg" alt="Diagram: the user's channel-specific mental model on the left, a channel-agnostic backend on the right, and AI in the center translating intent into structure and back" />
           <figcaption>AI reconciles the user’s channel-specific mental model with the channel-agnostic backend.</figcaption>
@@ -173,7 +175,7 @@
       <div class="container">
         <div class="section-head reveal"><p class="eyebrow">Before / after</p><h2>From assembling to directing.</h2></div>
         <div class="beforeafter">
-          <div class="ba-col reveal"><div class="ba-label">Today</div><div class="ba-body"><p class="muted">Users manually assemble a component field by field, guessing at behavior and best practice — and checking the docs constantly.</p></div></div>
+          <div class="ba-col reveal"><div class="ba-label">Today</div><div class="ba-body"><p class="muted">Users assemble a component field by field, guessing at behavior, and checking the docs constantly.</p></div></div>
           <div class="ba-col after reveal"><div class="ba-label">Vision</div><div class="ba-body"><p class="muted">Users describe intent; AI drafts a component and asks clarifying questions; the person reviews, tweaks, and approves with confidence.</p></div></div>
         </div>
       </div>
@@ -187,7 +189,7 @@
         <div class="section-head reveal"><p class="eyebrow">The flow</p><h2>“Tell me + Tweak it.”</h2></div>
         <figure class="shot reveal" style="margin:0">
           <img src="../assets/images/mcb-taskflow.svg" alt="Task flow: 1 Describe, 2 AI drafts about 80 percent, 3 Human tweaks, 4 Guardrails (audit, fallback, approval), then Activate" />
-          <figcaption>The end-to-end flow — an AI-first draft, human control, and guardrails before activation.</figcaption>
+          <figcaption>The model: an AI-first draft, human control, and guardrails before activation.</figcaption>
         </figure>
       </div>
     </section>
@@ -197,13 +199,9 @@
     <!-- OUTCOME -->
     <section>
       <div class="container">
-        <div class="section-head reveal"><p class="eyebrow">Outcome</p><h2>What the vision unlocked.</h2></div>
-        <p class="lede reveal" style="margin-bottom:2.2rem">This is a north-star effort — so the outcome is direction and buy-in, not launch metrics (yet).</p>
-        <div class="grid grid-3">
-          <div class="card reveal"><h3>Cross-functional buy-in</h3><p class="muted">Design, PM, and engineering aligned on the problem and the direction.</p></div>
-          <div class="card reveal"><h3>A shared north star</h3><p class="muted">A concrete, fundable picture of the future the team could rally around.</p></div>
-          <div class="card reveal"><h3>An evidence base</h3><p class="muted">A prioritized audit + testing findings that keep guiding the roadmap.</p></div>
-        </div>
+        <div class="section-head reveal"><p class="eyebrow">Outcome</p><h2>Direction and buy-in, not launch metrics.</h2></div>
+        <p class="lede reveal" style="margin-bottom:2.2rem">Design, PM, and engineering aligned on the problem and the direction. A prioritized audit and testing findings still sit under the roadmap.</p>
+        <p class="reveal" style="margin:0;max-width:52ch;color:var(--ink-soft)">Parts of this direction moved into the product. The walkthrough is for the interview.</p>
       </div>
     </section>
 
@@ -212,13 +210,8 @@
     <!-- FUTURE / NEXT STEPS -->
     <section>
       <div class="container">
-        <div class="section-head reveal"><p class="eyebrow">What’s next</p><h2>A bridge from today to the vision.</h2></div>
-        <div class="note reveal" style="margin-bottom:2rem"><strong>The mid-solution.</strong> My next focus is concepts and working prototypes for an intermediate step that sits <em>between</em> the current product and the full north star — giving the team a shippable, incremental path rather than an all-or-nothing leap.</div>
-        <div class="grid grid-3">
-          <div class="card reveal"><h3>High-fidelity prototypes</h3><p class="muted">An end-to-end prototype of the primary use-cases — happy path first, then error and edge cases.</p></div>
-          <div class="card reveal"><h3>User testing #2</h3><p class="muted">Another moderated round on the prototypes for unfiltered feedback on the new experience.</p></div>
-          <div class="card reveal"><h3>Engineering workshops</h3><p class="muted">With leadership buy-in secured, align with engineering on the critical aspects and feasibility.</p></div>
-        </div>
+        <div class="section-head reveal"><p class="eyebrow">What’s next</p><h2>A mid-solution the team can ship in pieces.</h2></div>
+        <p class="lede reveal" style="margin:0;max-width:52ch">The north star stays in the interview. Next for the team: a mid-solution between today’s builder and this vision, another moderated round, and engineering on data binding, fallbacks, and channel approval.</p>
       </div>
     </section>
 
@@ -227,31 +220,29 @@
     <!-- CLOSING -->
     <section>
       <div class="container">
-        <div class="section-head reveal"><p class="eyebrow">Closing</p><h2>What I’d carry forward.</h2></div>
+        <div class="section-head reveal"><p class="eyebrow">Closing</p><h2>What I took from this.</h2></div>
         <div class="closing-cols">
-          <div class="reveal"><h3 style="font-size:var(--step-1)">Evidence persuades</h3><p class="muted">A vision lands when it’s anchored in what real users actually struggle with — so I diagnosed first.</p></div>
-          <div class="reveal"><h3 style="font-size:var(--step-1)">Design with the constraints</h3><p class="muted">AI became the bridge between a fixed backend and the user’s mental model — respecting both.</p></div>
-          <div class="reveal"><h3 style="font-size:var(--step-1)">Vision is a tool</h3><p class="muted">Its job was to unlock alignment and a path forward — and it did.</p></div>
+          <div class="reveal"><h3 style="font-size:var(--step-1)">Evidence persuades</h3><p class="muted">A vision lands when it sits on what real users actually struggle with. So I diagnosed first.</p></div>
+          <div class="reveal"><h3 style="font-size:var(--step-1)">Design with the constraints</h3><p class="muted">AI became the bridge between a fixed backend and how users think. Both sides stayed intact.</p></div>
+          <div class="reveal"><h3 style="font-size:var(--step-1)">Vision is a tool</h3><p class="muted">Its job was to get alignment and a path forward. That’s what it did.</p></div>
         </div>
       </div>
     </section>
 
     <hr class="rule" />
 
-    <!-- MORE WORK -->
-    <section aria-label="More work">
+    <p class="cs-peek reveal">This is the vision, not the release. The prototype and what engineering took forward are for the interview.</p>
+
+    <section class="cs-nav" aria-label="Other work">
       <div class="container">
-        <div class="section-head reveal" style="margin-bottom:1.6rem"><p class="eyebrow">Keep exploring</p><h2>More work.</h2></div>
         <nav class="morework">
           <a href="customer360.html">
             <span class="dir">← Previous</span>
             <span class="pj">Customer 360</span>
-            <span class="muted">ServiceNow · CSM</span>
           </a>
           <a class="nx" href="patient360.html">
             <span class="dir">Next →</span>
             <span class="pj">Patient 360</span>
-            <span class="muted">Self-initiated · Healthcare</span>
           </a>
         </nav>
       </div>
@@ -260,14 +251,17 @@
   </main>
 
   <footer class="site-footer">
-    <div class="container">
-      <div class="foot-bottom" style="margin-top:0;border-top:0">
-        <span>© 2026 Hemant Vurakaranam · Hyderabad, India</span>
-        <span><a href="../index.html">← Home</a></span>
+    <div class="foot-meta">
+      <div class="foot-contact">
+        <a href="../assets/resume.pdf" data-resume-modal>Resume</a>
+        <a href="https://www.linkedin.com/in/hemant-vurakaranam/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:hemant.vuro@gmail.com">Email</a>
       </div>
+      <div class="val">© Hemant Vurakaranam · 2026</div>
     </div>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.min.js"></script>
   <script src="../js/main.js"></script>
 </body>
 </html>

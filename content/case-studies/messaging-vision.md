@@ -4,14 +4,16 @@
 - **Page:** `work/messaging-vision.html`
 - **Company:** Salesforce — Service Cloud (Digital Engagement)
 - **Role:** Lead Product Designer
-- **Timeline:** Deck dated Jun 2026
+- **Timeline:** Deck dated Jun 2026. Interactive prototype captured Aug 2026.
 - **Status:** 🔒 **Confidential** — real product. Named customers and exact internal metrics are
   redacted on the public site; full detail saved for a live walkthrough / on request.
 - **Leading skill lenses:** **Vision** (AI-led north-star concept) + **Facilitation**
   (workshops, HMW, leadership buy-in) + **Release/Rigor** (heuristic audit, user testing, metrics).
-- **Source material:** private Figma deck — "Messaging Component Builder 2.0"
-  (26 slides, captured Aug 2, 2026). All slide screenshots preserved in
-  `assets/case-studies/messaging-vision/`.
+- **Source material:** private Figma deck, "Messaging Component Builder 2.0"
+  (26 slides, captured Aug 2, 2026) in `assets/case-studies/messaging-vision/`.
+  Interactive north star prototype (Aug 2026) at
+  `https://git.soma.salesforce.com/pages/hvurakaranam/mcb-vision/#/builder`,
+  screens captured in `assets/case-studies/messaging-vision/prototype/`.
 
 ---
 
@@ -97,11 +99,10 @@ first two phases.
 
 ## Future direction
 
-Next, create concepts and **working prototypes for a "mid solution"** — an intermediate step
-that sits **between the current product and the full north-star vision**. This gives the team a
-shippable, incremental path toward the vision rather than an all-or-nothing leap. (Alongside the
-deck's stated next steps: hi-fi prototypes → user testing #2 → engineering feasibility
-workshops.)
+The north star prototype is built: a working "Tell me + Tweak it" walkthrough (S1 to S11)
+with Agentforce chat, per-channel preview, data binding, fallback, and activate.
+Still ahead: a mid-solution the team can ship between today's product and this vision,
+a second round of testing on the prototype, and engineering feasibility workshops.
 
 ---
 
@@ -302,20 +303,76 @@ we will be leapfrogging them**."
 
 ---
 
+## Interactive prototype (north star)
+
+- **Live:** https://git.soma.salesforce.com/pages/hvurakaranam/mcb-vision/#/builder
+- **Repo:** https://git.soma.salesforce.com/hvurakaranam/mcb-vision (`prototype/`)
+- **What it is:** A clickable LWC/SLDS walkthrough of the Generative AI Workspace. Not production UI. Demo catalog is fictional (Northwind Audio / Aria Wireless Earbuds).
+- **Hero scenario:** A service admin builds an in-chat product catalog for WhatsApp and Apple Messages by talking to Agentforce, then tweaking the live preview.
+- **Layout:** Left rail is Agentforce chat. Center is a zoomable canvas with per-channel phone previews. Right icon rail opens Component Information, Component Properties, Assets and data, and Activity. A playbar at the bottom steps through 13 frames (S1 to S11, including micro-states).
+- **URL:** `#/builder` on Pages. Locally `/builder?beat=N` plus optional `panel=info|props|assets|activity`.
+
+### Walkthrough (beats)
+
+| # | Tag | Frame | What you see |
+|---|-----|-------|----------------|
+| 0 | S1 | Builder entry | Empty canvas. Agentforce greets and offers Notification, Custom, or Catalog. |
+| 1 | S2 | Opening prompt | Admin describes the catalog in plain language (WhatsApp + Apple Messages, image, message, button). |
+| 2 | S2·a | Agentforce thinking | Typing state. Schema is resolved off-screen. |
+| 3 | S3 | Interpreted setup | Editable chips: Component Catalog, Send type In-chat, channels, Layout Rich Media Card. Canvas shows a skeleton. |
+| 4 | S4 | Clarifying questions | Agentforce asks for button label and link. Admin: "View Catalog". |
+| 5 | S5·a | Drafting | Skeleton with a building state. |
+| 6 | S5 | First draft + preview | Side-by-side WhatsApp and Apple Messages cards. `{{Product Name}}` and `{{Price}}` still placeholders. |
+| 7 | S6 | Connect data | Fields mapped to Product Catalog. Preview swaps placeholders for Aria Wireless Earbuds / $129. |
+| 8 | S7 | Layout recommendation | Multi-product carousel on WhatsApp. Apple Messages flagged as limited; fallback covers it. |
+| 9 | S8 | Text Fallback | Plain-text backup: `Hi {{First Name}}, check out our catalog: {{Catalog Link}}`. Human confirms. |
+| 10 | S9 | Tweak | Warmer copy and button renamed to "Shop now". Chat and canvas stay in sync. |
+| 11 | S10 | Pre-activation readiness | Checklist: channels, layouts, data, fallback. Activate is enabled. Status: Ready to activate. |
+| 12 | S11 | Activated | Component is live for agents to send. |
+
+### Right-rail panels (same builder)
+
+- **Component Information:** name, send type, starting point, channels, language, layouts, fallback, readiness.
+- **Component Properties:** content blocks (Header, Thumbnail, Product Name, Cost, Card Body, Message Body, Button). Double-click a block in the preview to edit. Static vs dynamic assets insert as `{{tokens}}`.
+- **Assets and data:** library of static and dynamic assets for the component.
+- **Activity:** revertible history of major changes (Agentforce vs human).
+
+### Captured screens
+
+Saved from the local prototype (playbar cropped) on 18 Aug 2026:
+
+| File | Frame |
+|------|--------|
+| `prototype/01-entry.png` | S1 empty canvas + greet |
+| `prototype/02-prompt.png` | S2 opening prompt |
+| `prototype/03-setup-chips.png` | S3 interpreted chips |
+| `prototype/04-first-draft.png` | S5 dual-channel first draft |
+| `prototype/05-data-bound.png` | S6 data connected |
+| `prototype/06-multi-layout.png` | S7 multi-product recommendation |
+| `prototype/07-tweak.png` | S9 warmer copy / Shop now |
+| `prototype/08-ready.png` | S10 readiness |
+| `prototype/09-live.png` | S11 activated |
+| `prototype/10-properties.png` | Properties rail on first draft |
+| `prototype/11-info.png` | Information rail after data bind |
+| `prototype/12-activity.png` | Activity log after tweak |
+
+Use these on the public case study. They are prototype chrome with fictional catalog data, not production org screens.
+
+---
+
 ## Confidentiality notes
 
 - **Public-safe:** the narrative arc (audit → testing → workshops → AI vision), methodology
-  (Nielsen heuristics, moderated testing), the "Tell Me + Tweak It" concept, and the general
-  problem framing.
+  (Nielsen heuristics, moderated testing), the "Tell Me + Tweak It" concept, and the north star
+  prototype screens (fictional Northwind Audio catalog, not a customer org).
 - **Redact / hold for interview:** named customers (Disney, Itaú, Bradesco, América Móvil Perú),
   exact internal metrics (40M AOV, 800+ MAU, channel counts if considered sensitive), and any
-  un-redacted product screenshots (slide 9 shows the real UI — blur/redact before publishing).
+  un-redacted production screenshots (slide 9 shows the real UI. Blur or hold before publishing).
 - On the public page, present metrics like 0/8 success and 85% hesitation as *study findings*
   (safe) but gate the *product's* business metrics behind "deep dive on request".
 
 ## Open items
 
-- Decide which visuals are safe to publish vs. must be redacted/blurred (esp. slide 9 real UI).
-- Obtain higher-resolution exports (these are screen captures of the deck); replace with clean
-  PNG/SVG exports from Figma before building final site visuals.
-- Confirm whether any hi-fi prototype visuals exist yet to add to the "Vision" section.
+- Second round of moderated testing on the prototype.
+- Engineering feasibility on the interaction model (especially WABA async approval and data binding).
+- Mid-solution concepts between today's builder and this north star.
