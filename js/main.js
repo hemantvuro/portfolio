@@ -593,6 +593,39 @@
     reel.addEventListener("pointercancel", endDrag);
   })();
 
+  /* ---------- about logos ---------- */
+  (function initAboutLogos() {
+    var buttons = document.querySelectorAll(".about-logo");
+    if (!buttons.length) return;
+
+    function closeAll(exceptBtn) {
+      buttons.forEach(function (btn) {
+        if (btn === exceptBtn) return;
+        btn.setAttribute("aria-expanded", "false");
+        var pop = btn.nextElementSibling;
+        if (pop) pop.classList.remove("is-open");
+      });
+    }
+
+    buttons.forEach(function (btn) {
+      var pop = btn.nextElementSibling;
+      if (!pop) return;
+      btn.addEventListener("click", function (e) {
+        e.stopPropagation();
+        var wasOpen = btn.getAttribute("aria-expanded") === "true";
+        closeAll(wasOpen ? null : btn);
+        btn.setAttribute("aria-expanded", String(!wasOpen));
+        pop.classList.toggle("is-open", !wasOpen);
+      });
+    });
+
+    document.addEventListener("click", function () { closeAll(null); });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") closeAll(null);
+    });
+    if (lenis && typeof lenis.on === "function") lenis.on("scroll", function () { closeAll(null); });
+  })();
+
   /* ---------- reveals ---------- */
   var revealables = document.querySelectorAll(".reveal");
   if (!("IntersectionObserver" in window) || !revealables.length || reduce) {
