@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="515" viewBox="0 0 1200 515" role="img" aria-label="Patient 360 concept: one shared patient record in the centre that reshapes into a nurse view on the left and a doctor view on the right">
-  <rect width="1200" height="515" fill="#efe9f4"/>
+  <rect width="1200" height="515" fill="#e6f2ee"/>
 
   <!-- shared core -->
   <rect x="500" y="70" width="200" height="375" rx="14" fill="#191621"/>
-  <text x="600" y="104" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="1.5" fill="#948ea0">ONE RECORD</text>
+  <text x="600" y="104" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="1.5" fill="#7f9089">ONE RECORD</text>
   <circle cx="600" cy="150" r="26" fill="#3d3747"/>
-  <circle cx="600" cy="143" r="9" fill="#c7bdd3"/>
-  <path d="M584 168 a16 13 0 0 1 32 0 z" fill="#c7bdd3"/>
-  <text x="600" y="200" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#efe9f4">Anna Lewis</text>
-  <text x="600" y="220" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#948ea0">Patient</text>
+  <circle cx="600" cy="143" r="9" fill="#b8d0c8"/>
+  <path d="M584 168 a16 13 0 0 1 32 0 z" fill="#b8d0c8"/>
+  <text x="600" y="200" text-anchor="middle" font-family="Georgia, serif" font-size="15" fill="#e6f2ee">Anna Lewis</text>
+  <text x="600" y="220" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#7f9089">Patient</text>
   <g>
     <rect x="532" y="248" width="136" height="9" rx="4" fill="#4a4553"/>
     <rect x="532" y="270" width="136" height="9" rx="4" fill="#4a4553"/>
@@ -16,63 +16,63 @@
     <rect x="532" y="314" width="136" height="9" rx="4" fill="#4a4553"/>
     <rect x="532" y="336" width="136" height="9" rx="4" fill="#4a4553"/>
   </g>
-  <text x="600" y="378" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1" fill="#7a3b8f">SHARED DATA CORE</text>
-  <rect x="532" y="396" width="136" height="30" rx="8" fill="#7a3b8f"/>
-  <text x="600" y="416" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#ffffff">reshapes per role</text>
+  <text x="600" y="378" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1" fill="#2f7a68">SHARED DATA CORE</text>
+  <rect x="532" y="396" width="136" height="30" rx="8" fill="#2f7a68"/>
+  <text x="600" y="416" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#ffffff">Reshapes per role</text>
 
   <!-- connectors -->
-  <line x1="500" y1="257" x2="430" y2="257" stroke="#7a3b8f" stroke-width="2.5"/>
-  <path d="M430 257 l12 -6 l0 12 z" fill="#7a3b8f"/>
-  <line x1="700" y1="257" x2="770" y2="257" stroke="#7a3b8f" stroke-width="2.5"/>
-  <path d="M770 257 l-12 -6 l0 12 z" fill="#7a3b8f"/>
+  <line x1="500" y1="257" x2="430" y2="257" stroke="#2f7a68" stroke-width="2.5"/>
+  <path d="M430 257 l12 -6 l0 12 z" fill="#2f7a68"/>
+  <line x1="700" y1="257" x2="770" y2="257" stroke="#2f7a68" stroke-width="2.5"/>
+  <path d="M770 257 l-12 -6 l0 12 z" fill="#2f7a68"/>
 
   <!-- NURSE VIEW (left) -->
-  <rect x="60" y="70" width="370" height="375" rx="14" fill="#ffffff" stroke="#e7e1ec" stroke-width="1.5"/>
-  <rect x="60" y="70" width="370" height="40" rx="14" fill="#f7f4fa"/>
-  <rect x="60" y="96" width="370" height="14" fill="#f7f4fa"/>
-  <text x="84" y="96" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="1.5" fill="#5c2c6c">NURSE VIEW</text>
-  <rect x="330" y="80" width="82" height="22" rx="11" fill="#7a3b8f"/>
+  <rect x="60" y="70" width="370" height="375" rx="14" fill="#ffffff" stroke="#d7e8e3" stroke-width="1.5"/>
+  <rect x="60" y="70" width="370" height="40" rx="14" fill="#f1f8f6"/>
+  <rect x="60" y="96" width="370" height="14" fill="#f1f8f6"/>
+  <text x="84" y="96" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="1.5" fill="#225c4e">NURSE VIEW</text>
+  <rect x="330" y="80" width="82" height="22" rx="11" fill="#2f7a68"/>
   <text x="371" y="95" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#ffffff">Add to queue</text>
-  <rect x="84" y="132" width="322" height="86" rx="10" fill="#f7f4fa" stroke="#e7e1ec"/>
+  <rect x="84" y="132" width="322" height="86" rx="10" fill="#f1f8f6" stroke="#d7e8e3"/>
   <text x="100" y="156" font-family="Georgia, serif" font-size="13" fill="#191621">Notes for doctor</text>
-  <rect x="100" y="170" width="240" height="7" rx="3" fill="#e2dce8"/>
-  <rect x="100" y="186" width="290" height="7" rx="3" fill="#e2dce8"/>
-  <rect x="100" y="202" width="200" height="7" rx="3" fill="#e2dce8"/>
-  <text x="84" y="246" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1" fill="#635d6c">VITALS</text>
+  <rect x="100" y="170" width="240" height="7" rx="3" fill="#dceae5"/>
+  <rect x="100" y="186" width="290" height="7" rx="3" fill="#dceae5"/>
+  <rect x="100" y="202" width="200" height="7" rx="3" fill="#dceae5"/>
+  <text x="84" y="246" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1" fill="#55605b">VITALS</text>
   <g>
-    <rect x="84" y="256" width="72" height="52" rx="8" fill="#f4edf8" stroke="#d8b8e0"/>
-    <rect x="166" y="256" width="72" height="52" rx="8" fill="#f7f4fa" stroke="#e7e1ec"/>
-    <rect x="248" y="256" width="72" height="52" rx="8" fill="#f7f4fa" stroke="#e7e1ec"/>
-    <rect x="330" y="256" width="76" height="52" rx="8" fill="#f7f4fa" stroke="#e7e1ec"/>
+    <rect x="84" y="256" width="72" height="52" rx="8" fill="#e9f5f0" stroke="#a9d4c6"/>
+    <rect x="166" y="256" width="72" height="52" rx="8" fill="#f1f8f6" stroke="#d7e8e3"/>
+    <rect x="248" y="256" width="72" height="52" rx="8" fill="#f1f8f6" stroke="#d7e8e3"/>
+    <rect x="330" y="256" width="76" height="52" rx="8" fill="#f1f8f6" stroke="#d7e8e3"/>
   </g>
-  <text x="84" y="338" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1" fill="#635d6c">CARE TEAM</text>
-  <circle cx="98" cy="360" r="11" fill="#ece7f2"/><rect x="118" y="356" width="150" height="8" rx="4" fill="#c7bdd3"/>
-  <circle cx="98" cy="388" r="11" fill="#ece7f2"/><rect x="118" y="384" width="120" height="8" rx="4" fill="#e2dce8"/>
-  <circle cx="98" cy="416" r="11" fill="#ece7f2"/><rect x="118" y="412" width="140" height="8" rx="4" fill="#e2dce8"/>
+  <text x="84" y="338" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1" fill="#55605b">CARE TEAM</text>
+  <circle cx="98" cy="360" r="11" fill="#e2f0ea"/><rect x="118" y="356" width="150" height="8" rx="4" fill="#b8d0c8"/>
+  <circle cx="98" cy="388" r="11" fill="#e2f0ea"/><rect x="118" y="384" width="120" height="8" rx="4" fill="#dceae5"/>
+  <circle cx="98" cy="416" r="11" fill="#e2f0ea"/><rect x="118" y="412" width="140" height="8" rx="4" fill="#dceae5"/>
 
   <!-- DOCTOR VIEW (right) -->
-  <rect x="770" y="70" width="370" height="375" rx="14" fill="#ffffff" stroke="#e7e1ec" stroke-width="1.5"/>
-  <rect x="770" y="70" width="370" height="40" rx="14" fill="#f7f4fa"/>
-  <rect x="770" y="96" width="370" height="14" fill="#f7f4fa"/>
-  <text x="794" y="96" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="1.5" fill="#5c2c6c">DOCTOR VIEW</text>
-  <rect x="1028" y="80" width="88" height="22" rx="11" fill="#7a3b8f"/>
+  <rect x="770" y="70" width="370" height="375" rx="14" fill="#ffffff" stroke="#d7e8e3" stroke-width="1.5"/>
+  <rect x="770" y="70" width="370" height="40" rx="14" fill="#f1f8f6"/>
+  <rect x="770" y="96" width="370" height="14" fill="#f1f8f6"/>
+  <text x="794" y="96" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="1.5" fill="#225c4e">DOCTOR VIEW</text>
+  <rect x="1028" y="80" width="88" height="22" rx="11" fill="#2f7a68"/>
   <text x="1072" y="95" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#ffffff">Consultation</text>
-  <rect x="794" y="132" width="322" height="96" rx="10" fill="#f4edf8" stroke="#d8b8e0"/>
-  <text x="810" y="156" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1" fill="#5c2c6c">AI SUMMARY</text>
-  <rect x="810" y="168" width="288" height="7" rx="3" fill="#bda2c8"/>
-  <rect x="810" y="184" width="288" height="7" rx="3" fill="#bda2c8"/>
-  <rect x="810" y="200" width="220" height="7" rx="3" fill="#bda2c8"/>
-  <text x="794" y="256" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1" fill="#635d6c">NURSE NOTES</text>
-  <rect x="794" y="266" width="322" height="70" rx="10" fill="#f7f4fa" stroke="#e7e1ec"/>
-  <rect x="810" y="282" width="200" height="7" rx="3" fill="#e2dce8"/>
-  <rect x="810" y="298" width="260" height="7" rx="3" fill="#e2dce8"/>
-  <rect x="810" y="314" width="160" height="7" rx="3" fill="#e2dce8"/>
-  <text x="794" y="360" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1" fill="#635d6c">RECORDS</text>
+  <rect x="794" y="132" width="322" height="96" rx="10" fill="#e9f5f0" stroke="#a9d4c6"/>
+  <text x="810" y="156" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1" fill="#225c4e">AI SUMMARY</text>
+  <rect x="810" y="168" width="288" height="7" rx="3" fill="#8fc4b3"/>
+  <rect x="810" y="184" width="288" height="7" rx="3" fill="#8fc4b3"/>
+  <rect x="810" y="200" width="220" height="7" rx="3" fill="#8fc4b3"/>
+  <text x="794" y="256" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1" fill="#55605b">NURSE NOTES</text>
+  <rect x="794" y="266" width="322" height="70" rx="10" fill="#f1f8f6" stroke="#d7e8e3"/>
+  <rect x="810" y="282" width="200" height="7" rx="3" fill="#dceae5"/>
+  <rect x="810" y="298" width="260" height="7" rx="3" fill="#dceae5"/>
+  <rect x="810" y="314" width="160" height="7" rx="3" fill="#dceae5"/>
+  <text x="794" y="360" font-family="Helvetica, Arial, sans-serif" font-size="10" letter-spacing="1" fill="#55605b">RECORDS</text>
   <g>
-    <rect x="794" y="370" width="100" height="52" rx="8" fill="#f7f4fa" stroke="#e7e1ec"/>
-    <rect x="904" y="370" width="100" height="52" rx="8" fill="#f7f4fa" stroke="#e7e1ec"/>
-    <rect x="1014" y="370" width="102" height="52" rx="8" fill="#f7f4fa" stroke="#e7e1ec"/>
+    <rect x="794" y="370" width="100" height="52" rx="8" fill="#f1f8f6" stroke="#d7e8e3"/>
+    <rect x="904" y="370" width="100" height="52" rx="8" fill="#f1f8f6" stroke="#d7e8e3"/>
+    <rect x="1014" y="370" width="102" height="52" rx="8" fill="#f1f8f6" stroke="#d7e8e3"/>
   </g>
 
-  <text x="60" y="44" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="2" fill="#635d6c">ONE SYSTEM, TWO CLINICIANS</text>
+  <text x="60" y="44" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="2" fill="#55605b">ONE SYSTEM, TWO CLINICIANS</text>
 </svg>

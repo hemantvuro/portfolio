@@ -15,15 +15,20 @@
   <link rel="preconnect" href="https://api.fontshare.com" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Fraunces:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.css" />
   <link rel="stylesheet" href="../css/styles.css" />
 </head>
-<body class="page-cs" data-root="../">
+<body class="page-cs case-customer360" data-root="../">
   <a class="skip-link" href="#main">Skip to content</a>
   <div class="transition-panel" aria-hidden="true"><div class="transit-blue"></div><div class="transit-bg"></div></div>
   <header class="site-bar">
+    <nav class="lens-nav" aria-label="Case study sections">
+      <a class="lens-link" data-lens="facilitation" href="#lens-facilitation">Facilitation</a>
+      <a class="lens-link" data-lens="vision" href="#lens-vision">Vision</a>
+      <a class="lens-link" data-lens="release" href="#lens-release">Release</a>
+    </nav>
     <div class="site-bar-end">
       <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-menu">
         <span class="menu-ic menu-ic--open" aria-hidden="true">
@@ -57,14 +62,14 @@
       <div class="container">
         <a class="back-link" href="../index.html#work">← Back to work</a>
         <p class="eyebrow">ServiceNow · CSM Customer Ops · 2022</p>
-        <h1>Customer 360: one view of the customer, across every industry.</h1>
+        <h1><strong>Customer 360</strong>: one view of the customer, across every industry.</h1>
         <p class="lede">A ServiceNow surface that shows a customer and everything around them: products, services, relationships, and insights. Business Location 360 shipped as the first Entity 360 product. The work here is how we got there: facilitation, vision, and release.</p>
       </div>
     </section>
 
     <section style="padding-top:0">
       <div class="container">
-        <div class="cs-cover reveal"><img src="../assets/case-studies/customer360/Hero360.png" alt="The shipped Business Location 360 workspace for Solana San Diego, showing location details, cases, work orders, services, staff, and related accounts" /></div>
+        <div class="cs-cover reveal"><img src="../assets/case-studies/customer360/Hero360.png" alt="The shipped Business Location 360 workspace for Solana San Diego, showing location details, cases, work orders, services, staff, and related accounts" width="3200" height="1800" /></div>
         <div class="cs-brief reveal">
           <div class="cs-brief-item">
             <p class="cs-brief-label">The problem</p>
@@ -85,9 +90,9 @@
       <div class="container">
         <div class="section-head reveal"><p class="eyebrow">The three lenses</p><h2>One project, told three ways.</h2></div>
         <div class="pillars">
-          <div class="pillar reveal"><span class="num">01</span><h3>Facilitation</h3><p class="muted">A two-stage co-creation program across industry designers, PMs, and engineering to build one horizontal product.</p></div>
-          <div class="pillar reveal"><span class="num">02</span><h3>Vision</h3><p class="muted">Entity 360: a north star we could actually believe, checked with stakeholders and real customers.</p></div>
-          <div class="pillar reveal"><span class="num">03</span><h3>Release</h3><p class="muted">Shipping the first product, Business Location 360, within the platform's real capabilities.</p></div>
+          <div class="pillar pillar--facilitation reveal"><span class="num">01</span><h3>Facilitation</h3><p class="muted">A two-stage co-creation program across industry designers, PMs, and engineering to build one horizontal product.</p></div>
+          <div class="pillar pillar--vision reveal"><span class="num">02</span><h3>Vision</h3><p class="muted">Entity 360: a north star we could actually believe, checked with stakeholders and real customers.</p></div>
+          <div class="pillar pillar--release reveal"><span class="num">03</span><h3>Release</h3><p class="muted">Shipping the first product, Business Location 360, within the platform's real capabilities.</p></div>
         </div>
       </div>
     </section>
@@ -98,11 +103,13 @@
     <section>
       <div class="container">
         <div class="section-head reveal"><p class="eyebrow">The context</p><h2>A foundation many industries would build on.</h2></div>
-        <p class="lede reveal" style="margin-bottom:2.4rem">Customer 360 sits inside a larger effort called <strong>Entity 360</strong>: Business Location 360, Account 360, Customer 360, and Household 360. CSM Customer Ops sits on the Core CSM Platform and feeds the industry verticals. I was the <strong>only design partner</strong> on the product. I made and tested the concepts, shipped the MVP with engineering, and kept a longer-term vision on the roadmap.</p>
-        <figure class="shot reveal" style="margin:0">
-          <img src="../assets/images/c360-horizontal.svg" alt="Diagram: a Core CSM Platform base, a horizontal Customer Ops module layer, and industry verticals (Healthcare, Public Sector, Financial Services, Telco, Retail) built on top" />
-          <figcaption>One horizontal product under many industry verticals. The same 360, scaled up or down.</figcaption>
-        </figure>
+        <div class="context-split">
+          <p class="lede reveal">Customer 360 sits inside a larger effort called <strong>Entity 360</strong>: Business Location 360, Account 360, Customer 360, and Household 360. CSM Customer Ops sits on the Core CSM Platform and feeds the industry verticals. I was the <strong>only design partner</strong> on the product. I made and tested the concepts, shipped the MVP with engineering, and kept a longer-term vision on the roadmap.</p>
+          <figure class="shot reveal">
+            <img src="../assets/images/c360-horizontal.svg" alt="Diagram: a Core CSM Platform base, a horizontal Customer Ops module layer, and industry verticals (Healthcare, Public Sector, Financial Services, Telco, Retail) built on top" width="1200" height="520" loading="lazy" />
+            <figcaption>One horizontal product under many industry verticals. The same 360, scaled up or down.</figcaption>
+          </figure>
+        </div>
       </div>
     </section>
 
@@ -112,15 +119,37 @@
     <section>
       <div class="container">
         <div class="section-head reveal"><p class="eyebrow">Who it serves</p><h2>Many industries, a handful of personas.</h2></div>
-        <div class="grid grid-3" style="margin-bottom:2rem">
-          <div class="card reveal"><h3>Financial Services</h3><p class="muted">Account 360 and branch support for relationship managers, bank branches, brokerage, and agency.</p></div>
-          <div class="card reveal"><h3>Government</h3><p class="muted">Constituent 360 and (inter)agency support for state and county agencies.</p></div>
-          <div class="card reveal"><h3>Healthcare</h3><p class="muted">Patient 360 and hospital support for healthcare workers, clinics, pharmacies, and labs.</p></div>
-          <div class="card reveal"><h3>Retail &amp; Hospitality</h3><p class="muted">Customer 360 and store support for franchises, real estate, and automotive dealerships.</p></div>
-          <div class="card reveal"><h3>Education</h3><p class="muted">Student 360 and campus support for universities, colleges, and departments.</p></div>
-          <div class="card reveal"><h3>+ Telco &amp; more</h3><p class="muted">The same template stretched to each vertical's data density and priorities.</p></div>
+        <div class="callouts" style="margin-bottom:2.2rem">
+          <div class="callout callout--neutral reveal"><h3>Financial Services</h3><p class="muted">Account 360 and branch support for relationship managers, bank branches, brokerage, and agency.</p></div>
+          <div class="callout callout--neutral reveal"><h3>Government</h3><p class="muted">Constituent 360 and (inter)agency support for state and county agencies.</p></div>
+          <div class="callout callout--neutral reveal"><h3>Healthcare</h3><p class="muted">Patient 360 and hospital support for healthcare workers, clinics, pharmacies, and labs.</p></div>
+          <div class="callout callout--neutral reveal"><h3>Retail &amp; Hospitality</h3><p class="muted">Customer 360 and store support for franchises, real estate, and automotive dealerships.</p></div>
+          <div class="callout callout--neutral reveal"><h3>Education</h3><p class="muted">Student 360 and campus support for universities, colleges, and departments.</p></div>
+          <div class="callout callout--neutral reveal"><h3>+ Telco &amp; more</h3><p class="muted">The same template stretched to each vertical's data density and priorities.</p></div>
         </div>
-        <div class="note reveal"><strong>Four core personas.</strong> Service Support Agent · Location Support Agent · Middle &amp; Back-Office Agent · Relationship Manager. All customer-facing, all needing the full picture fast.</div>
+        <div class="personas reveal">
+          <div class="persona-card">
+            <div class="persona-photo"><img src="../assets/case-studies/customer360/persona-service-support-agent.jpg" alt="Portrait representing the Service Support Agent persona" width="378" height="700" loading="lazy" /></div>
+            <h3>Service Support Agent</h3>
+            <p class="muted">Frontline and customer-facing, fielding day-to-day requests. Needs the full picture without hopping between tabs.</p>
+          </div>
+          <div class="persona-card">
+            <div class="persona-photo"><img src="../assets/case-studies/customer360/persona-location-support-agent.jpg" alt="Portrait representing the Location Support Agent persona" width="398" height="700" loading="lazy" /></div>
+            <h3>Location Support Agent</h3>
+            <p class="muted">Supports one business location end to end: cases, staff, services offered, and what's happening on the ground.</p>
+          </div>
+          <div class="persona-card">
+            <div class="persona-photo"><img src="../assets/case-studies/customer360/persona-middle-back-office-agent.jpg" alt="Portrait representing the Middle and Back-Office Agent persona" width="407" height="700" loading="lazy" /></div>
+            <h3>Middle &amp; Back-Office Agent</h3>
+            <p class="muted">Works behind the scenes on fulfilment and operations, and needs accurate, real-time account context to act.</p>
+          </div>
+          <div class="persona-card">
+            <div class="persona-photo"><img src="../assets/case-studies/customer360/persona-relationship-manager.jpg" alt="Portrait representing the Relationship Manager persona" width="373" height="700" loading="lazy" /></div>
+            <h3>Relationship Manager</h3>
+            <p class="muted">Owns the account relationship long-term. Needs visibility into health, history, and growth opportunities.</p>
+          </div>
+        </div>
+        <p class="personas-note muted reveal"><strong>Four core personas.</strong> All customer-facing, all needing the full picture, fast.</p>
       </div>
     </section>
 
@@ -130,7 +159,7 @@
     <section>
       <div class="container">
         <div class="section-head reveal"><p class="eyebrow">The framing</p><h2>How might we enable customer-facing personas to…</h2></div>
-        <p class="lede reveal" style="margin-bottom:2.4rem">…deliver the best customer experience through Purchase, Onboarding, Usage, and Post-Sales. Every concept had to hit three goals.</p>
+        <p class="lede reveal">…deliver the best customer experience through Purchase, Onboarding, Usage, and Post-Sales. Every concept had to hit three goals.</p>
         <div class="grid grid-3">
           <div class="card reveal"><span class="num">01</span><h3>See it in one place</h3><p class="muted">Get customer information without hopping tabs while they are already in a support task.</p></div>
           <div class="card reveal"><span class="num">02</span><h3>Decide with reality</h3><p class="muted">Make decisions from information that matches what is actually happening on the ground.</p></div>
@@ -142,25 +171,25 @@
     <hr class="rule" />
 
     <!-- LENS 1: FACILITATION -->
-    <section>
+    <section id="lens-facilitation">
       <div class="container">
         <div class="section-head reveal"><p class="eyebrow">Lens 01 · Facilitation</p><h2>A horizontal product is built in a room.</h2></div>
-        <p class="lede reveal" style="margin-bottom:2.4rem">To test the concepts and find what was common across industries, I ran a two-stage co-creation program. I started with the industry designers, then brought in PMs, engineering leads, and customers.</p>
-        <figure class="shot reveal" style="margin:0 0 2.4rem">
-          <img src="../assets/images/c360-gameplan.svg" alt="Two-stage gameplan: Stage 1 with designers (Kick-off, Co-create, Deep-dive, Draft design), then Stage 2 with PMs, engineering and customers (validation, refined design, engineering validation, final designs)" />
+        <p class="lede reveal">To test the concepts and find what was common across industries, I ran a two-stage co-creation program. I started with the industry designers, then brought in PMs, engineering leads, and customers.</p>
+        <figure class="shot reveal">
+          <img src="../assets/images/c360-gameplan.svg" alt="Two-stage gameplan: Stage 1 with designers (Kick-off, Co-create, Deep-dive, Draft design), then Stage 2 with PMs, engineering and customers (validation, refined design, engineering validation, final designs)" width="1200" height="430" loading="lazy" />
           <figcaption>Two stages, many sessions. First concept checks through to delivery-ready designs.</figcaption>
         </figure>
-        <div class="grid grid-3" style="margin-bottom:2rem">
-          <div class="card reveal"><h3>Kick-off</h3><p class="muted">Build the relationship, set objectives, and walk everyone through the co-creation process.</p></div>
-          <div class="card reveal"><h3>Co-create</h3><p class="muted">Participants share their industry, use-cases &amp; personas; we showcase the 360 and enrich it together.</p></div>
-          <div class="card reveal"><h3>Deep-dive</h3><p class="muted">Detail and define the final industry-specific template, down to the special widgets.</p></div>
-        </div>
+        <ol class="process-list" style="margin-bottom:2.2rem">
+          <li class="reveal"><span class="step-num">01</span><div><h3>Kick-off</h3><p class="muted">Build the relationship, set objectives, and walk everyone through the co-creation process.</p></div></li>
+          <li class="reveal"><span class="step-num">02</span><div><h3>Co-create</h3><p class="muted">Participants share their industry, use-cases &amp; personas; we showcase the 360 and enrich it together.</p></div></li>
+          <li class="reveal"><span class="step-num">03</span><div><h3>Deep-dive</h3><p class="muted">Detail and define the final industry-specific template, down to the special widgets.</p></div></li>
+        </ol>
         <div class="section-head reveal" style="margin-top:2.4rem"><p class="eyebrow">What the sessions taught me</p></div>
-        <div class="grid grid-4">
-          <div class="card reveal"><h3>Industry priorities</h3><p class="muted">Verticals have different focus; uptake roadmaps are complex and long-term.</p></div>
-          <div class="card reveal"><h3>Scalability</h3><p class="muted">Different use-cases mean the solution must scale both up and down.</p></div>
-          <div class="card reveal"><h3>Unique needs</h3><p class="muted">Each industry has unique problems that require unique solutions.</p></div>
-          <div class="card reveal"><h3>Awareness &amp; support</h3><p class="muted">Make sure people know a 360 exists, and help verticals while they adopt it.</p></div>
+        <div class="callouts-4">
+          <div class="callout callout--facilitation reveal"><h3>Industry priorities</h3><p class="muted">Verticals have different focus; uptake roadmaps are complex and long-term.</p></div>
+          <div class="callout callout--facilitation reveal"><h3>Scalability</h3><p class="muted">Different use-cases mean the solution must scale both up and down.</p></div>
+          <div class="callout callout--facilitation reveal"><h3>Unique needs</h3><p class="muted">Each industry has unique problems that require unique solutions.</p></div>
+          <div class="callout callout--facilitation reveal"><h3>Awareness &amp; support</h3><p class="muted">Make sure people know a 360 exists, and help verticals while they adopt it.</p></div>
         </div>
       </div>
     </section>
@@ -168,29 +197,55 @@
     <hr class="rule" />
 
     <!-- LENS 2: VISION -->
-    <section>
+    <section id="lens-vision">
       <div class="container">
         <div class="section-head reveal"><p class="eyebrow">Lens 02 · Vision</p><h2>Entity 360: an ideal you can actually ship.</h2></div>
-        <p class="lede reveal" style="margin-bottom:2.4rem">As product partner I drove the vision: an ideal we could still believe, checked with stakeholders, then shaped into a north star we could ship in a few releases. It had to hold patterns across industries. The useful move was a reusable <strong>“carve-up”</strong>: a consistent set of regions any vertical could adapt.</p>
-        <figure class="shot reveal" style="margin:0 0 2.4rem">
-          <img src="../assets/images/c360-carveup.svg" alt="The 360 layout carved into reusable regions: an identity and actions header, an account reference-data column, health and KPIs, a life-events timeline, transactional data, and an account activity plus recommended-actions panel" />
+        <p class="lede reveal">As product partner I drove the vision: an ideal we could still believe, checked with stakeholders, then shaped into a north star we could ship in a few releases. It had to hold patterns across industries. The useful move was a reusable <strong>“carve-up”</strong>: a consistent set of regions any vertical could adapt.</p>
+        <figure class="shot reveal">
+          <img src="../assets/images/c360-carveup.svg" alt="The 360 layout carved into reusable regions: an identity and actions header, an account reference-data column, health and KPIs, a life-events timeline, transactional data, and an account activity plus recommended-actions panel" width="1200" height="520" loading="lazy" />
           <figcaption>The carve-up: identity, reference data, health and KPIs, timeline, transactions, activity, recommended actions.</figcaption>
         </figure>
         <p class="reveal muted" style="margin-bottom:1rem;font-size:var(--step--1)">The vision applied across entity types</p>
-        <figure class="shot reveal" style="margin:0 0 2.4rem">
-          <img src="../assets/case-studies/customer360/slide-15-entity360-gallery.png" alt="A gallery of eight Entity 360 concept screens: Account 360, Consumer 360, Household 360, 360 x Playbooks, Install Base 360, Patient 360, Service Org 360, and a relationship Node Map" />
-          <figcaption>From the deck: Account, Consumer, Household, Install Base, Patient, Service Org 360, plus playbooks and a relationship node map.</figcaption>
-        </figure>
-        <div class="section-head reveal"><p class="eyebrow">Validated with real customers</p></div>
-        <div class="grid grid-2 reveal" style="margin-bottom:2rem">
-          <div class="card"><p style="font-family:var(--serif);font-size:var(--step-1);margin-bottom:.4rem">“You are going in the right direction. It meets my expectations quite well.”</p><p class="muted" style="margin:0">Customer validation session</p></div>
-          <div class="card"><p style="font-family:var(--serif);font-size:var(--step-1);margin-bottom:.4rem">“It will help customer-focus teams and business roles drive proactive growth conversations.”</p><p class="muted" style="margin:0">Customer validation session</p></div>
+        <div class="carousel reveal" style="margin:0 0 2.4rem" data-carousel aria-roledescription="carousel" aria-label="Entity 360 concept screens">
+          <p class="carousel-title">Entity 360</p>
+          <div class="carousel-viewport">
+            <div class="carousel-track">
+              <div class="carousel-slide"><div class="media-ph"><span>Account 360</span><small>Image coming soon</small></div></div>
+              <div class="carousel-slide"><div class="media-ph"><span>Consumer 360</span><small>Image coming soon</small></div></div>
+              <div class="carousel-slide"><div class="media-ph"><span>Household 360</span><small>Image coming soon</small></div></div>
+              <div class="carousel-slide"><div class="media-ph"><span>360 x Playbooks</span><small>Image coming soon</small></div></div>
+              <div class="carousel-slide"><div class="media-ph"><span>Install Base 360</span><small>Image coming soon</small></div></div>
+              <div class="carousel-slide"><div class="media-ph"><span>Patient 360</span><small>Image coming soon</small></div></div>
+              <div class="carousel-slide"><div class="media-ph"><span>Service Org 360</span><small>Image coming soon</small></div></div>
+              <div class="carousel-slide"><div class="media-ph"><span>Relationship Node Map</span><small>Image coming soon</small></div></div>
+            </div>
+          </div>
+          <div class="carousel-nav">
+            <button type="button" class="carousel-arrow carousel-prev" aria-label="Previous screen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
+            <div class="carousel-dots">
+              <button type="button" class="carousel-dot" aria-label="Go to slide 1"></button>
+              <button type="button" class="carousel-dot" aria-label="Go to slide 2"></button>
+              <button type="button" class="carousel-dot" aria-label="Go to slide 3"></button>
+              <button type="button" class="carousel-dot" aria-label="Go to slide 4"></button>
+              <button type="button" class="carousel-dot" aria-label="Go to slide 5"></button>
+              <button type="button" class="carousel-dot" aria-label="Go to slide 6"></button>
+              <button type="button" class="carousel-dot" aria-label="Go to slide 7"></button>
+              <button type="button" class="carousel-dot" aria-label="Go to slide 8"></button>
+            </div>
+            <button type="button" class="carousel-arrow carousel-next" aria-label="Next screen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
+          </div>
+          <p class="carousel-caption">From the deck: Account, Consumer, Household, Install Base, Patient, Service Org 360, plus playbooks and a relationship node map.</p>
         </div>
-        <div class="grid grid-4">
-          <div class="card reveal"><h3>B2B leads</h3><p class="muted">B2B is the most prominent relationship, then B2C and B2B2C.</p></div>
-          <div class="card reveal"><h3>Density varies</h3><p class="muted">Info density differs by industry, so components expand, collapse, and search.</p></div>
-          <div class="card reveal"><h3>Activity on the right</h3><p class="muted">Account activity belongs in the right contextual panel as second-level detail.</p></div>
-          <div class="card reveal"><h3>Persona layouts</h3><p class="muted">Persona-based layouts and re-orderable components proved very useful.</p></div>
+        <div class="section-head reveal"><p class="eyebrow">Validated with real customers</p></div>
+        <div class="pullquotes reveal" style="margin-bottom:2.2rem">
+          <div class="pullquote pullquote--vision"><blockquote>“You are going in the right direction. It meets my expectations quite well.”</blockquote><cite>Customer validation session</cite></div>
+          <div class="pullquote pullquote--vision"><blockquote>“It will help customer-focus teams and business roles drive proactive growth conversations.”</blockquote><cite>Customer validation session</cite></div>
+        </div>
+        <div class="callouts-4">
+          <div class="callout callout--vision reveal"><h3>B2B leads</h3><p class="muted">B2B is the most prominent relationship, then B2C and B2B2C.</p></div>
+          <div class="callout callout--vision reveal"><h3>Density varies</h3><p class="muted">Info density differs by industry, so components expand, collapse, and search.</p></div>
+          <div class="callout callout--vision reveal"><h3>Activity on the right</h3><p class="muted">Account activity belongs in the right contextual panel as second-level detail.</p></div>
+          <div class="callout callout--vision reveal"><h3>Persona layouts</h3><p class="muted">Persona-based layouts and re-orderable components proved very useful.</p></div>
         </div>
       </div>
     </section>
@@ -198,12 +253,12 @@
     <hr class="rule" />
 
     <!-- LENS 3: RELEASE -->
-    <section>
+    <section id="lens-release">
       <div class="container">
         <div class="section-head reveal"><p class="eyebrow">Lens 03 · Release</p><h2>Business Location 360, shipped.</h2></div>
-        <p class="lede reveal" style="margin-bottom:2.4rem">Then we shipped. I made the release-specific, high-fidelity designs for <strong>Business Location 360</strong>, the first product in the Entity 360 family. It had to work in ServiceNow's Agent Workspace. I worked flows, then pages, then components with engineering. As the only designer on it, I often acted as a product manager too.</p>
-        <figure class="shot reveal" style="margin:0 0 2.4rem">
-          <img src="../assets/images/c360-bigpicture.svg" alt="Two sides of the experience: the BLSP customer portal where store staff raise a case, and the BL360 fulfiller view where the central support agent resolves it faster" />
+        <p class="lede reveal">Then we shipped. I made the release-specific, high-fidelity designs for <strong>Business Location 360</strong>, the first product in the Entity 360 family. It had to work in ServiceNow's Agent Workspace. I worked flows, then pages, then components with engineering. As the only designer on it, I often acted as a product manager too.</p>
+        <figure class="shot reveal">
+          <img src="../assets/images/c360-bigpicture.svg" alt="Two sides of the experience: the BLSP customer portal where store staff raise a case, and the BL360 fulfiller view where the central support agent resolves it faster" width="1200" height="470" loading="lazy" />
           <figcaption>Two sides: BLSP (customers raise cases) and BL360 (the central support agent resolves them faster).</figcaption>
         </figure>
         <div class="note reveal" style="margin-bottom:2.4rem"><strong>The persona.</strong> The <em>Central Support Agent</em> is a fulfiller who resolves cases for many business locations. They need to view, inspect, and act on every facet of a location so day-to-day operations keep moving.</div>
@@ -212,10 +267,65 @@
           <div class="ba-col reveal"><div class="ba-label">Before</div><div class="ba-body"><p class="muted">Customer info lived across related tabs. Lots of clicks and context-switching. No visual sense of relationships, hierarchy, or journey. Case and customer were two separate blobs.</p></div></div>
           <div class="ba-col after reveal"><div class="ba-label">Shipped</div><div class="ba-body"><p class="muted">One 360 view: identity, KPIs, cases, consumers, and activity in context. The layout scales to complex Service Orgs and Location Accounts, not only individuals.</p></div></div>
         </div>
-        <figure class="shot reveal" style="margin:2.4rem 0 0">
-          <img src="../assets/case-studies/customer360/slide-22-bl360-shipped.png" alt="The shipped Business Location 360 screens: the 360 detail view for Solana San Diego and a case view with the contextual 360 panel alongside" />
-          <figcaption>From the deck: the released Business Location 360. Detail view, and a case with the 360 sitting beside it.</figcaption>
-        </figure>
+        <div class="compare reveal" style="margin:2.4rem 0 0" data-compare aria-label="Drag to compare the previous screen with the shipped Business Location 360 design">
+          <div class="compare-frame">
+            <div class="compare-media compare-media--before">
+              <div class="media-ph"><span>Before</span><small>Image coming soon</small></div>
+            </div>
+            <div class="compare-media compare-media--after">
+              <div class="media-ph"><span>Shipped</span><small>Image coming soon</small></div>
+            </div>
+            <span class="compare-tag compare-tag--before">Before</span>
+            <span class="compare-tag compare-tag--after">Shipped</span>
+            <div class="compare-handle" role="slider" tabindex="0" aria-label="Comparison position" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+              <span class="compare-handle-grip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 8l-4 4 4 4M16 8l4 4-4 4"/></svg></span>
+            </div>
+          </div>
+          <p class="compare-caption">Drag the handle to compare: scattered tabs before, versus the shipped, context-aware Business Location 360.</p>
+        </div>
+      </div>
+    </section>
+
+    <hr class="rule" />
+
+    <!-- BUSINESS LOCATION 360: FINAL SCREENS -->
+    <section>
+      <div class="container">
+        <div class="section-head reveal"><p class="eyebrow">Final screens</p><h2>Business Location 360.</h2></div>
+        <p class="lede reveal">The shipped product, screen by screen: the 360 detail view, the case workspace, and the components that make them up.</p>
+        <div class="carousel reveal" data-carousel aria-roledescription="carousel" aria-label="Business Location 360 shipped screens">
+          <div class="carousel-viewport">
+            <div class="carousel-track">
+              <div class="carousel-slide"><div class="media-ph"><span>Screen 01</span><small>Image coming soon</small></div></div>
+              <div class="carousel-slide"><div class="media-ph"><span>Screen 02</span><small>Image coming soon</small></div></div>
+              <div class="carousel-slide"><div class="media-ph"><span>Screen 03</span><small>Image coming soon</small></div></div>
+              <div class="carousel-slide"><div class="media-ph"><span>Screen 04</span><small>Image coming soon</small></div></div>
+              <div class="carousel-slide"><div class="media-ph"><span>Screen 05</span><small>Image coming soon</small></div></div>
+              <div class="carousel-slide"><div class="media-ph"><span>Screen 06</span><small>Image coming soon</small></div></div>
+              <div class="carousel-slide"><div class="media-ph"><span>Screen 07</span><small>Image coming soon</small></div></div>
+              <div class="carousel-slide"><div class="media-ph"><span>Screen 08</span><small>Image coming soon</small></div></div>
+              <div class="carousel-slide"><div class="media-ph"><span>Screen 09</span><small>Image coming soon</small></div></div>
+              <div class="carousel-slide"><div class="media-ph"><span>Screen 10</span><small>Image coming soon</small></div></div>
+            </div>
+          </div>
+          <div class="carousel-nav">
+            <button type="button" class="carousel-arrow carousel-prev" aria-label="Previous screen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
+            <div class="carousel-dots">
+              <button type="button" class="carousel-dot" aria-label="Go to slide 1"></button>
+              <button type="button" class="carousel-dot" aria-label="Go to slide 2"></button>
+              <button type="button" class="carousel-dot" aria-label="Go to slide 3"></button>
+              <button type="button" class="carousel-dot" aria-label="Go to slide 4"></button>
+              <button type="button" class="carousel-dot" aria-label="Go to slide 5"></button>
+              <button type="button" class="carousel-dot" aria-label="Go to slide 6"></button>
+              <button type="button" class="carousel-dot" aria-label="Go to slide 7"></button>
+              <button type="button" class="carousel-dot" aria-label="Go to slide 8"></button>
+              <button type="button" class="carousel-dot" aria-label="Go to slide 9"></button>
+              <button type="button" class="carousel-dot" aria-label="Go to slide 10"></button>
+            </div>
+            <button type="button" class="carousel-arrow carousel-next" aria-label="Next screen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
+          </div>
+          <p class="carousel-caption">The final, shipped Business Location 360 screens.</p>
+        </div>
       </div>
     </section>
 
@@ -226,9 +336,10 @@
       <div class="container">
         <div class="section-head reveal"><p class="eyebrow">Outcome</p><h2>Business Location 360 shipped as the first Entity 360 product.</h2></div>
         <p class="lede reveal" style="margin-bottom:2.2rem">A checked north star across entity types, and a co-creation method the verticals could keep using.</p>
-        <div class="grid grid-2">
-          <div class="card reveal"><h3>A checked north star</h3><p class="muted">A full Entity 360 library (Account, Consumer, Household, Patient, Service Org, and more) confirmed by real customers.</p></div>
-          <div class="card reveal"><h3>A repeatable process</h3><p class="muted">A cross-industry co-creation method and a template system others could keep building on.</p></div>
+        <div class="stat-callout reveal"><span class="big">4</span><p>core customer-facing personas — service, location, back-office, and relationship management — served by one shared 360 view.</p></div>
+        <div class="highlights">
+          <div class="highlight reveal"><h3>A checked north star</h3><p class="muted">A full Entity 360 library (Account, Consumer, Household, Patient, Service Org, and more) confirmed by real customers.</p></div>
+          <div class="highlight reveal"><h3>A repeatable process</h3><p class="muted">A cross-industry co-creation method and a template system others could keep building on.</p></div>
         </div>
       </div>
     </section>
@@ -246,6 +357,7 @@
 
     <section class="cs-nav" aria-label="Other work">
       <div class="container">
+        <p class="eyebrow cs-nav-title">More work</p>
         <nav class="morework">
           <a href="patient360.html">
             <span class="dir">← Previous</span>

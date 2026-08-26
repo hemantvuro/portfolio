@@ -15,15 +15,20 @@
   <link rel="preconnect" href="https://api.fontshare.com" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Fraunces:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.css" />
   <link rel="stylesheet" href="../css/styles.css" />
 </head>
-<body class="page-cs" data-root="../">
+<body class="page-cs case-patient360" data-root="../">
   <a class="skip-link" href="#main">Skip to content</a>
   <div class="transition-panel" aria-hidden="true"><div class="transit-blue"></div><div class="transit-bg"></div></div>
   <header class="site-bar">
+    <nav class="lens-nav" aria-label="Case study sections">
+      <a class="lens-link" data-lens="discovery" href="#lens-discovery">Discovery</a>
+      <a class="lens-link" data-lens="vision" href="#lens-vision">Vision</a>
+      <a class="lens-link" data-lens="craft" href="#lens-craft">Craft</a>
+    </nav>
     <div class="site-bar-end">
       <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-menu">
         <span class="menu-ic menu-ic--open" aria-hidden="true">
@@ -57,14 +62,14 @@
       <div class="container">
         <a class="back-link" href="../index.html#work">← Back to work</a>
         <p class="eyebrow">Self-initiated · Healthcare SaaS · 2023</p>
-        <h1>Patient 360: one system, two clinicians.</h1>
+        <h1><strong>Patient 360</strong>: one system, two clinicians.</h1>
         <p class="lede">I’ve sat in that hospital process more than once. The nurse-to-doctor hand-off always felt like two systems. This is one angle on that, not a commissioned product. The core idea: <strong>one shared patient record that reshapes itself for whoever logs in</strong>.</p>
       </div>
     </section>
 
     <section style="padding-top:0">
       <div class="container">
-        <div class="cs-cover reveal"><img src="../assets/case-studies/patient360/Doctor Patient360.png" alt="Doctor view of Patient 360 with an AI summary, nurse notes, patient details, clinical timeline, and consultation actions" /></div>
+        <div class="cs-cover reveal"><img src="../assets/case-studies/patient360/Doctor Patient360.png" alt="Doctor view of Patient 360 with an AI summary, nurse notes, patient details, clinical timeline, and consultation actions" width="3200" height="1800" /></div>
         <div class="cs-brief reveal">
           <div class="cs-brief-item">
             <p class="cs-brief-label">The problem</p>
@@ -84,10 +89,22 @@
     <section>
       <div class="container">
         <div class="section-head reveal"><p class="eyebrow">The three lenses</p><h2>Discovery, a vision, and a designed solution.</h2></div>
-        <div class="pillars">
-          <div class="pillar reveal"><span class="num">01</span><h3>Rigor</h3><p class="muted">Structured discovery: a tight scope, JTBD personas, a consultation journey, and a needs → data → function matrix.</p></div>
-          <div class="pillar reveal"><span class="num">02</span><h3>Vision</h3><p class="muted">One role-adaptive system. The same record reshapes for whoever logs in, instead of shipping two separate tools.</p></div>
-          <div class="pillar reveal"><span class="num">03</span><h3>Craft</h3><p class="muted">A high-fidelity flow from start to finish: vitals, the nurse→doctor hand-off, an AI summary, and a focused consultation.</p></div>
+        <div class="lens-timeline">
+          <div class="lens-timeline__step lens-timeline__step--discovery reveal">
+            <div class="lens-timeline__node-row"><span class="lens-timeline__node">01</span></div>
+            <h3>Discovery</h3>
+            <p class="muted">Structured discovery: a tight scope, JTBD personas, a consultation journey, and a needs → data → function matrix.</p>
+          </div>
+          <div class="lens-timeline__step lens-timeline__step--vision reveal">
+            <div class="lens-timeline__node-row"><span class="lens-timeline__node">02</span></div>
+            <h3>Vision</h3>
+            <p class="muted">One role-adaptive system. The same record reshapes for whoever logs in, instead of shipping two separate tools.</p>
+          </div>
+          <div class="lens-timeline__step lens-timeline__step--craft reveal">
+            <div class="lens-timeline__node-row"><span class="lens-timeline__node">03</span></div>
+            <h3>Craft</h3>
+            <p class="muted">A high-fidelity flow from start to finish: vitals, the nurse→doctor hand-off, an AI summary, and a focused consultation.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -98,12 +115,12 @@
     <section>
       <div class="container">
         <div class="section-head reveal"><p class="eyebrow">The context</p><h2>Help practitioners make better decisions, faster.</h2></div>
-        <p class="lede reveal" style="margin-bottom:2.4rem">I imagined a fast-growing medical-software company that wants one platform for practitioners: bookings, registration, records, clinical notes, claims, and billing. The problem I chose: help clinicians <strong>make better decisions by accessing and capturing vital clinical information</strong> on a returning patient. History, examination notes, procedures, prescriptions, and lab reports.</p>
-        <div class="grid grid-4" style="margin-bottom:2rem">
-          <div class="card reveal"><h3>Find fast</h3><p class="muted">Locate a specific patient across about 20 identifiers: name, patient number, DOB, contact, and more.</p></div>
-          <div class="card reveal"><h3>See the whole picture</h3><p class="muted">An overview of the patient's medical history and all clinical information in one place.</p></div>
-          <div class="card reveal"><h3>Capture in context</h3><p class="muted">Take notes during a consultation without losing the thread of the conversation.</p></div>
-          <div class="card reveal"><h3>Desktop first</h3><p class="muted">A connected desktop surface as the primary workspace for the core clinical use cases.</p></div>
+        <p class="lede reveal">I imagined a fast-growing medical-software company that wants one platform for practitioners: bookings, registration, records, clinical notes, claims, and billing. The problem I chose: help clinicians <strong>make better decisions by accessing and capturing vital clinical information</strong> on a returning patient. History, examination notes, procedures, prescriptions, and lab reports.</p>
+        <div class="callouts-4" style="margin-bottom:2rem">
+          <div class="callout callout--neutral reveal"><h3>Find fast</h3><p class="muted">Locate a specific patient across about 20 identifiers: name, patient number, DOB, contact, and more.</p></div>
+          <div class="callout callout--neutral reveal"><h3>See the whole picture</h3><p class="muted">An overview of the patient's medical history and all clinical information in one place.</p></div>
+          <div class="callout callout--neutral reveal"><h3>Capture in context</h3><p class="muted">Take notes during a consultation without losing the thread of the conversation.</p></div>
+          <div class="callout callout--neutral reveal"><h3>Desktop first</h3><p class="muted">A connected desktop surface as the primary workspace for the core clinical use cases.</p></div>
         </div>
         <div class="note reveal"><strong>A tight scope.</strong> Of three possible scenarios (consulting, admitted-patient, and emergency) I focused on the <em>doctor-patient consultation with a returning patient</em>. It covers the core use cases without trying to solve the whole hospital.</div>
       </div>
@@ -115,7 +132,7 @@
     <section>
       <div class="container">
         <div class="section-head reveal"><p class="eyebrow">The constraint</p><h2>A compliance-heavy, privacy-first domain. Treated as such.</h2></div>
-        <p class="lede reveal" style="margin-bottom:2.4rem">Healthcare is high-stakes. Data protection, consent, and clinical compliance are design constraints. As a self-directed concept I couldn't run primary research, so I used secondary research and conversations with people in healthcare, written down as <strong>explicit assumptions</strong> rather than hidden guesses.</p>
+        <p class="lede reveal">Healthcare is high-stakes. Data protection, consent, and clinical compliance are design constraints. As a self-directed concept I couldn't run primary research, so I used secondary research and conversations with people in healthcare, written down as <strong>explicit assumptions</strong> rather than hidden guesses.</p>
         <div class="grid grid-3" style="margin-bottom:2rem">
           <div class="card reveal"><h3>Privacy by design</h3><p class="muted">Informed consent, data minimisation, the right to access, and breach-aware handling shape what's shown and to whom.</p></div>
           <div class="card reveal"><h3>Navigating chaos</h3><p class="muted">Clinicians multitask and context-switch constantly; the interface has to stay calm and show the right thing at the right moment.</p></div>
@@ -126,34 +143,34 @@
 
     <hr class="rule" />
 
-    <!-- LENS 1: RIGOR -->
-    <section>
+    <!-- LENS 1: DISCOVERY -->
+    <section id="lens-discovery">
       <div class="container">
-        <div class="section-head reveal"><p class="eyebrow">Lens 01 · Rigor</p><h2>Two roles, one journey, every need traced.</h2></div>
-        <p class="lede reveal" style="margin-bottom:2.4rem">I framed the two clinicians by their <strong>jobs to be done</strong> rather than rigid personas, since their roles overlap around the same patient. That produced a shared consultation journey and a needs matrix that keeps every UI decision traceable to a real need.</p>
+        <div class="section-head reveal"><p class="eyebrow">Lens 01 · Discovery</p><h2>Two roles, one journey, every need traced.</h2></div>
+        <p class="lede reveal">I framed the two clinicians by their <strong>jobs to be done</strong> rather than rigid personas, since their roles overlap around the same patient. That produced a shared consultation journey and a needs matrix that keeps every UI decision traceable to a real need.</p>
 
         <div class="grid grid-2" style="margin-bottom:2.6rem">
           <div class="card reveal">
             <p class="eyebrow" style="margin-bottom:.6rem">Doctor · JTBD</p>
             <h3 style="margin-bottom:.6rem">Understand → Diagnose → Treat</h3>
             <p class="muted" style="margin-bottom:.8rem">Understand the issue and history, capture findings, synthesise a diagnosis, and put a treatment plan into action.</p>
-            <p class="muted" style="margin:0"><strong>Pain:</strong> information overload · fragmented history · the burden of documentation.</p>
+            <p class="pain-flag"><span class="pain-flag-label">Pain</span> information overload · fragmented history · the burden of documentation.</p>
           </div>
           <div class="card reveal">
             <p class="eyebrow" style="margin-bottom:.6rem">Nurse · JTBD</p>
             <h3 style="margin-bottom:.6rem">Prepare → Vitals → Coordinate → Facilitate</h3>
             <p class="muted" style="margin-bottom:.8rem">Verify the patient, capture vitals, execute the doctor's orders, and help the patient understand next steps.</p>
-            <p class="muted" style="margin:0"><strong>Pain:</strong> task juggling · constant interruptions · communication delays.</p>
+            <p class="pain-flag"><span class="pain-flag-label">Pain</span> task juggling · constant interruptions · communication delays.</p>
           </div>
         </div>
 
-        <figure class="shot reveal" style="margin:0 0 2.6rem">
-          <img src="../assets/images/p360-journey.svg" alt="Consultation journey swimlane: a nurse lane (check-in, assess, coordinate, facilitate, check-out) and a doctor lane (understand, diagnose, treat and prescribe) across pre, during and post consultation, with hand-offs between them" />
+        <figure class="shot reveal">
+          <img src="../assets/images/p360-journey.svg" alt="Consultation journey swimlane: a nurse lane (check-in, assess, coordinate, facilitate, check-out) and a doctor lane (understand, diagnose, treat and prescribe) across pre, during and post consultation, with hand-offs between them" width="1200" height="500" loading="lazy" />
           <figcaption>The consultation journey: nurse and doctor lanes across pre, during, and post, with the hand-off in both directions.</figcaption>
         </figure>
 
-        <figure class="shot reveal" style="margin:0 0 2.6rem">
-          <img src="../assets/images/p360-needs.svg" alt="Needs matrix mapping each user need to the data it requires and then to the functional UI component that satisfies it" />
+        <figure class="shot reveal">
+          <img src="../assets/images/p360-needs.svg" alt="Needs matrix mapping each user need to the data it requires and then to the functional UI component that satisfies it" width="1200" height="560" loading="lazy" />
           <figcaption>The needs matrix. Every user need mapped to a data need, then to the component that delivers it.</figcaption>
         </figure>
 
@@ -169,21 +186,21 @@
     <hr class="rule" />
 
     <!-- LENS 2: VISION -->
-    <section>
+    <section id="lens-vision">
       <div class="container">
         <div class="section-head reveal"><p class="eyebrow">Lens 02 · Vision</p><h2>One record that reshapes for whoever logs in.</h2></div>
-        <p class="lede reveal" style="margin-bottom:2.4rem">Rather than build two products, the vision is a single system with a <strong>shared patient core</strong> and <strong>role-adaptive layouts</strong>. The nurse view leads with what a nurse does: notes for the doctor and a fast vitals capture. The doctor view reshapes the same record to lead with an <strong>AI summary</strong>, the nurse's notes, and a consultation flow.</p>
-        <figure class="shot reveal" style="margin:0 0 2.6rem">
-          <img src="../assets/images/p360-cover.svg" alt="One shared patient record in the centre reshaping into a nurse view on the left and a doctor view on the right" />
+        <p class="lede reveal">Rather than build two products, the vision is a single system with a <strong>shared patient core</strong> and <strong>role-adaptive layouts</strong>. The nurse view leads with what a nurse does: notes for the doctor and a fast vitals capture. The doctor view reshapes the same record to lead with an <strong>AI summary</strong>, the nurse's notes, and a consultation flow.</p>
+        <figure class="shot reveal">
+          <img src="../assets/images/p360-cover.svg" alt="One shared patient record in the centre reshaping into a nurse view on the left and a doctor view on the right" width="1200" height="515" loading="lazy" />
           <figcaption>The concept: one shared patient record, reshaped around the nurse’s and doctor’s different responsibilities.</figcaption>
         </figure>
         <div class="grid grid-2" style="margin-bottom:1rem">
           <figure class="shot reveal" style="margin:0">
-            <img src="../assets/case-studies/patient360/final/final-03-nurse-vitals-notes-careplans.png" alt="Nurse view of the patient record: Notes for doctor at the top, captured vitals, and care plans" />
+            <img src="../assets/case-studies/patient360/final/final-03-nurse-vitals-notes-careplans.png" alt="Nurse view of the patient record: Notes for doctor at the top, captured vitals, and care plans" width="1600" height="975" loading="lazy" />
             <figcaption>Nurse view. “Notes for doctor” and a fast vitals capture come first.</figcaption>
           </figure>
           <figure class="shot reveal" style="margin:0">
-            <img src="../assets/case-studies/patient360/final/final-05-doctor-view-aisummary.png" alt="Doctor view of the same patient record: an AI summary and nurse notes in the left rail, with a Start Consultation action" />
+            <img src="../assets/case-studies/patient360/final/final-05-doctor-view-aisummary.png" alt="Doctor view of the same patient record: an AI summary and nurse notes in the left rail, with a Start Consultation action" width="1600" height="975" loading="lazy" />
             <figcaption>Doctor view. The same record now leads with an AI summary and nurse notes.</figcaption>
           </figure>
         </div>
@@ -194,35 +211,35 @@
     <hr class="rule" />
 
     <!-- LENS 3: CRAFT -->
-    <section>
+    <section id="lens-craft">
       <div class="container">
         <div class="section-head reveal"><p class="eyebrow">Lens 03 · Craft</p><h2>The consultation, end to end.</h2></div>
-        <p class="lede reveal" style="margin-bottom:2.4rem">The concept goes all the way to a working, high-fidelity flow. It answers the three learnings directly: reduce cognitive load, adapt to the role, and cut data entry.</p>
+        <p class="lede reveal">The concept goes all the way to a working, high-fidelity flow. It answers the three learnings directly: reduce cognitive load, adapt to the role, and cut data entry.</p>
 
-        <figure class="shot reveal" style="margin:0 0 2.6rem">
-          <img src="../assets/case-studies/patient360/final/final-09-consultation-mode-empty.png" alt="Consultation focus mode: the layout collapses to a Current Session panel with Chief Complaint, Doctor's Advice, Rx and Investigations" />
+        <figure class="shot reveal">
+          <img src="../assets/case-studies/patient360/final/final-09-consultation-mode-empty.png" alt="Consultation focus mode: the layout collapses to a Current Session panel with Chief Complaint, Doctor's Advice, Rx and Investigations" width="1600" height="975" loading="lazy" />
           <figcaption>Consultation focus mode. The layout reshapes for the <em>task</em>, collapsing everything but the notes so the doctor can document without leaving the patient's context.</figcaption>
         </figure>
 
         <div class="grid grid-2" style="margin-bottom:2.6rem">
           <figure class="shot reveal" style="margin:0">
-            <img src="../assets/case-studies/patient360/final/final-11-consultation-rx-autocomplete.png" alt="Prescribing with medication autocomplete inside the consultation" />
+            <img src="../assets/case-studies/patient360/final/final-11-consultation-rx-autocomplete.png" alt="Prescribing with medication autocomplete inside the consultation" width="1600" height="975" loading="lazy" />
             <figcaption>Smart Rx. Medication autocomplete cuts repetitive data entry.</figcaption>
           </figure>
           <figure class="shot reveal" style="margin:0">
-            <img src="../assets/case-studies/patient360/final/final-02-check-vitals-modal.png" alt="The Check Vitals modal where a nurse records temperature, blood pressure, heart rate and more" />
+            <img src="../assets/case-studies/patient360/final/final-02-check-vitals-modal.png" alt="The Check Vitals modal where a nurse records temperature, blood pressure, heart rate and more" width="1600" height="975" loading="lazy" />
             <figcaption>Check vitals. The nurse's fast, error-proof capture step.</figcaption>
           </figure>
         </div>
 
-        <figure class="shot reveal" style="margin:0 0 2.6rem">
-          <img src="../assets/case-studies/patient360/final/final-08-investigation-report-xray.png" alt="A full-screen investigation report with summary, findings and impressions alongside a knee X-ray" />
+        <figure class="shot reveal">
+          <img src="../assets/case-studies/patient360/final/final-08-investigation-report-xray.png" alt="A full-screen investigation report with summary, findings and impressions alongside a knee X-ray" width="1600" height="975" loading="lazy" />
           <figcaption>Deep clinical view. A fragmented history becomes a clean, full-screen report the doctor can actually read.</figcaption>
         </figure>
 
         <div class="section-head reveal"><p class="eyebrow">The loop closes</p><h2>Back to the nurse, ready to act.</h2></div>
         <figure class="shot reveal" style="margin:0">
-          <img src="../assets/case-studies/patient360/final/final-12-nurse-completed-session-queue.png" alt="Nurse view with multiple patient tabs: the completed consultation appears as a shareable, printable summary" />
+          <img src="../assets/case-studies/patient360/final/final-12-nurse-completed-session-queue.png" alt="Nurse view with multiple patient tabs: the completed consultation appears as a shareable, printable summary" width="1600" height="975" loading="lazy" />
           <figcaption>The completed consultation flows back to the nurse as a shareable summary. One system, not two disconnected tools.</figcaption>
         </figure>
       </div>
@@ -238,6 +255,7 @@
           <div class="ba-col reveal"><div class="ba-label">The tension</div><div class="ba-body"><p class="muted">Two roles, two very different workflows. The easy path is two separate tools. Each one fits its user, but data gets copied, sources of truth drift, and the hand-off between nurse and doctor breaks.</p></div></div>
           <div class="ba-col after reveal"><div class="ba-label">The bet</div><div class="ba-body"><p class="muted">One shared core that flexes: persona layouts, re-ordered components, and focus modes. It costs more design thought up front, but keeps data consistent and makes the nurse→doctor→nurse hand-off feel like one system.</p></div></div>
         </div>
+        <div class="pull-statement reveal"><p>One shared core that flexes — not two tools that drift apart.</p></div>
       </div>
     </section>
 
@@ -247,10 +265,10 @@
     <section>
       <div class="container">
         <div class="section-head reveal"><p class="eyebrow">Outcome</p><h2>What the exploration showed.</h2></div>
-        <div class="grid grid-3">
-          <div class="card reveal"><h3>Reduce cognitive load</h3><p class="muted">Clinicians multitask, so the interface stays clear and shows the right info in context, role by role.</p></div>
-          <div class="card reveal"><h3>Role-based, one core</h3><p class="muted">Roles differ but the core data is the same; persona layouts + re-ordering tailor the experience without forking the product.</p></div>
-          <div class="card reveal"><h3>Reduce data entry</h3><p class="muted">Connected data, smart autocomplete and structured records cut the repetitive typing that clinicians resent.</p></div>
+        <div class="highlights highlights-3">
+          <div class="highlight reveal"><h3>Reduce cognitive load</h3><p class="muted">Clinicians multitask, so the interface stays clear and shows the right info in context, role by role.</p></div>
+          <div class="highlight reveal"><h3>Role-based, one core</h3><p class="muted">Roles differ but the core data is the same; persona layouts + re-ordering tailor the experience without forking the product.</p></div>
+          <div class="highlight reveal"><h3>Reduce data entry</h3><p class="muted">Connected data, smart autocomplete and structured records cut the repetitive typing that clinicians resent.</p></div>
         </div>
       </div>
     </section>
@@ -261,16 +279,7 @@
     <section>
       <div class="container">
         <div class="section-head reveal"><p class="eyebrow">If this were real</p><h2>I’d start with the people in the room.</h2></div>
-        <p class="lede reveal" style="margin:0;max-width:52ch">Primary research with nurses and doctors, a compliance pass, and claims and billing parked until the consultation loop was proven.</p>
-      </div>
-    </section>
-
-    <hr class="rule" />
-
-    <!-- CLOSING -->
-    <section>
-      <div class="container">
-        <p class="lede reveal" style="max-width:52ch;margin:0">I would not ship this as-is. The value of the work is the hand-off: one record, two roles, and a point of view I can take into a real research room.</p>
+        <p class="lede reveal" style="margin:0;max-width:52ch">This stays a concept, not a shippable product. Next would be primary research with nurses and doctors, a compliance pass, and claims and billing parked until the consultation loop is proven. The value of the work is the hand-off: one shared record, two roles, and a point of view I can take into a real research room.</p>
       </div>
     </section>
 
@@ -278,6 +287,7 @@
 
     <section class="cs-nav" aria-label="Other work">
       <div class="container">
+        <p class="eyebrow cs-nav-title">More work</p>
         <nav class="morework">
           <a href="messaging-vision.html">
             <span class="dir">← Previous</span>

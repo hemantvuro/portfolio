@@ -1,53 +1,53 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="515" viewBox="0 0 1200 515" role="img" aria-label="Generative AI Workspace concept: AI chat, live preview, and configuration rail">
-  <rect width="1200" height="515" fill="#efe9f4"/>
-  <rect x="48" y="40" width="1104" height="435" rx="16" fill="#ffffff" stroke="#e7e1ec" stroke-width="1.5"/>
+  <rect width="1200" height="515" fill="#f7ede1"/>
+  <rect x="48" y="40" width="1104" height="435" rx="16" fill="#ffffff" stroke="#ecdfcb" stroke-width="1.5"/>
   <rect x="48" y="40" width="1104" height="52" rx="16" fill="#191621"/>
   <rect x="48" y="76" width="1104" height="16" fill="#191621"/>
-  <circle cx="76" cy="66" r="5" fill="#7a3b8f"/>
-  <circle cx="94" cy="66" r="5" fill="#635d6c"/>
-  <circle cx="112" cy="66" r="5" fill="#635d6c"/>
-  <text x="150" y="71" font-family="Georgia, serif" font-size="15" fill="#eae6ef">Messaging Component Builder / Generative Workspace</text>
+  <circle cx="76" cy="66" r="5" fill="#c8722f"/>
+  <circle cx="94" cy="66" r="5" fill="#6b5c4a"/>
+  <circle cx="112" cy="66" r="5" fill="#6b5c4a"/>
+  <text x="150" y="71" font-family="Georgia, serif" font-size="15" fill="#f7f0e6">Messaging Component Builder / Generative Workspace</text>
 
-  <rect x="72" y="116" width="300" height="335" rx="10" fill="#f7f4fa" stroke="#e7e1ec"/>
-  <text x="92" y="146" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="1.5" fill="#5c2c6c">AI CHAT</text>
-  <rect x="92" y="164" width="230" height="46" rx="10" fill="#ffffff" stroke="#e7e1ec"/>
-  <rect x="104" y="178" width="150" height="8" rx="4" fill="#c7bdd3"/>
-  <rect x="104" y="192" width="196" height="8" rx="4" fill="#e2dce8"/>
+  <rect x="72" y="116" width="300" height="335" rx="10" fill="#f9f1e8" stroke="#ecdfcb"/>
+  <text x="92" y="146" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="1.5" fill="#a85c22">AI CHAT</text>
+  <rect x="92" y="164" width="230" height="46" rx="10" fill="#ffffff" stroke="#ecdfcb"/>
+  <rect x="104" y="178" width="150" height="8" rx="4" fill="#ddc4a8"/>
+  <rect x="104" y="192" width="196" height="8" rx="4" fill="#efe3d0"/>
   <rect x="152" y="224" width="200" height="46" rx="10" fill="#191621"/>
-  <rect x="168" y="238" width="150" height="8" rx="4" fill="#8b8598"/>
-  <rect x="168" y="252" width="110" height="8" rx="4" fill="#5c5766"/>
-  <rect x="92" y="284" width="240" height="52" rx="10" fill="#f4edf8" stroke="#d8b8e0"/>
-  <text x="104" y="304" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5c2c6c">Apple does not support carousels &#8212;</text>
-  <text x="104" y="320" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5c2c6c">want a text list instead?</text>
-  <rect x="92" y="404" width="260" height="34" rx="17" fill="#ffffff" stroke="#7a3b8f" stroke-width="1.5"/>
-  <text x="108" y="425" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#635d6c">Describe your component...</text>
+  <rect x="168" y="238" width="150" height="8" rx="4" fill="#ab9a80"/>
+  <rect x="168" y="252" width="110" height="8" rx="4" fill="#6b6152"/>
+  <rect x="92" y="284" width="240" height="52" rx="10" fill="#f2e4d3" stroke="#e0b98c"/>
+  <text x="104" y="304" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#a85c22">Apple does not support carousels &#8212;</text>
+  <text x="104" y="320" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#a85c22">want a text list instead?</text>
+  <rect x="92" y="404" width="260" height="34" rx="17" fill="#ffffff" stroke="#c8722f" stroke-width="1.5"/>
+  <text x="108" y="425" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#6b5c4a">Describe your component...</text>
 
-  <rect x="392" y="116" width="440" height="335" rx="10" fill="#f7f4fa" stroke="#e7e1ec"/>
-  <text x="412" y="146" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="1.5" fill="#635d6c">LIVE PREVIEW</text>
-  <rect x="412" y="158" width="400" height="6" rx="3" fill="#e7e1ec"/>
-  <rect x="412" y="158" width="320" height="6" rx="3" fill="#7a3b8f"/>
-  <text x="740" y="184" font-family="Georgia, serif" font-size="13" fill="#5c2c6c">80% complete</text>
-  <rect x="512" y="196" width="200" height="238" rx="18" fill="#ffffff" stroke="#e7e1ec" stroke-width="1.5"/>
-  <rect x="528" y="212" width="168" height="96" rx="8" fill="#ece7f2"/>
-  <path d="M528 300 l40 -34 26 22 34 -30 40 42 z" fill="#d9d2e2"/>
-  <circle cx="560" cy="238" r="12" fill="#d9d2e2"/>
+  <rect x="392" y="116" width="440" height="335" rx="10" fill="#f9f1e8" stroke="#ecdfcb"/>
+  <text x="412" y="146" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="1.5" fill="#6b5c4a">LIVE PREVIEW</text>
+  <rect x="412" y="158" width="400" height="6" rx="3" fill="#ecdfcb"/>
+  <rect x="412" y="158" width="320" height="6" rx="3" fill="#c8722f"/>
+  <text x="740" y="184" font-family="Georgia, serif" font-size="13" fill="#a85c22">80% complete</text>
+  <rect x="512" y="196" width="200" height="238" rx="18" fill="#ffffff" stroke="#ecdfcb" stroke-width="1.5"/>
+  <rect x="528" y="212" width="168" height="96" rx="8" fill="#f3e9db"/>
+  <path d="M528 300 l40 -34 26 22 34 -30 40 42 z" fill="#e8dcc5"/>
+  <circle cx="560" cy="238" r="12" fill="#e8dcc5"/>
   <rect x="528" y="320" width="120" height="10" rx="5" fill="#191621"/>
-  <rect x="528" y="338" width="168" height="8" rx="4" fill="#c7bdd3"/>
-  <rect x="528" y="352" width="140" height="8" rx="4" fill="#e2dce8"/>
+  <rect x="528" y="338" width="168" height="8" rx="4" fill="#ddc4a8"/>
+  <rect x="528" y="352" width="140" height="8" rx="4" fill="#efe3d0"/>
   <rect x="528" y="388" width="168" height="30" rx="15" fill="#191621"/>
-  <rect x="576" y="399" width="72" height="8" rx="4" fill="#8b8598"/>
+  <rect x="576" y="399" width="72" height="8" rx="4" fill="#ab9a80"/>
 
-  <rect x="852" y="116" width="276" height="335" rx="10" fill="#f7f4fa" stroke="#e7e1ec"/>
-  <text x="872" y="146" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="1.5" fill="#635d6c">CONFIGURE</text>
+  <rect x="852" y="116" width="276" height="335" rx="10" fill="#f9f1e8" stroke="#ecdfcb"/>
+  <text x="872" y="146" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="1.5" fill="#6b5c4a">CONFIGURE</text>
   <text x="872" y="176" font-family="Georgia, serif" font-size="13" fill="#191621">Message elements</text>
-  <rect x="872" y="186" width="236" height="26" rx="6" fill="#ffffff" stroke="#e7e1ec"/>
-  <rect x="872" y="218" width="236" height="26" rx="6" fill="#ffffff" stroke="#e7e1ec"/>
+  <rect x="872" y="186" width="236" height="26" rx="6" fill="#ffffff" stroke="#ecdfcb"/>
+  <rect x="872" y="218" width="236" height="26" rx="6" fill="#ffffff" stroke="#ecdfcb"/>
   <text x="872" y="278" font-family="Georgia, serif" font-size="13" fill="#191621">Assets &amp; data</text>
-  <rect x="872" y="288" width="236" height="26" rx="6" fill="#ffffff" stroke="#e7e1ec"/>
-  <rect x="872" y="320" width="236" height="26" rx="6" fill="#ffffff" stroke="#e7e1ec"/>
+  <rect x="872" y="288" width="236" height="26" rx="6" fill="#ffffff" stroke="#ecdfcb"/>
+  <rect x="872" y="320" width="236" height="26" rx="6" fill="#ffffff" stroke="#ecdfcb"/>
   <text x="872" y="380" font-family="Georgia, serif" font-size="13" fill="#191621">Channels</text>
-  <rect x="872" y="392" width="80" height="24" rx="12" fill="#efe9f4" stroke="#7a3b8f"/>
-  <text x="885" y="408" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#5c2c6c">WhatsApp</text>
-  <rect x="962" y="392" width="52" height="24" rx="12" fill="#efe9f4" stroke="#e7e1ec"/>
-  <text x="975" y="408" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#635d6c">Apple</text>
+  <rect x="872" y="392" width="80" height="24" rx="12" fill="#f7ede1" stroke="#c8722f"/>
+  <text x="885" y="408" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#a85c22">WhatsApp</text>
+  <rect x="962" y="392" width="52" height="24" rx="12" fill="#f7ede1" stroke="#c8722f" stroke-width="1.5"/>
+  <text x="975" y="408" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#a85c22">Apple</text>
 </svg>

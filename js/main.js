@@ -644,7 +644,7 @@
 
   /* ---------- resume modal ---------- */
   (function initResumeModal() {
-    var pdf = (root || "") + "assets/HemantVResume.pdf";
+    var pdf = (root || "") + "assets/resume.pdf";
     var preview = (root || "") + "assets/resume-preview.png";
     var modal = document.createElement("div");
     modal.className = "resume-modal";
@@ -694,7 +694,7 @@
       if (e.key === "Escape" && modal.classList.contains("open")) closeResume();
     });
   })();
-  var zoomables = document.querySelectorAll(".cs-cover img, figure.shot img, .zoomable");
+  var zoomables = document.querySelectorAll("figure.shot img, .zoomable");
   if (zoomables.length) {
     var lb = document.createElement("div");
     lb.className = "lightbox";
@@ -993,5 +993,153 @@
       u.onerror = function () { btn.classList.remove("is-playing"); };
       window.speechSynthesis.speak(u);
     });
+  })();
+
+  /* ---------- image carousels ---------- */
+  (function initCarousels() {
+    var carousels = document.querySelectorAll("[data-carousel]");
+    if (!carousels.length) return;
+
+    carousels.forEach(function (root) {
+      var track = root.querySelector(".carousel-track");
+      var slides = Array.prototype.slice.call(root.querySelectorAll(".carousel-slide"));
+      var prevBtn = root.querySelector(".carousel-prev");
+      var nextBtn = root.querySelector(".carousel-next");
+      var dots = Array.prototype.slice.call(root.querySelectorAll(".carousel-dot"));
+      if (!track || !slides.length) return;
+
+      var index = 0;
+
+      function render() {
+        track.style.transform = "translate3d(-" + index * 100 + "%,0,0)";
+        dots.forEach(function (dot, i) {
+          dot.classList.toggle("is-active", i === index);
+        });
+      }
+
+      function goTo(i) {
+        index = (i + slides.length) % slides.length;
+        render();
+      }
+
+      if (prevBtn) prevBtn.addEventListener("click", function () { goTo(index - 1); });
+      if (nextBtn) nextBtn.addEventListener("click", function () { goTo(index + 1); });
+      dots.forEach(function (dot, i) {
+        dot.addEventListener("click", function () { goTo(i); });
+      });
+
+      root.addEventListener("keydown", function (e) {
+        if (e.key === "ArrowLeft") { goTo(index - 1); e.preventDefault(); }
+        else if (e.key === "ArrowRight") { goTo(index + 1); e.preventDefault(); }
+      });
+
+      var startX = null;
+      track.addEventListener("pointerdown", function (e) { startX = e.clientX; });
+      track.addEventListener("pointerup", function (e) {
+        if (startX === null) return;
+        var dx = e.clientX - startX;
+        if (Math.abs(dx) > 40) goTo(index + (dx < 0 ? 1 : -1));
+        startX = null;
+      });
+
+      render();
+    });
+  })();
+
+  /* ---------- before / after compare sliders ---------- */
+  (function initCompareSliders() {
+    var frames = document.querySelectorAll("[data-compare] .compare-frame");
+    if (!frames.length) return;
+
+    frames.forEach(function (frame) {
+      var after = frame.querySelector(".compare-media--after");
+      var handle = frame.querySelector(".compare-handle");
+      if (!after || !handle) return;
+
+      var dragging = false;
+      var pos = 50;
+
+      function setPos(pct) {
+        pos = Math.max(0, Math.min(100, pct));
+        after.style.clipPath = "inset(0 " + (100 - pos) + "% 0 0)";
+        handle.style.left = pos + "%";
+        handle.setAttribute("aria-valuenow", Math.round(pos));
+      }
+
+      function posFromClientX(clientX) {
+        var rect = frame.getBoundingClientRect();
+        return ((clientX - rect.left) / rect.width) * 100;
+      }
+
+      function onMove(e) {
+        if (!dragging) return;
+        setPos(posFromClientX(e.clientX));
+      }
+
+      function stopDrag() {
+        dragging = false;
+        document.removeEventListener("pointermove", onMove);
+        document.removeEventListener("pointerup", stopDrag);
+      }
+
+      function startDrag(e) {
+        dragging = true;
+        setPos(posFromClientX(e.clientX));
+        document.addEventListener("pointermove", onMove);
+        document.addEventListener("pointerup", stopDrag);
+      }
+
+      handle.addEventListener("pointerdown", function (e) { startDrag(e); e.preventDefault(); });
+      frame.addEventListener("pointerdown", function (e) {
+        if (handle.contains(e.target)) return;
+        startDrag(e);
+      });
+
+      handle.addEventListener("keydown", function (e) {
+        if (e.key === "ArrowLeft") { setPos(pos - 4); e.preventDefault(); }
+        else if (e.key === "ArrowRight") { setPos(pos + 4); e.preventDefault(); }
+        else if (e.key === "Home") { setPos(0); e.preventDefault(); }
+        else if (e.key === "End") { setPos(100); e.preventDefault(); }
+      });
+
+      setPos(50);
+    });
+  })();
+
+  /* ---------- lens jump-nav (scrollspy) ---------- */
+  (function initLensNav() {
+    var nav = document.querySelector(".lens-nav");
+    if (!nav) return;
+    var links = Array.prototype.slice.call(nav.querySelectorAll(".lens-link"));
+    if (!links.length) return;
+
+    var sections = links.map(function (link) {
+      var id = (link.getAttribute("href") || "").replace("#", "");
+      return id ? document.getElementById(id) : null;
+    });
+
+    function setActive(id) {
+      links.forEach(function (link) {
+        link.classList.toggle("is-active", link.getAttribute("href") === "#" + id);
+      });
+    }
+
+    function toggleVisible() {
+      var y = lenis ? lenis.scroll : (window.scrollY || document.documentElement.scrollTop || 0);
+      document.body.classList.toggle("is-lens-visible", y > 320);
+    }
+
+    toggleVisible();
+    if (lenis && typeof lenis.on === "function") lenis.on("scroll", toggleVisible);
+    window.addEventListener("scroll", toggleVisible, { passive: true });
+
+    if ("IntersectionObserver" in window) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) setActive(entry.target.id);
+        });
+      }, { rootMargin: "-40% 0px -50% 0px", threshold: 0 });
+      sections.forEach(function (sec) { if (sec) io.observe(sec); });
+    }
   })();
 })();

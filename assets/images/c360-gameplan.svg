@@ -1,41 +1,41 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-label="Two-stage co-creation gameplan: Stage 1 with designers, then Stage 2 with PMs, engineering and customers">
-  <rect width="1200" height="430" fill="#efe9f4"/>
+  <rect width="1200" height="430" fill="#eaedfb"/>
 
   <!-- STAGE 1 -->
-  <rect x="48" y="48" width="512" height="334" rx="16" fill="#ffffff" stroke="#e7e1ec" stroke-width="1.5"/>
-  <text x="76" y="90" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="2" fill="#5c2c6c">STAGE 1</text>
+  <rect x="48" y="48" width="512" height="334" rx="16" fill="#ffffff" stroke="#d8ddf5" stroke-width="1.5"/>
+  <text x="76" y="90" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="2" fill="#334bd3">STAGE 1</text>
   <text x="76" y="116" font-family="Georgia, serif" font-size="18" fill="#191621">With the industry designers</text>
-  <text x="76" y="138" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#635d6c">Understand each industry &#183; first concept validation</text>
+  <text x="76" y="138" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#565a72">Understand each industry &#183; first concept validation</text>
   <g font-family="Helvetica, Arial, sans-serif">
-    <line x1="96" y1="180" x2="96" y2="352" stroke="#e2dce8" stroke-width="2"/>
-    <circle cx="96" cy="184" r="14" fill="#191621"/><text x="96" y="189" text-anchor="middle" font-size="12" fill="#efe9f4">01</text>
+    <line x1="96" y1="180" x2="96" y2="352" stroke="#dbe1f9" stroke-width="2"/>
+    <circle cx="96" cy="184" r="14" fill="#191621"/><text x="96" y="189" text-anchor="middle" font-size="12" fill="#eaedfb">01</text>
     <text x="124" y="189" font-size="15" fill="#191621" font-family="Georgia, serif">Kick-off</text>
-    <circle cx="96" cy="240" r="14" fill="#191621"/><text x="96" y="245" text-anchor="middle" font-size="12" fill="#efe9f4">02</text>
+    <circle cx="96" cy="240" r="14" fill="#191621"/><text x="96" y="245" text-anchor="middle" font-size="12" fill="#eaedfb">02</text>
     <text x="124" y="245" font-size="15" fill="#191621" font-family="Georgia, serif">Co-create</text>
-    <circle cx="96" cy="296" r="14" fill="#191621"/><text x="96" y="301" text-anchor="middle" font-size="12" fill="#efe9f4">03</text>
+    <circle cx="96" cy="296" r="14" fill="#191621"/><text x="96" y="301" text-anchor="middle" font-size="12" fill="#eaedfb">03</text>
     <text x="124" y="301" font-size="15" fill="#191621" font-family="Georgia, serif">Deep-dive</text>
-    <circle cx="96" cy="352" r="14" fill="#7a3b8f"/><text x="96" y="357" text-anchor="middle" font-size="12" fill="#efe9f4">04</text>
+    <circle cx="96" cy="352" r="14" fill="#455ce9"/><text x="96" y="357" text-anchor="middle" font-size="12" fill="#eaedfb">04</text>
     <text x="124" y="357" font-size="15" fill="#191621" font-family="Georgia, serif">Draft design</text>
   </g>
 
   <!-- connector arrow -->
-  <line x1="576" y1="215" x2="620" y2="215" stroke="#7a3b8f" stroke-width="2.5"/>
-  <path d="M620 215 l-10 -6 l0 12 z" fill="#7a3b8f"/>
+  <line x1="576" y1="215" x2="620" y2="215" stroke="#455ce9" stroke-width="2.5"/>
+  <path d="M620 215 l-10 -6 l0 12 z" fill="#455ce9"/>
 
   <!-- STAGE 2 -->
-  <rect x="640" y="48" width="512" height="334" rx="16" fill="#f7f4fa" stroke="#e7e1ec" stroke-width="1.5"/>
-  <text x="668" y="90" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="2" fill="#5c2c6c">STAGE 2</text>
+  <rect x="640" y="48" width="512" height="334" rx="16" fill="#f2f4fd" stroke="#d8ddf5" stroke-width="1.5"/>
+  <text x="668" y="90" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="2" fill="#334bd3">STAGE 2</text>
   <text x="668" y="116" font-family="Georgia, serif" font-size="18" fill="#191621">With PMs, engineering &amp; customers</text>
-  <text x="668" y="138" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#635d6c">Validate, refine &#183; delivery-ready designs</text>
+  <text x="668" y="138" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#565a72">Validate, refine &#183; delivery-ready designs</text>
   <g font-family="Helvetica, Arial, sans-serif">
-    <line x1="688" y1="180" x2="688" y2="352" stroke="#e2dce8" stroke-width="2"/>
-    <circle cx="688" cy="184" r="14" fill="#191621"/><text x="688" y="189" text-anchor="middle" font-size="12" fill="#efe9f4">01</text>
+    <line x1="688" y1="180" x2="688" y2="352" stroke="#dbe1f9" stroke-width="2"/>
+    <circle cx="688" cy="184" r="14" fill="#191621"/><text x="688" y="189" text-anchor="middle" font-size="12" fill="#eaedfb">01</text>
     <text x="716" y="189" font-size="15" fill="#191621" font-family="Georgia, serif">PM &amp; SC validation</text>
-    <circle cx="688" cy="240" r="14" fill="#191621"/><text x="688" y="245" text-anchor="middle" font-size="12" fill="#efe9f4">02</text>
+    <circle cx="688" cy="240" r="14" fill="#191621"/><text x="688" y="245" text-anchor="middle" font-size="12" fill="#eaedfb">02</text>
     <text x="716" y="245" font-size="15" fill="#191621" font-family="Georgia, serif">Refined design</text>
-    <circle cx="688" cy="296" r="14" fill="#191621"/><text x="688" y="301" text-anchor="middle" font-size="12" fill="#efe9f4">03</text>
+    <circle cx="688" cy="296" r="14" fill="#191621"/><text x="688" y="301" text-anchor="middle" font-size="12" fill="#eaedfb">03</text>
     <text x="716" y="301" font-size="15" fill="#191621" font-family="Georgia, serif">Engineering validation</text>
-    <circle cx="688" cy="352" r="14" fill="#7a3b8f"/><text x="688" y="357" text-anchor="middle" font-size="12" fill="#efe9f4">04</text>
+    <circle cx="688" cy="352" r="14" fill="#455ce9"/><text x="688" y="357" text-anchor="middle" font-size="12" fill="#eaedfb">04</text>
     <text x="716" y="357" font-size="15" fill="#191621" font-family="Georgia, serif">Final designs</text>
   </g>
 </svg>

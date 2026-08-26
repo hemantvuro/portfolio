@@ -1,58 +1,58 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-label="Two sides of the experience: the BLSP customer portal where store staff raise cases, and the BL360 fulfiller view where the central support agent resolves them">
-  <rect width="1200" height="470" fill="#efe9f4"/>
-  <text x="48" y="44" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="2" fill="#635d6c">ONE JOURNEY, TWO SIDES</text>
+  <rect width="1200" height="470" fill="#eaedfb"/>
+  <text x="48" y="44" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="2" fill="#565a72">ONE JOURNEY, TWO SIDES</text>
 
   <!-- BLSP (customer side) -->
-  <rect x="48" y="72" width="470" height="330" rx="14" fill="#ffffff" stroke="#e7e1ec" stroke-width="1.5"/>
+  <rect x="48" y="72" width="470" height="330" rx="14" fill="#ffffff" stroke="#d8ddf5" stroke-width="1.5"/>
   <rect x="48" y="72" width="470" height="44" rx="14" fill="#191621"/>
   <rect x="48" y="102" width="470" height="14" fill="#191621"/>
-  <text x="72" y="100" font-family="Georgia, serif" font-size="14" fill="#efe9f4">BLSP &#183; Solana Cafe Madison</text>
-  <text x="72" y="146" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5c2c6c">Business Location Service Portal</text>
-  <rect x="392" y="132" width="102" height="30" rx="15" fill="#7a3b8f"/>
+  <text x="72" y="100" font-family="Georgia, serif" font-size="14" fill="#eaedfb">BLSP &#183; Solana Cafe Madison</text>
+  <text x="72" y="146" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#334bd3">Business Location Service Portal</text>
+  <rect x="392" y="132" width="102" height="30" rx="15" fill="#455ce9"/>
   <text x="443" y="152" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#ffffff">Create case</text>
-  <line x1="72" y1="180" x2="494" y2="180" stroke="#e7e1ec"/>
+  <line x1="72" y1="180" x2="494" y2="180" stroke="#d8ddf5"/>
   <g>
-    <rect x="72" y="196" width="422" height="30" rx="6" fill="#f7f4fa" stroke="#e7e1ec"/>
-    <rect x="88" y="207" width="150" height="8" rx="4" fill="#c7bdd3"/><rect x="420" y="207" width="58" height="8" rx="4" fill="#7a3b8f"/>
-    <rect x="72" y="234" width="422" height="30" rx="6" fill="#f7f4fa" stroke="#e7e1ec"/>
-    <rect x="88" y="245" width="180" height="8" rx="4" fill="#e2dce8"/><rect x="420" y="245" width="58" height="8" rx="4" fill="#d9d2e2"/>
-    <rect x="72" y="272" width="422" height="30" rx="6" fill="#f7f4fa" stroke="#e7e1ec"/>
-    <rect x="88" y="283" width="120" height="8" rx="4" fill="#e2dce8"/><rect x="420" y="283" width="58" height="8" rx="4" fill="#e2dce8"/>
-    <rect x="72" y="310" width="422" height="30" rx="6" fill="#f7f4fa" stroke="#e7e1ec"/>
-    <rect x="88" y="321" width="160" height="8" rx="4" fill="#e2dce8"/><rect x="420" y="321" width="58" height="8" rx="4" fill="#e2dce8"/>
+    <rect x="72" y="196" width="422" height="30" rx="6" fill="#f2f4fd" stroke="#d8ddf5"/>
+    <rect x="88" y="207" width="150" height="8" rx="4" fill="#bcc7f2"/><rect x="420" y="207" width="58" height="8" rx="4" fill="#455ce9"/>
+    <rect x="72" y="234" width="422" height="30" rx="6" fill="#f2f4fd" stroke="#d8ddf5"/>
+    <rect x="88" y="245" width="180" height="8" rx="4" fill="#dbe1f9"/><rect x="420" y="245" width="58" height="8" rx="4" fill="#d6ddf7"/>
+    <rect x="72" y="272" width="422" height="30" rx="6" fill="#f2f4fd" stroke="#d8ddf5"/>
+    <rect x="88" y="283" width="120" height="8" rx="4" fill="#dbe1f9"/><rect x="420" y="283" width="58" height="8" rx="4" fill="#dbe1f9"/>
+    <rect x="72" y="310" width="422" height="30" rx="6" fill="#f2f4fd" stroke="#d8ddf5"/>
+    <rect x="88" y="321" width="160" height="8" rx="4" fill="#dbe1f9"/><rect x="420" y="321" width="58" height="8" rx="4" fill="#dbe1f9"/>
   </g>
-  <text x="72" y="378" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#635d6c">Store staff &amp; managers raise cases and requests</text>
+  <text x="72" y="378" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#565a72">Store staff &amp; managers raise cases and requests</text>
 
   <!-- arrow -->
-  <line x1="536" y1="235" x2="646" y2="235" stroke="#7a3b8f" stroke-width="2.5"/>
-  <path d="M646 235 l-12 -7 l0 14 z" fill="#7a3b8f"/>
-  <text x="591" y="222" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#5c2c6c">a case</text>
+  <line x1="536" y1="235" x2="646" y2="235" stroke="#455ce9" stroke-width="2.5"/>
+  <path d="M646 235 l-12 -7 l0 14 z" fill="#455ce9"/>
+  <text x="591" y="222" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#334bd3">a case</text>
 
   <!-- BL360 (fulfiller side) -->
-  <rect x="682" y="72" width="470" height="330" rx="14" fill="#ffffff" stroke="#e7e1ec" stroke-width="1.5"/>
+  <rect x="682" y="72" width="470" height="330" rx="14" fill="#ffffff" stroke="#d8ddf5" stroke-width="1.5"/>
   <rect x="682" y="72" width="470" height="44" rx="14" fill="#191621"/>
   <rect x="682" y="102" width="470" height="14" fill="#191621"/>
-  <text x="706" y="100" font-family="Georgia, serif" font-size="14" fill="#efe9f4">BL360 &#183; Solana San Diego</text>
-  <text x="706" y="146" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#5c2c6c">Business Location 360 &#8212; fulfiller view</text>
+  <text x="706" y="100" font-family="Georgia, serif" font-size="14" fill="#eaedfb">BL360 &#183; Solana San Diego</text>
+  <text x="706" y="146" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#334bd3">Business Location 360 &#8212; fulfiller view</text>
   <!-- context rail -->
-  <rect x="706" y="164" width="140" height="216" rx="8" fill="#f7f4fa" stroke="#e7e1ec"/>
-  <circle cx="732" cy="192" r="12" fill="#ece7f2"/><rect x="752" y="188" width="80" height="8" rx="4" fill="#c7bdd3"/>
-  <rect x="722" y="216" width="108" height="7" rx="3" fill="#e2dce8"/>
-  <rect x="722" y="234" width="88" height="7" rx="3" fill="#e2dce8"/>
-  <rect x="722" y="262" width="108" height="7" rx="3" fill="#e2dce8"/>
-  <rect x="722" y="280" width="88" height="7" rx="3" fill="#e2dce8"/>
-  <rect x="722" y="316" width="108" height="7" rx="3" fill="#e2dce8"/>
-  <rect x="722" y="334" width="88" height="7" rx="3" fill="#e2dce8"/>
+  <rect x="706" y="164" width="140" height="216" rx="8" fill="#f2f4fd" stroke="#d8ddf5"/>
+  <circle cx="732" cy="192" r="12" fill="#e3e8fc"/><rect x="752" y="188" width="80" height="8" rx="4" fill="#bcc7f2"/>
+  <rect x="722" y="216" width="108" height="7" rx="3" fill="#dbe1f9"/>
+  <rect x="722" y="234" width="88" height="7" rx="3" fill="#dbe1f9"/>
+  <rect x="722" y="262" width="108" height="7" rx="3" fill="#dbe1f9"/>
+  <rect x="722" y="280" width="88" height="7" rx="3" fill="#dbe1f9"/>
+  <rect x="722" y="316" width="108" height="7" rx="3" fill="#dbe1f9"/>
+  <rect x="722" y="334" width="88" height="7" rx="3" fill="#dbe1f9"/>
   <!-- KPIs -->
-  <rect x="860" y="164" width="86" height="60" rx="8" fill="#f7f4fa" stroke="#e7e1ec"/><text x="874" y="200" font-family="Georgia, serif" font-size="24" fill="#191621">6</text>
-  <rect x="960" y="164" width="86" height="60" rx="8" fill="#f7f4fa" stroke="#e7e1ec"/><circle cx="1003" cy="194" r="16" fill="none" stroke="#e7e1ec" stroke-width="6"/><path d="M1003 178 a16 16 0 0 1 13 24" fill="none" stroke="#7a3b8f" stroke-width="6"/>
-  <rect x="1060" y="164" width="76" height="60" rx="8" fill="#f7f4fa" stroke="#e7e1ec"/><text x="1074" y="200" font-family="Georgia, serif" font-size="24" fill="#7a3b8f">2</text>
+  <rect x="860" y="164" width="86" height="60" rx="8" fill="#f2f4fd" stroke="#d8ddf5"/><text x="874" y="200" font-family="Georgia, serif" font-size="24" fill="#191621">6</text>
+  <rect x="960" y="164" width="86" height="60" rx="8" fill="#f2f4fd" stroke="#d8ddf5"/><circle cx="1003" cy="194" r="16" fill="none" stroke="#d8ddf5" stroke-width="6"/><path d="M1003 178 a16 16 0 0 1 13 24" fill="none" stroke="#455ce9" stroke-width="6"/>
+  <rect x="1060" y="164" width="76" height="60" rx="8" fill="#f2f4fd" stroke="#d8ddf5"/><text x="1074" y="200" font-family="Georgia, serif" font-size="24" fill="#455ce9">2</text>
   <!-- cases table -->
-  <rect x="860" y="234" width="276" height="146" rx="8" fill="#f7f4fa" stroke="#e7e1ec"/>
-  <line x1="876" y1="262" x2="1120" y2="262" stroke="#e7e1ec"/>
-  <rect x="876" y="276" width="150" height="7" rx="3" fill="#c7bdd3"/><rect x="1060" y="276" width="60" height="7" rx="3" fill="#7a3b8f"/>
-  <rect x="876" y="298" width="180" height="7" rx="3" fill="#e2dce8"/><rect x="1060" y="298" width="60" height="7" rx="3" fill="#d9d2e2"/>
-  <rect x="876" y="320" width="140" height="7" rx="3" fill="#e2dce8"/><rect x="1060" y="320" width="60" height="7" rx="3" fill="#e2dce8"/>
-  <rect x="876" y="342" width="170" height="7" rx="3" fill="#e2dce8"/><rect x="1060" y="342" width="60" height="7" rx="3" fill="#e2dce8"/>
-  <text x="706" y="396" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#635d6c">Central support agent inspects, and resolves faster</text>
+  <rect x="860" y="234" width="276" height="146" rx="8" fill="#f2f4fd" stroke="#d8ddf5"/>
+  <line x1="876" y1="262" x2="1120" y2="262" stroke="#d8ddf5"/>
+  <rect x="876" y="276" width="150" height="7" rx="3" fill="#bcc7f2"/><rect x="1060" y="276" width="60" height="7" rx="3" fill="#455ce9"/>
+  <rect x="876" y="298" width="180" height="7" rx="3" fill="#dbe1f9"/><rect x="1060" y="298" width="60" height="7" rx="3" fill="#d6ddf7"/>
+  <rect x="876" y="320" width="140" height="7" rx="3" fill="#dbe1f9"/><rect x="1060" y="320" width="60" height="7" rx="3" fill="#dbe1f9"/>
+  <rect x="876" y="342" width="170" height="7" rx="3" fill="#dbe1f9"/><rect x="1060" y="342" width="60" height="7" rx="3" fill="#dbe1f9"/>
+  <text x="706" y="396" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#565a72">Central support agent inspects, and resolves faster</text>
 </svg>
