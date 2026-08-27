@@ -532,6 +532,7 @@ body.menu-open { overflow: hidden; }
 .manifesto h2 {
   font-size: var(--step-3);
   max-width: 16ch;
+  color: var(--blue);
 }
 .manifesto-side {
   padding-top: 0.4rem;
@@ -1343,34 +1344,6 @@ figure.shot figcaption {
 }
 .note strong { color: var(--ink); }
 
-/* ---------- shared media placeholder ---------- */
-.media-ph {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 0.35rem;
-  text-align: center;
-  background: var(--bg-2);
-  border: 1px dashed var(--line-strong);
-  color: var(--muted);
-  padding: 1rem;
-}
-.media-ph span {
-  font-weight: 500;
-  color: var(--ink);
-  font-size: var(--step-0);
-}
-.media-ph small {
-  font-family: var(--mono);
-  font-size: 0.64rem;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: var(--muted);
-}
-
 /* ---------- carousel ---------- */
 .carousel {
   width: 100%;
@@ -1486,9 +1459,6 @@ figure.shot figcaption {
   user-select: none;
   -webkit-user-drag: none;
   pointer-events: none;
-}
-.carousel--pan .carousel-scroll .media-ph {
-  min-height: 100%;
 }
 
 /* ---------- before / after compare ---------- */
