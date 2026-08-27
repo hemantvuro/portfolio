@@ -1244,23 +1244,6 @@ body.menu-open { overflow: hidden; }
   margin: 0;
 }
 
-/* ---------- stat-callout: one hero number + label, ahead of a highlights grid ---------- */
-.stat-callout {
-  display: flex;
-  align-items: baseline;
-  gap: clamp(1.2rem, 3.5vw, 2.2rem);
-  margin-bottom: clamp(1.8rem, 4vw, 2.6rem);
-}
-.stat-callout .big {
-  font-family: var(--display);
-  font-size: var(--step-4);
-  line-height: 0.85;
-  letter-spacing: -0.03em;
-  color: var(--case-accent, var(--accent));
-  flex: none;
-}
-.stat-callout p { margin: 0; max-width: 34ch; color: var(--ink-soft); }
-
 .outcomes { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--gap-sm); }
 .gallery { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--gap-md); }
 figure.shot {
@@ -1325,15 +1308,16 @@ figure.shot figcaption {
 .prototype-frame img {
   display: block;
   width: 100%;
+  height: auto;
   aspect-ratio: 1600 / 930;
-  object-fit: cover;
+  object-fit: contain;
   object-position: top center;
   border: 1px solid var(--line);
   border-top: 0;
   border-radius: 0 0 8px 8px;
   background: var(--bg-2);
+  overflow: hidden;
   filter: blur(7px);
-  transform: scale(1.02);
 }
 .prototype-frame figcaption {
   padding: 0.6rem 0.1rem 0;
@@ -1391,7 +1375,11 @@ figure.shot figcaption {
 .carousel {
   width: 100%;
   max-width: 1024px;
-  margin: 0 auto 2.4rem;
+  margin-top: 0;
+  margin-bottom: 2.4rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 .carousel-title {
   font-family: var(--mono);
@@ -1400,6 +1388,7 @@ figure.shot figcaption {
   letter-spacing: 0.02em;
   color: var(--ink);
   margin: 0 0 0.9rem;
+  text-align: center;
 }
 .carousel-viewport {
   overflow: hidden;
@@ -1412,7 +1401,16 @@ figure.shot figcaption {
 }
 .carousel-slide {
   flex: 0 0 100%;
-  aspect-ratio: 1755 / 975;
+  aspect-ratio: 1024 / 668;
+  overflow: hidden;
+  background: var(--bg-2);
+}
+.carousel-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
 }
 .carousel-nav {
   display: flex;
@@ -1463,17 +1461,49 @@ figure.shot figcaption {
   font-size: var(--step--1);
   line-height: 1.4;
   padding: 0 0.1rem;
+  text-align: center;
+}
+.carousel--pan .carousel-slide {
+  overflow: hidden;
+  min-height: 0;
+}
+.carousel--pan .carousel-scroll {
+  height: 100%;
+  overflow: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  touch-action: none;
+  cursor: grab;
+}
+.carousel--pan .carousel-scroll:active {
+  cursor: grabbing;
+}
+.carousel--pan .carousel-slide img {
+  width: 100%;
+  height: auto;
+  object-fit: unset;
+  object-position: top center;
+  user-select: none;
+  -webkit-user-drag: none;
+  pointer-events: none;
+}
+.carousel--pan .carousel-scroll .media-ph {
+  min-height: 100%;
 }
 
 /* ---------- before / after compare ---------- */
 .compare {
   width: 100%;
   max-width: 1024px;
-  margin: 0 auto;
+  margin-top: 2.4rem;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 .compare-frame {
   position: relative;
-  aspect-ratio: 1755 / 975;
+  aspect-ratio: 1024 / 640;
   border-radius: 2px;
   overflow: hidden;
   border: 1px solid var(--line);
@@ -1484,6 +1514,14 @@ figure.shot figcaption {
 .compare-media {
   position: absolute;
   inset: 0;
+}
+.compare-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  pointer-events: none;
 }
 .compare-media--after { clip-path: inset(0 50% 0 0); }
 .compare-tag {
@@ -1549,6 +1587,7 @@ figure.shot figcaption {
   font-size: var(--step--1);
   line-height: 1.4;
   padding: 0 0.1rem;
+  text-align: center;
 }
 
 .closing-cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--gap-xl); }
@@ -1945,7 +1984,6 @@ figure.shot figcaption {
 /* ---------- responsive ---------- */
 /* standard breakpoint tiers used across the site: 480 (small phone), 640 (component collapse), 860 (nav), 960 (main layout) */
 @media (max-width: 640px) {
-  .stat-callout { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
   .prototype-filmstrip { grid-template-columns: 1fr; }
   .annotated-diagram { grid-template-columns: 1fr; }
   .lens-timeline { grid-template-columns: 1fr; gap: 2.25rem; }

@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
   <title>Customer 360: one view of the customer, across every industry · Hemant Vurakaranam</title>
   <meta name="description" content="Customer 360 at ServiceNow. A CSM surface that shows a customer and everything around them. I owned it end to end: cross-industry co-creation, the Entity 360 vision, and shipping Business Location 360." />
   <meta property="og:title" content="Customer 360: one view of the customer, across every industry" />
@@ -205,19 +206,19 @@
           <img src="../assets/images/c360-carveup.svg" alt="The 360 layout carved into reusable regions: an identity and actions header, an account reference-data column, health and KPIs, a life-events timeline, transactional data, and an account activity plus recommended-actions panel" width="1200" height="520" loading="lazy" />
           <figcaption>The carve-up: identity, reference data, health and KPIs, timeline, transactions, activity, recommended actions.</figcaption>
         </figure>
-        <p class="reveal muted" style="margin-bottom:1rem;font-size:var(--step--1)">The vision applied across entity types</p>
-        <div class="carousel reveal" style="margin:0 0 2.4rem" data-carousel aria-roledescription="carousel" aria-label="Entity 360 concept screens">
+        <p class="reveal muted" style="margin-bottom:1rem;font-size:var(--step--1);text-align:center">The vision applied across entity types</p>
+        <div class="carousel reveal" data-carousel aria-roledescription="carousel" aria-label="Entity 360 concept screens">
           <p class="carousel-title">Entity 360</p>
           <div class="carousel-viewport">
             <div class="carousel-track">
-              <div class="carousel-slide"><div class="media-ph"><span>Account 360</span><small>Image coming soon</small></div></div>
-              <div class="carousel-slide"><div class="media-ph"><span>Consumer 360</span><small>Image coming soon</small></div></div>
-              <div class="carousel-slide"><div class="media-ph"><span>Household 360</span><small>Image coming soon</small></div></div>
-              <div class="carousel-slide"><div class="media-ph"><span>360 x Playbooks</span><small>Image coming soon</small></div></div>
-              <div class="carousel-slide"><div class="media-ph"><span>Install Base 360</span><small>Image coming soon</small></div></div>
-              <div class="carousel-slide"><div class="media-ph"><span>Patient 360</span><small>Image coming soon</small></div></div>
-              <div class="carousel-slide"><div class="media-ph"><span>Service Org 360</span><small>Image coming soon</small></div></div>
-              <div class="carousel-slide"><div class="media-ph"><span>Relationship Node Map</span><small>Image coming soon</small></div></div>
+              <div class="carousel-slide" data-caption="Account 360 (Crunch Fitness)"><img src="../assets/case-studies/customer360/entity360-01-account.jpg" alt="Account 360 concept for Crunch Fitness: identity and actions in the header, installed products and contracts in the left rail, CSAT, cases and MTTR in the middle, and related locations below" width="1024" height="705" /></div>
+              <div class="carousel-slide" data-caption="Consumer 360 (Ronald Drake)"><img src="../assets/case-studies/customer360/entity360-02-consumer.jpg" alt="Consumer 360 concept for Ronald Drake: financial accounts and family in the left rail, deposit and credit overviews, credit scores, a life-events timeline, and servicing cases" width="1024" height="668" /></div>
+              <div class="carousel-slide" data-caption="Household 360 (Warren’s Household)"><img src="../assets/case-studies/customer360/entity360-03-household.jpg" alt="Household 360 concept for Warren’s Household: members, insurance, and warranty in the left rail, lifetime value and service cases in the middle, and owned products below" width="1024" height="668" /></div>
+              <div class="carousel-slide" data-caption="360 × Playbooks (Patient discharge)"><img src="../assets/case-studies/customer360/entity360-04-playbooks.jpg" alt="360 with Playbooks: a Patient discharge case with Initiate, Discharge, and Transfer stages, contact details, medical equipment, and equipment orders" width="1024" height="668" /></div>
+              <div class="carousel-slide" data-caption="Install Base 360 (BMW X3)"><img src="../assets/case-studies/customer360/entity360-05-install-base.jpg" alt="Install Base 360 concept for a 2022 BMW X3: related parties and child install-base items in the left rail, alerts and cases in the middle, and contracts below" width="1024" height="668" /></div>
+              <div class="carousel-slide" data-caption="Patient 360 (Julie Lewis)"><img src="../assets/case-studies/customer360/entity360-06-patient.jpg" alt="Patient 360 concept for Julie Lewis: care team and insurance in the left rail, health metrics, care plans, and a clinical timeline in the middle, and patient activity on the right" width="1024" height="668" /></div>
+              <div class="carousel-slide" data-caption="Service Org 360"><div class="media-ph"><span>Service Org 360</span><small>Image coming soon</small></div></div>
+              <div class="carousel-slide" data-caption="Relationship node map"><img src="../assets/case-studies/customer360/entity360-08-node-map.jpg" alt="Relationship node map for a childcare-support application: households, agencies, and care-center people connected around a coordinator, with a household detail card on the right" width="1024" height="668" /></div>
             </div>
           </div>
           <div class="carousel-nav">
@@ -234,7 +235,7 @@
             </div>
             <button type="button" class="carousel-arrow carousel-next" aria-label="Next screen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
           </div>
-          <p class="carousel-caption">From the deck: Account, Consumer, Household, Install Base, Patient, Service Org 360, plus playbooks and a relationship node map.</p>
+          <p class="carousel-caption" data-carousel-caption aria-live="polite">Account 360 (Crunch Fitness)</p>
         </div>
         <div class="section-head reveal"><p class="eyebrow">Validated with real customers</p></div>
         <div class="pullquotes reveal" style="margin-bottom:2.2rem">
@@ -267,13 +268,13 @@
           <div class="ba-col reveal"><div class="ba-label">Before</div><div class="ba-body"><p class="muted">Customer info lived across related tabs. Lots of clicks and context-switching. No visual sense of relationships, hierarchy, or journey. Case and customer were two separate blobs.</p></div></div>
           <div class="ba-col after reveal"><div class="ba-label">Shipped</div><div class="ba-body"><p class="muted">One 360 view: identity, KPIs, cases, consumers, and activity in context. The layout scales to complex Service Orgs and Location Accounts, not only individuals.</p></div></div>
         </div>
-        <div class="compare reveal" style="margin:2.4rem 0 0" data-compare aria-label="Drag to compare the previous screen with the shipped Business Location 360 design">
+        <div class="compare reveal" data-compare aria-label="Drag to compare the previous screen with the shipped Business Location 360 design">
           <div class="compare-frame">
             <div class="compare-media compare-media--before">
-              <div class="media-ph"><span>Before</span><small>Image coming soon</small></div>
+              <img src="../assets/case-studies/customer360/bl360-after.jpg" alt="Shipped Business Location 360 for Solana San Diego: identity and contacts in the left rail, case KPIs in the middle, and cases and consumers below" width="1024" height="640" />
             </div>
             <div class="compare-media compare-media--after">
-              <div class="media-ph"><span>Shipped</span><small>Image coming soon</small></div>
+              <img src="../assets/case-studies/customer360/bl360-before.jpg" alt="Before: Solana Cafe Madison in the previous experience, with cases, members, sold products, and install base split across separate lists" width="1024" height="640" />
             </div>
             <span class="compare-tag compare-tag--before">Before</span>
             <span class="compare-tag compare-tag--after">Shipped</span>
@@ -293,19 +294,44 @@
       <div class="container">
         <div class="section-head reveal"><p class="eyebrow">Final screens</p><h2>Business Location 360.</h2></div>
         <p class="lede reveal">The shipped product, screen by screen: the 360 detail view, the case workspace, and the components that make them up.</p>
-        <div class="carousel reveal" data-carousel aria-roledescription="carousel" aria-label="Business Location 360 shipped screens">
+        <div class="carousel carousel--pan reveal" data-carousel aria-roledescription="carousel" aria-label="Business Location 360 shipped screens">
           <div class="carousel-viewport">
             <div class="carousel-track">
-              <div class="carousel-slide"><div class="media-ph"><span>Screen 01</span><small>Image coming soon</small></div></div>
-              <div class="carousel-slide"><div class="media-ph"><span>Screen 02</span><small>Image coming soon</small></div></div>
-              <div class="carousel-slide"><div class="media-ph"><span>Screen 03</span><small>Image coming soon</small></div></div>
-              <div class="carousel-slide"><div class="media-ph"><span>Screen 04</span><small>Image coming soon</small></div></div>
-              <div class="carousel-slide"><div class="media-ph"><span>Screen 05</span><small>Image coming soon</small></div></div>
-              <div class="carousel-slide"><div class="media-ph"><span>Screen 06</span><small>Image coming soon</small></div></div>
-              <div class="carousel-slide"><div class="media-ph"><span>Screen 07</span><small>Image coming soon</small></div></div>
-              <div class="carousel-slide"><div class="media-ph"><span>Screen 08</span><small>Image coming soon</small></div></div>
-              <div class="carousel-slide"><div class="media-ph"><span>Screen 09</span><small>Image coming soon</small></div></div>
-              <div class="carousel-slide"><div class="media-ph"><span>Screen 10</span><small>Image coming soon</small></div></div>
+              <div class="carousel-slide" data-caption="Business Location 360 (Solana San Diego)">
+                <div class="carousel-scroll" data-lenis-prevent>
+                  <img src="../assets/case-studies/customer360/bl360-final-01.jpg" alt="Shipped Business Location 360 for Solana San Diego: identity, contacts, products, and staff in the left rail, case KPIs in the middle, and cases and consumers below" width="1024" height="937" />
+                </div>
+              </div>
+              <div class="carousel-slide" data-caption="Work order in context">
+                <div class="carousel-scroll" data-lenis-prevent>
+                  <img src="../assets/case-studies/customer360/bl360-final-02.jpg" alt="Business Location 360 with a self-service kiosk work order in context: location details and contacts in the left rail, KPIs, cases, and consumers below" width="1024" height="937" />
+                </div>
+              </div>
+              <div class="carousel-slide" data-caption="Business Location Hierarchy">
+                <div class="carousel-scroll" data-lenis-prevent>
+                  <img src="../assets/case-studies/customer360/bl360-final-03.jpg" alt="Business Location Hierarchy for Solana Foods: regional offices, cafes, and restaurants connected in a tree, with a location detail card below" width="1024" height="917" />
+                </div>
+              </div>
+              <div class="carousel-slide" data-caption="Point of Contact">
+                <div class="carousel-scroll" data-lenis-prevent>
+                  <img src="../assets/case-studies/customer360/bl360-final-04.jpg" alt="Point of Contact list for Solana San Diego: store manager, co-owners, and an employee as cards with phone, email, and view-details" width="1024" height="691" />
+                </div>
+              </div>
+              <div class="carousel-slide" data-caption="Number of open P1 cases">
+                <div class="carousel-scroll" data-lenis-prevent>
+                  <img src="../assets/case-studies/customer360/bl360-final-05.jpg" alt="List of open P1 cases: case number, short description, queue, opened-for, critical priority, state, and assignment group" width="1024" height="691" />
+                </div>
+              </div>
+              <div class="carousel-slide" data-caption="Work orders and accounts">
+                <div class="carousel-scroll" data-lenis-prevent>
+                  <img src="../assets/case-studies/customer360/bl360-final-06.jpg" alt="Business Location 360 showing the Work orders table and related accounts for Solana San Diego" width="1024" height="937" />
+                </div>
+              </div>
+              <div class="carousel-slide" data-caption="Installed products and staff">
+                <div class="carousel-scroll" data-lenis-prevent>
+                  <img src="../assets/case-studies/customer360/bl360-final-07.jpg" alt="Business Location 360 with installed products, services offered, and staff in the left rail, plus work orders and accounts" width="1024" height="937" />
+                </div>
+              </div>
             </div>
           </div>
           <div class="carousel-nav">
@@ -318,13 +344,10 @@
               <button type="button" class="carousel-dot" aria-label="Go to slide 5"></button>
               <button type="button" class="carousel-dot" aria-label="Go to slide 6"></button>
               <button type="button" class="carousel-dot" aria-label="Go to slide 7"></button>
-              <button type="button" class="carousel-dot" aria-label="Go to slide 8"></button>
-              <button type="button" class="carousel-dot" aria-label="Go to slide 9"></button>
-              <button type="button" class="carousel-dot" aria-label="Go to slide 10"></button>
             </div>
             <button type="button" class="carousel-arrow carousel-next" aria-label="Next screen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
           </div>
-          <p class="carousel-caption">The final, shipped Business Location 360 screens.</p>
+          <p class="carousel-caption" data-carousel-caption aria-live="polite">Business Location 360 (Solana San Diego)</p>
         </div>
       </div>
     </section>
@@ -336,8 +359,8 @@
       <div class="container">
         <div class="section-head reveal"><p class="eyebrow">Outcome</p><h2>Business Location 360 shipped as the first Entity 360 product.</h2></div>
         <p class="lede reveal" style="margin-bottom:2.2rem">A checked north star across entity types, and a co-creation method the verticals could keep using.</p>
-        <div class="stat-callout reveal"><span class="big">4</span><p>core customer-facing personas — service, location, back-office, and relationship management — served by one shared 360 view.</p></div>
-        <div class="highlights">
+        <div class="highlights highlights-3">
+          <div class="highlight reveal"><h3>Four personas, one view</h3><p class="muted">Service, location, back-office, and relationship management — all served by one shared 360.</p></div>
           <div class="highlight reveal"><h3>A checked north star</h3><p class="muted">A full Entity 360 library (Account, Consumer, Household, Patient, Service Org, and more) confirmed by real customers.</p></div>
           <div class="highlight reveal"><h3>A repeatable process</h3><p class="muted">A cross-industry co-creation method and a template system others could keep building on.</p></div>
         </div>
@@ -380,11 +403,11 @@
         <a href="https://www.linkedin.com/in/hemant-vurakaranam/" target="_blank" rel="noopener">LinkedIn</a>
         <a href="mailto:hemant.vuro@gmail.com">Email</a>
       </div>
-      <div class="val">© Hemant Vurakaranam · 2026</div>
+      <div class="val">© Hemant Vurakaranam</div>
     </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.20/dist/lenis.min.js"></script>
-  <script src="../js/main.js"></script>
+  <script src="../js/main.js?v=2"></script>
 </body>
 </html>
