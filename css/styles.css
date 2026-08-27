@@ -155,10 +155,12 @@ html.skip-hello .preloader {
   background: var(--blue); margin-right: 14px; flex: none;
 }
 .preloader-word {
+  font-family: var(--sans), "PingFang SC", "Hiragino Sans", "Geeza Pro", "ITF Devanagari", sans-serif;
   font-size: clamp(1.6rem, 3vw, 2.4rem);
   font-weight: 500;
-  letter-spacing: -0.03em;
-  min-width: 8ch;
+  letter-spacing: 0;
+  min-width: 10ch;
+  text-align: center;
   color: var(--ink);
 }
 .preloader-skip {
@@ -169,7 +171,7 @@ html.skip-hello .preloader {
   font-family: var(--mono);
   font-size: 0.68rem;
   letter-spacing: 0.04em;
-  color: var(--muted);
+  color: var(--blue);
 }
 
 /* ---------- page transition ---------- */
@@ -819,7 +821,11 @@ body.menu-open { overflow: hidden; }
 .about-logos-wrap {
   margin: 1.6rem 0 0.4rem;
 }
-.about-logos-wrap .eyebrow { margin-bottom: 0.75rem; }
+.about-logos-label {
+  margin: 0 0 0.75rem;
+  font-weight: 400;
+  color: var(--muted);
+}
 .about-logos {
   display: flex;
   flex-wrap: wrap;

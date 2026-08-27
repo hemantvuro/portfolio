@@ -7,10 +7,28 @@
   /* ---------- preloader ---------- */
   var pre = document.querySelector(".preloader");
   var word = document.querySelector(".preloader-word");
-  var greetings = ["Hello", "Bonjour", "स्वागत है", "Ciao", "Olá", "Hallo", "こんにちは", "Hola", "Hello"];
+  var greetings = [
+    "Hello",
+    "नमस्ते",
+    "مرحبا",
+    "Merhaba",
+    "Hej",
+    "Cześć",
+    "Привет",
+    "你好",
+    "Bonjour",
+    "Ciao",
+    "Olá",
+    "Hallo",
+    "こんにちは",
+    "Hola"
+  ];
   var greetTimer = null;
   var holdTimer = null;
   var skipHello = document.documentElement.classList.contains("skip-hello");
+  var greetInterval = 360;
+  var greetHold = 360;
+  var greetRounds = 1;
 
   function finishPreloader() {
     if (!pre || pre.classList.contains("is-done")) return;
@@ -25,15 +43,27 @@
 
   if (pre && word && !reduce && !skipHello) {
     var i = 0;
+    var total = greetings.length * greetRounds;
+    function showGreeting(text) {
+      word.textContent = text;
+      if (text === "مرحبا") {
+        word.setAttribute("lang", "ar");
+        word.setAttribute("dir", "rtl");
+      } else {
+        word.removeAttribute("dir");
+        word.removeAttribute("lang");
+      }
+    }
     greetTimer = setInterval(function () {
       i += 1;
-      if (i >= greetings.length) {
+      if (i >= total) {
+        showGreeting("Hello");
         clearInterval(greetTimer);
-        holdTimer = setTimeout(finishPreloader, 560);
+        holdTimer = setTimeout(finishPreloader, greetHold);
         return;
       }
-      word.textContent = greetings[i];
-    }, 280);
+      showGreeting(greetings[i % greetings.length]);
+    }, greetInterval);
     pre.addEventListener("click", finishPreloader);
     pre.addEventListener("keydown", function (e) {
       if (e.key === "Enter" || e.key === " ") finishPreloader();
